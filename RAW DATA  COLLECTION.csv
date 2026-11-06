@@ -1,0 +1,1001 @@
+Patient_ID,Patient_Name,Age,Gender,Blood_Group,Height_cm,Weight_kg,BMI,BP_Systolic,BP_Diastolic,Heart_Rate,Disease,Disease_Severity,Admission_Date,Discharge_Date,Treatment,Medication,Doctor_ID,Department_ID,Department,Total_Cost_INR,Recovery_Status,Readmission_Risk,Length_of_Stay_Days,Patient_Risk_Level,Insurance_Status,Previous_Admissions,Emergency_Case,ICU_Required
+P0001,Arjun Reddy,52,Female,B-,134,85.9,47.8,177,82,78,Heart Disease,Moderate,2025-01-21,2025-01-28,Counseling,Metformin,D012,DEP07,Dermatology,2269,Improving,0.37,7,Medium,Active,16,No,No
+P0002,Rohit Verma,55,Female,AB+,183,62.0,18.5,101,80,93,Arthritis,Mild,2026-04-30,2026-05-03,Medication,Salbutamol,D014,DEP03,General Medicine,69648,Recovered,0.15,3,Low,Inactive,1,No,No
+P0003,Ravi Singh,54,Female,AB+,182,95.8,28.9,168,95,68,Hypertension,Severe,2026-07-10,2026-07-12,Emergency Care,Atorvastatin,D024,DEP04,Orthopedics,92887,Improving,0.57,2,High,Active,12,Yes,No
+P0004,Kavya Das,71,Male,B-,128,89.5,54.6,105,110,62,Migraine,Severe,2026-04-17,2026-05-02,Medication,Insulin,D008,DEP01,Cardiology,14166,Under Treatment,0.48,15,Low,Active,4,No,No
+P0005,Ananya Verma,65,Male,B-,166,84.2,30.6,108,98,81,Pneumonia,Moderate,2025-01-05,2025-01-15,Surgery,Atorvastatin,D023,DEP03,General Medicine,123909,Referred,0.22,10,Medium,Active,12,Yes,No
+P0006,Kavya Kumar,28,Male,A+,185,76.2,22.3,100,87,82,COVID-19,Mild,2026-07-28,2026-08-06,Observation,Insulin,D020,DEP06,Nephrology,19547,Referred,0.15,9,High,Active,7,No,No
+P0007,Priya Kumar,51,Male,A+,163,42.0,15.8,146,108,116,Arthritis,Critical,2026-01-09,2026-01-17,Observation,Metformin,D027,DEP01,Cardiology,54233,Recovered,0.66,8,High,Active,4,No,No
+P0008,Arjun Rao,53,Male,O+,163,60.3,22.7,162,70,110,Diabetes,Mild,2026-02-20,2026-02-27,Emergency Care,Insulin,D028,DEP02,Neurology,107808,Stable,0.36,7,Low,Active,19,No,No
+P0009,Pooja Sharma,67,Male,B-,138,51.4,27.0,134,98,55,Viral Infection,Moderate,2026-05-04,2026-05-05,Medication,Insulin,D020,DEP10,Pediatrics,40884,Under Treatment,0.19,1,Low,Not Insured,11,No,No
+P0010,Ravi Patel,9,Female,B+,138,85.3,44.8,118,92,78,Gastritis,Severe,2025-05-11,2025-05-15,Medication,Salbutamol,D025,DEP07,Dermatology,34211,Referred,0.38,4,Low,Active,1,No,No
+P0011,Divya Rao,33,Female,AB+,187,41.4,11.8,102,66,71,Asthma,Moderate,2025-10-04,2025-10-08,Observation,Omeprazole,D008,DEP09,Emergency,108950,Stable,0.09,4,Low,Active,0,No,No
+P0012,Suresh Singh,61,Female,AB+,167,45.3,16.2,111,103,84,Diabetes,Critical,2026-07-01,2026-07-02,Counseling,Atorvastatin,D003,DEP05,Pulmonology,45025,Under Treatment,0.49,1,High,Active,20,No,No
+P0013,Pooja Reddy,18,Female,A+,144,55.5,26.8,161,99,100,Arthritis,Mild,2026-07-20,2026-07-30,Emergency Care,Metformin,D009,DEP03,General Medicine,19570,Stable,0.16,10,Medium,Active,9,No,No
+P0014,Anil Reddy,24,Female,O+,132,27.3,15.7,114,60,62,Kidney Disease,Severe,2025-02-05,2025-02-18,Emergency Care,Salbutamol,D025,DEP09,Emergency,89422,Improving,0.36,13,Medium,Active,16,Yes,No
+P0015,Pooja Sharma,60,Male,O-,127,89.3,55.4,162,65,101,Asthma,Moderate,2026-09-12,2026-09-17,Observation,Losartan,D023,DEP06,Nephrology,95976,Improving,0.44,5,Low,Not Insured,8,No,Yes
+P0016,Priya Das,1,Female,B+,153,41.6,17.8,95,75,115,Heart Disease,Severe,2025-04-28,2025-05-07,Counseling,Omeprazole,D025,DEP10,Pediatrics,114929,Referred,0.34,9,Low,Active,16,No,No
+P0017,Kiran Patel,76,Female,B-,135,28.8,15.8,133,95,87,Viral Infection,Moderate,2026-03-08,2026-03-13,Counseling,Losartan,D019,DEP05,Pulmonology,28146,Improving,0.19,5,Medium,Active,12,No,Yes
+P0018,Vikram Reddy,2,Male,B+,151,104.6,45.9,127,110,97,Hypertension,Critical,2026-01-15,2026-01-16,Physiotherapy,Salbutamol,D023,DEP07,Dermatology,39804,Recovered,0.33,1,Medium,Active,9,Yes,No
+P0019,Priya Kumar,7,Male,O-,187,82.4,23.6,123,95,75,Pneumonia,Critical,2026-05-08,2026-05-19,Observation,Amlodipine,D017,DEP09,Emergency,45925,Referred,0.31,11,Low,Inactive,2,Yes,No
+P0020,Ananya Das,13,Male,O-,178,29.0,9.2,155,100,73,Heart Disease,Mild,2026-09-04,2026-09-16,Observation,Atorvastatin,D003,DEP04,Orthopedics,53434,Under Treatment,0.27,12,Low,Inactive,3,No,No
+P0021,Ravi Das,53,Male,A-,161,107.7,41.5,99,94,72,COVID-19,Critical,2026-02-02,2026-02-17,Medication,Losartan,D002,DEP07,Dermatology,3042,Referred,0.47,15,Medium,Active,7,No,No
+P0022,Ananya Verma,17,Female,B+,190,108.7,30.1,164,90,73,Hypertension,Severe,2025-05-12,2025-05-16,Emergency Care,Losartan,D020,DEP04,Orthopedics,28290,Under Treatment,0.5,4,Medium,Not Insured,6,No,No
+P0023,Vikram Singh,63,Female,B+,144,98.2,47.4,152,103,99,Asthma,Critical,2025-04-27,2025-05-03,Counseling,Paracetamol,D025,DEP09,Emergency,129648,Improving,0.6,6,Low,Active,14,No,No
+P0024,Ravi Das,3,Female,A-,135,86.3,47.4,110,67,78,Anemia,Moderate,2025-01-12,2025-01-22,Surgery,Atorvastatin,D009,DEP06,Nephrology,47927,Under Treatment,0.03,10,High,Inactive,16,No,No
+P0025,Rohit Kumar,6,Male,AB+,188,75.2,21.3,150,89,59,Viral Infection,Mild,2026-03-26,2026-04-05,Medication,Insulin,D022,DEP03,General Medicine,63313,Stable,0.22,10,Medium,Not Insured,1,Yes,No
+P0026,Aman Patel,55,Female,A+,125,82.3,52.7,147,96,71,Diabetes,Mild,2026-03-13,2026-03-20,Medication,Ibuprofen,D002,DEP05,Pulmonology,40265,Under Treatment,0.3,7,Low,Active,1,No,No
+P0027,Vikram Sharma,12,Male,AB-,184,69.7,20.6,151,76,101,Anemia,Moderate,2026-01-24,2026-02-07,Counseling,Amlodipine,D006,DEP02,Neurology,41264,Improving,0.21,14,Medium,Active,18,No,No
+P0028,Kiran Reddy,79,Female,AB+,149,76.0,34.2,99,88,58,Hypertension,Moderate,2026-07-17,2026-07-18,Medication,None,D011,DEP06,Nephrology,21463,Stable,0.21,1,Low,Active,15,No,No
+P0029,Kiran Reddy,4,Female,A-,123,51.1,33.8,121,88,86,Kidney Disease,Mild,2025-07-14,2025-07-17,Surgery,Atorvastatin,D006,DEP08,Gastroenterology,143886,Recovered,0.02,3,Medium,Active,13,No,No
+P0030,Varun Gupta,26,Female,AB-,166,76.5,27.8,157,107,115,Viral Infection,Mild,2025-08-27,2025-09-04,Observation,Amoxicillin,D014,DEP09,Emergency,129100,Improving,0.26,8,Medium,Active,18,No,No
+P0031,Aman Patel,38,Male,B-,134,29.4,16.4,168,98,111,Viral Infection,Severe,2026-04-30,2026-05-12,Emergency Care,Salbutamol,D009,DEP02,Neurology,49415,Referred,0.54,12,Medium,Active,1,No,No
+P0032,Meena Patel,42,Female,B+,160,50.4,19.7,153,104,87,Arthritis,Mild,2025-10-09,2025-10-11,Counseling,Amoxicillin,D009,DEP03,General Medicine,117921,Stable,0.28,2,Medium,Active,3,No,No
+P0033,Sneha Sharma,75,Female,A+,123,20.5,13.6,145,61,62,Pneumonia,Moderate,2025-04-28,2025-04-29,Counseling,Metformin,D012,DEP04,Orthopedics,99079,Recovered,0.37,1,Medium,Active,4,No,No
+P0034,Suresh Kumar,33,Male,B+,125,50.3,32.2,117,69,98,Arthritis,Mild,2025-01-10,2025-01-15,Surgery,Omeprazole,D023,DEP03,General Medicine,10012,Stable,0.06,5,Low,Not Insured,11,No,No
+P0035,Kiran Singh,34,Male,B+,154,103.4,43.6,154,88,65,Viral Infection,Severe,2025-11-16,2025-11-22,Emergency Care,Paracetamol,D025,DEP09,Emergency,90361,Referred,0.62,6,Medium,Inactive,7,No,No
+P0036,Arjun Sharma,38,Male,B+,142,59.5,29.5,160,73,107,Arthritis,Severe,2025-05-25,2025-05-26,Physiotherapy,Losartan,D020,DEP03,General Medicine,12802,Referred,0.52,1,Medium,Inactive,3,No,No
+P0037,Rohit Patel,27,Male,O-,174,32.9,10.9,160,69,59,Pneumonia,Severe,2025-07-15,2025-07-21,Medication,Ibuprofen,D015,DEP05,Pulmonology,47697,Referred,0.6,6,Medium,Active,3,No,No
+P0038,Aman Gupta,36,Female,A-,155,84.5,35.2,114,70,92,Gastritis,Mild,2025-10-10,2025-10-15,Surgery,Metformin,D015,DEP03,General Medicine,77577,Under Treatment,0.14,5,Medium,Active,15,No,No
+P0039,Divya Patel,31,Female,O+,128,58.2,35.5,134,100,65,Gastritis,Moderate,2025-01-29,2025-02-12,Emergency Care,Metformin,D022,DEP08,Gastroenterology,23616,Stable,0.19,14,Medium,Active,8,No,No
+P0040,Vikram Sharma,26,Female,O-,160,30.3,11.8,169,97,56,Gastritis,Moderate,2025-09-01,2025-09-10,Physiotherapy,Amoxicillin,D020,DEP09,Emergency,59261,Referred,0.31,9,High,Active,10,No,Yes
+P0041,Ananya Gupta,49,Male,AB-,190,107.8,29.9,114,81,117,Diabetes,Critical,2025-12-27,2025-12-28,Medication,Ibuprofen,D019,DEP05,Pulmonology,3259,Improving,0.4,1,Low,Inactive,17,No,No
+P0042,Rahul Verma,38,Male,B-,170,34.0,11.8,149,98,57,Hypertension,Moderate,2025-09-21,2025-10-04,Surgery,Amoxicillin,D029,DEP02,Neurology,132526,Recovered,0.31,13,Medium,Active,7,Yes,No
+P0043,Divya Verma,51,Female,A-,127,28.9,17.9,172,91,100,Migraine,Severe,2025-04-06,2025-04-14,Observation,Losartan,D007,DEP03,General Medicine,56271,Recovered,0.66,8,Low,Active,18,No,No
+P0044,Anil Singh,1,Female,B+,166,76.2,27.7,96,62,66,Pneumonia,Severe,2026-06-07,2026-06-17,Counseling,Losartan,D022,DEP02,Neurology,133851,Under Treatment,0.31,10,Low,Not Insured,13,No,No
+P0045,Arjun Reddy,14,Female,AB+,128,68.7,41.9,167,81,58,Viral Infection,Mild,2025-08-25,2025-09-03,Counseling,Paracetamol,D009,DEP02,Neurology,128178,Improving,0.23,9,Medium,Inactive,11,No,Yes
+P0046,Divya Reddy,27,Female,AB-,176,44.0,14.2,106,104,107,COVID-19,Mild,2025-06-17,2025-06-19,Counseling,Metformin,D019,DEP05,Pulmonology,144236,Referred,0.08,2,Medium,Active,20,No,No
+P0047,Varun Sharma,59,Male,B-,158,74.9,30.0,149,106,78,COVID-19,Critical,2025-11-06,2025-11-08,Counseling,Metformin,D030,DEP04,Orthopedics,60629,Stable,0.58,2,Medium,Active,1,Yes,Yes
+P0048,Ananya Singh,1,Female,B+,180,82.0,25.3,133,94,57,COVID-19,Mild,2025-02-11,2025-02-20,Observation,Metformin,D029,DEP01,Cardiology,22081,Recovered,0.02,9,High,Active,14,Yes,No
+P0049,Suresh Das,8,Male,O-,140,88.3,45.1,174,65,79,Viral Infection,Severe,2026-04-30,2026-05-06,Observation,Amoxicillin,D017,DEP03,General Medicine,78954,Improving,0.51,6,Medium,Not Insured,13,Yes,No
+P0050,Priya Reddy,48,Male,AB+,178,105.0,33.1,133,94,72,COVID-19,Moderate,2026-08-17,2026-09-01,Medication,Ibuprofen,D026,DEP03,General Medicine,91113,Under Treatment,0.18,15,Medium,Not Insured,3,No,No
+P0051,Nikhil Sharma,33,Male,O+,135,58.4,32.0,160,94,96,Pneumonia,Critical,2025-04-18,2025-05-02,Physiotherapy,Metformin,D029,DEP02,Neurology,30930,Referred,0.52,14,Medium,Active,11,No,No
+P0052,Sneha Das,5,Male,AB+,184,41.5,12.3,108,89,72,Heart Disease,Mild,2025-01-03,2025-01-16,Medication,None,D028,DEP09,Emergency,137066,Stable,0.02,13,High,Not Insured,6,No,No
+P0053,Kiran Rao,63,Male,O+,173,74.7,25.0,168,102,111,Diabetes,Mild,2026-05-08,2026-05-22,Medication,Insulin,D003,DEP04,Orthopedics,146771,Under Treatment,0.35,14,High,Active,9,No,No
+P0054,Suresh Sharma,3,Male,A-,151,61.7,27.1,167,63,68,Anemia,Severe,2025-04-30,2025-05-13,Physiotherapy,Losartan,D009,DEP01,Cardiology,85060,Recovered,0.44,13,Medium,Active,14,Yes,No
+P0055,Anil Gupta,18,Male,AB+,189,106.6,29.8,134,104,116,Diabetes,Moderate,2026-08-16,2026-08-18,Surgery,Omeprazole,D024,DEP10,Pediatrics,129822,Stable,0.04,2,High,Active,15,No,No
+P0056,Vikram Singh,53,Female,O+,161,29.5,11.4,101,64,99,Hypertension,Severe,2026-02-26,2026-03-10,Physiotherapy,Paracetamol,D002,DEP09,Emergency,49138,Referred,0.41,12,Medium,Active,12,No,No
+P0057,Varun Patel,60,Female,B-,183,68.6,20.5,124,66,117,COVID-19,Moderate,2025-11-22,2025-11-25,Emergency Care,Metformin,D012,DEP01,Cardiology,137656,Recovered,0.26,3,Medium,Active,17,No,No
+P0058,Sneha Kumar,52,Male,AB+,126,25.9,16.3,173,91,105,Gastritis,Mild,2025-02-02,2025-02-08,Surgery,Amoxicillin,D015,DEP04,Orthopedics,13245,Referred,0.3,6,Medium,Active,1,No,No
+P0059,Sai Naidu,56,Female,B-,140,101.9,52.0,113,64,57,Hypertension,Moderate,2025-03-25,2025-03-31,Surgery,None,D008,DEP03,General Medicine,134552,Under Treatment,0.15,6,Low,Not Insured,20,No,No
+P0060,Varun Patel,71,Male,AB-,122,91.7,61.6,97,79,100,Gastritis,Moderate,2026-06-20,2026-07-02,Emergency Care,Omeprazole,D022,DEP02,Neurology,13036,Referred,0.27,12,Low,Inactive,10,No,No
+P0061,Ravi Rao,18,Male,O-,183,55.6,16.6,132,91,65,Gastritis,Moderate,2026-05-10,2026-05-25,Medication,Metformin,D012,DEP05,Pulmonology,52695,Recovered,0.11,15,Medium,Active,19,No,No
+P0062,Rohit Reddy,2,Female,O+,152,99.4,43.0,120,81,120,Anemia,Critical,2026-08-12,2026-08-16,Surgery,Metformin,D008,DEP02,Neurology,52361,Stable,0.34,4,Low,Not Insured,8,No,Yes
+P0063,Priya Naidu,76,Female,A-,127,105.3,65.3,156,106,61,COVID-19,Moderate,2025-11-14,2025-11-18,Observation,Amlodipine,D022,DEP09,Emergency,13153,Under Treatment,0.47,4,Low,Active,12,No,No
+P0064,Suresh Sharma,45,Female,A-,127,98.5,61.1,126,110,98,Asthma,Moderate,2025-11-05,2025-11-12,Surgery,Salbutamol,D029,DEP04,Orthopedics,17582,Referred,0.11,7,Low,Active,6,No,No
+P0065,Anil Patel,61,Female,O+,143,58.3,28.5,114,83,104,Hypertension,Severe,2026-05-31,2026-06-12,Medication,Paracetamol,D006,DEP10,Pediatrics,73599,Improving,0.44,12,High,Active,11,No,No
+P0066,Suresh Rao,15,Female,AB+,145,84.4,40.1,136,103,68,Arthritis,Critical,2026-04-23,2026-04-30,Counseling,Amoxicillin,D025,DEP05,Pulmonology,65824,Under Treatment,0.28,7,Medium,Active,1,No,Yes
+P0067,Suresh Kumar,40,Male,B-,175,55.7,18.2,105,69,68,Arthritis,Moderate,2025-10-30,2025-11-14,Counseling,None,D012,DEP01,Cardiology,122085,Recovered,0.17,15,Low,Active,10,No,No
+P0068,Kiran Patel,49,Female,AB+,163,60.2,22.7,100,103,115,Diabetes,Mild,2026-01-02,2026-01-17,Emergency Care,Amoxicillin,D003,DEP05,Pulmonology,83037,Referred,0.11,15,High,Active,16,No,No
+P0069,Varun Verma,53,Female,AB-,162,21.6,8.2,123,98,110,Pneumonia,Moderate,2025-08-05,2025-08-07,Surgery,Amlodipine,D010,DEP04,Orthopedics,10610,Under Treatment,0.21,2,Medium,Not Insured,0,No,No
+P0070,Ravi Kumar,5,Female,B+,166,82.3,29.9,137,69,84,Arthritis,Moderate,2025-11-07,2025-11-14,Medication,Insulin,D014,DEP06,Nephrology,25589,Under Treatment,0.08,7,Medium,Active,15,No,No
+P0071,Sneha Rao,62,Male,AB-,185,109.9,32.1,127,100,102,Hypertension,Severe,2026-07-29,2026-08-07,Counseling,Amlodipine,D013,DEP09,Emergency,115544,Recovered,0.56,9,Low,Not Insured,0,Yes,No
+P0072,Vikram Sharma,15,Female,AB-,184,53.0,15.7,113,88,87,Viral Infection,Mild,2025-05-23,2025-05-28,Medication,Amlodipine,D014,DEP09,Emergency,98046,Recovered,0.02,5,Low,Not Insured,15,No,No
+P0073,Vikram Verma,25,Female,O+,131,33.4,19.5,173,103,69,Heart Disease,Moderate,2025-10-31,2025-11-05,Emergency Care,Insulin,D004,DEP10,Pediatrics,80214,Stable,0.24,5,Low,Active,12,No,No
+P0074,Neha Das,52,Male,AB+,146,103.7,48.6,102,75,90,Migraine,Severe,2025-06-05,2025-06-08,Surgery,Ibuprofen,D017,DEP04,Orthopedics,87865,Improving,0.43,3,Low,Not Insured,19,No,No
+P0075,Pooja Gupta,44,Female,O-,164,77.0,28.6,116,80,63,Diabetes,Severe,2025-05-21,2025-05-28,Surgery,Losartan,D027,DEP01,Cardiology,129459,Referred,0.44,7,Low,Inactive,3,No,No
+P0076,Meena Singh,19,Male,B+,155,33.5,13.9,163,106,103,Anemia,Severe,2026-03-15,2026-03-17,Surgery,Amoxicillin,D011,DEP02,Neurology,18514,Improving,0.52,2,Low,Active,1,No,No
+P0077,Pooja Verma,67,Male,AB-,161,58.5,22.6,169,98,78,Pneumonia,Mild,2025-06-16,2025-06-25,Physiotherapy,Ibuprofen,D005,DEP02,Neurology,39967,Recovered,0.42,9,Medium,Active,0,No,No
+P0078,Priya Rao,13,Female,A-,168,94.9,33.6,121,91,75,Migraine,Mild,2026-06-01,2026-06-13,Surgery,Amlodipine,D006,DEP04,Orthopedics,75294,Recovered,0.05,12,High,Active,19,Yes,No
+P0079,Varun Sharma,69,Female,AB-,150,87.9,39.1,156,89,109,Migraine,Severe,2025-11-07,2025-11-17,Medication,Salbutamol,D008,DEP04,Orthopedics,47979,Referred,0.72,10,Medium,Inactive,0,No,No
+P0080,Suresh Kumar,22,Male,B+,151,31.5,13.8,108,95,77,Pneumonia,Mild,2026-04-05,2026-04-11,Surgery,Amoxicillin,D026,DEP06,Nephrology,37085,Under Treatment,0.15,6,High,Active,10,No,No
+P0081,Suresh Singh,12,Male,A-,168,30.5,10.8,129,89,84,COVID-19,Severe,2026-08-17,2026-08-30,Physiotherapy,Amlodipine,D003,DEP04,Orthopedics,33250,Improving,0.31,13,High,Active,9,No,No
+P0082,Rohit Patel,33,Male,B-,155,74.6,31.1,146,62,95,Anemia,Severe,2025-04-20,2025-04-26,Counseling,Paracetamol,D018,DEP06,Nephrology,102768,Referred,0.49,6,Low,Active,10,No,No
+P0083,Suresh Sharma,31,Male,O-,124,90.3,58.7,105,109,85,Anemia,Moderate,2025-12-11,2025-12-13,Medication,Metformin,D004,DEP03,General Medicine,46436,Under Treatment,0.05,2,High,Not Insured,6,No,No
+P0084,Anil Singh,38,Female,AB-,169,31.8,11.1,101,86,68,Heart Disease,Mild,2026-07-28,2026-08-10,Counseling,Losartan,D023,DEP04,Orthopedics,77873,Improving,0.21,13,Low,Active,12,Yes,No
+P0085,Anil Patel,53,Female,B-,164,23.8,8.8,154,70,117,Hypertension,Moderate,2026-04-10,2026-04-13,Counseling,Ibuprofen,D003,DEP05,Pulmonology,91381,Recovered,0.28,3,Medium,Not Insured,9,No,No
+P0086,Vikram Verma,64,Female,O-,136,79.3,42.9,96,107,83,COVID-19,Mild,2026-03-01,2026-03-02,Surgery,Omeprazole,D008,DEP09,Emergency,30171,Recovered,0.29,1,Medium,Active,12,No,No
+P0087,Vikram Patel,8,Male,B+,162,79.3,30.2,118,76,59,Migraine,Moderate,2026-03-11,2026-03-19,Surgery,Salbutamol,D028,DEP01,Cardiology,142714,Stable,0.02,8,Low,Active,7,No,Yes
+P0088,Nikhil Das,8,Male,B-,144,107.8,52.0,161,108,90,Anemia,Moderate,2026-04-08,2026-04-10,Emergency Care,None,D008,DEP01,Cardiology,124757,Improving,0.17,2,Medium,Active,15,No,No
+P0089,Varun Patel,15,Male,B-,136,103.5,56.0,119,99,113,Asthma,Moderate,2025-07-02,2025-07-11,Surgery,Metformin,D024,DEP10,Pediatrics,106932,Referred,0.02,9,Low,Not Insured,6,No,No
+P0090,Nikhil Reddy,21,Male,AB+,132,39.9,22.9,101,82,76,Pneumonia,Critical,2025-10-29,2025-11-06,Emergency Care,None,D018,DEP02,Neurology,24887,Stable,0.3,8,Low,Active,10,No,No
+P0091,Rahul Patel,63,Female,B+,138,33.6,17.6,119,96,62,Viral Infection,Moderate,2025-01-30,2025-02-06,Medication,Amlodipine,D011,DEP03,General Medicine,56647,Recovered,0.26,7,Medium,Inactive,6,No,No
+P0092,Arjun Gupta,36,Male,AB+,177,23.2,7.4,108,93,107,Viral Infection,Moderate,2025-07-28,2025-08-11,Physiotherapy,Paracetamol,D015,DEP09,Emergency,101582,Referred,0.18,14,Medium,Inactive,2,Yes,No
+P0093,Meena Das,21,Male,B-,157,35.0,14.2,139,79,71,Pneumonia,Moderate,2025-07-07,2025-07-16,Observation,Ibuprofen,D030,DEP06,Nephrology,70622,Improving,0.02,9,Medium,Active,18,No,Yes
+P0094,Rahul Reddy,24,Male,B-,149,108.4,48.8,158,78,102,Diabetes,Moderate,2025-04-27,2025-05-12,Emergency Care,None,D028,DEP06,Nephrology,30354,Stable,0.27,15,Medium,Inactive,12,No,No
+P0095,Pooja Reddy,47,Male,AB+,134,56.9,31.7,169,98,63,COVID-19,Critical,2025-03-19,2025-03-31,Counseling,Metformin,D030,DEP04,Orthopedics,121812,Referred,0.62,12,Medium,Not Insured,18,No,No
+P0096,Sneha Rao,69,Male,AB-,183,36.7,11.0,168,64,58,Anemia,Mild,2025-02-18,2025-02-23,Surgery,Insulin,D020,DEP10,Pediatrics,119166,Recovered,0.38,5,High,Active,11,Yes,Yes
+P0097,Vikram Naidu,35,Male,B-,174,101.6,33.6,171,65,98,Hypertension,Mild,2026-02-04,2026-02-10,Observation,Metformin,D027,DEP07,Dermatology,135215,Improving,0.29,6,Medium,Active,14,No,No
+P0098,Neha Naidu,14,Male,A+,176,64.5,20.8,163,62,91,Diabetes,Moderate,2025-01-21,2025-01-23,Physiotherapy,Amlodipine,D021,DEP10,Pediatrics,89396,Under Treatment,0.27,2,Low,Active,0,No,No
+P0099,Anil Das,28,Female,O-,177,68.8,22.0,143,76,119,Asthma,Moderate,2026-02-27,2026-03-05,Counseling,Amoxicillin,D022,DEP02,Neurology,84957,Under Treatment,0.27,6,Low,Active,9,No,No
+P0100,Divya Naidu,64,Female,A-,151,43.3,19.0,162,105,69,Anemia,Mild,2026-06-16,2026-06-26,Counseling,Losartan,D017,DEP01,Cardiology,97834,Improving,0.43,10,Low,Active,7,No,No
+P0101,Ravi Gupta,6,Female,B-,158,79.1,31.7,144,102,73,Gastritis,Moderate,2026-08-24,2026-09-04,Physiotherapy,Paracetamol,D005,DEP03,General Medicine,135123,Referred,0.12,11,Low,Active,14,No,No
+P0102,Meena Singh,60,Female,AB-,189,91.4,25.6,97,86,94,Kidney Disease,Moderate,2026-01-22,2026-02-04,Observation,Omeprazole,D019,DEP10,Pediatrics,90587,Recovered,0.19,13,Medium,Active,15,No,No
+P0103,Kiran Sharma,21,Male,B-,149,77.1,34.7,153,86,79,Gastritis,Mild,2025-09-17,2025-09-29,Observation,Paracetamol,D006,DEP05,Pulmonology,93551,Improving,0.29,12,Low,Inactive,10,No,No
+P0104,Vikram Naidu,3,Male,O-,149,35.6,16.0,156,92,89,Kidney Disease,Mild,2025-10-04,2025-10-16,Medication,Metformin,D005,DEP09,Emergency,145802,Under Treatment,0.11,12,Medium,Not Insured,2,Yes,No
+P0105,Rohit Singh,66,Male,A+,159,20.3,8.0,164,68,74,Heart Disease,Mild,2025-02-16,2025-02-23,Physiotherapy,Atorvastatin,D014,DEP02,Neurology,89460,Under Treatment,0.34,7,High,Not Insured,6,No,Yes
+P0106,Divya Patel,6,Male,A+,142,35.2,17.5,140,97,68,Arthritis,Severe,2025-12-20,2025-12-28,Emergency Care,Ibuprofen,D014,DEP02,Neurology,127998,Improving,0.31,8,High,Active,18,No,No
+P0107,Sneha Gupta,73,Male,AB-,147,21.6,10.0,157,68,73,Gastritis,Severe,2025-11-23,2025-12-07,Emergency Care,Metformin,D024,DEP03,General Medicine,51585,Under Treatment,0.64,14,Low,Active,2,No,No
+P0108,Neha Sharma,68,Male,O-,187,99.0,28.3,180,100,109,Hypertension,Moderate,2026-05-29,2026-06-07,Emergency Care,Atorvastatin,D021,DEP09,Emergency,98636,Referred,0.35,9,Low,Active,11,Yes,No
+P0109,Rohit Naidu,68,Male,A-,154,94.6,39.9,102,104,101,Pneumonia,Mild,2026-04-25,2026-04-26,Emergency Care,Omeprazole,D008,DEP09,Emergency,111655,Referred,0.23,1,Medium,Active,18,No,No
+P0110,Nikhil Kumar,22,Male,B-,164,107.4,39.9,128,86,109,Kidney Disease,Critical,2026-05-07,2026-05-09,Emergency Care,Losartan,D027,DEP04,Orthopedics,41697,Stable,0.44,2,Low,Not Insured,12,No,No
+P0111,Sai Das,48,Male,AB-,175,73.2,23.9,156,67,97,Gastritis,Severe,2025-02-18,2025-03-04,Medication,Insulin,D024,DEP03,General Medicine,97538,Referred,0.67,14,Low,Not Insured,20,No,No
+P0112,Ravi Singh,39,Male,B-,132,80.8,46.4,105,72,100,Diabetes,Mild,2026-05-09,2026-05-12,Observation,Losartan,D007,DEP09,Emergency,9710,Under Treatment,0.12,3,Medium,Active,13,Yes,No
+P0113,Ananya Naidu,49,Male,A-,166,98.4,35.7,127,95,73,Gastritis,Moderate,2025-11-20,2025-12-04,Observation,Losartan,D002,DEP07,Dermatology,103612,Stable,0.16,14,Medium,Active,17,Yes,No
+P0114,Rahul Verma,28,Male,O+,122,85.2,57.2,132,62,70,Viral Infection,Critical,2026-05-29,2026-06-11,Surgery,Atorvastatin,D021,DEP07,Dermatology,95975,Recovered,0.37,13,Low,Active,5,No,No
+P0115,Vikram Das,36,Male,A+,164,44.8,16.7,126,62,82,Kidney Disease,Moderate,2025-01-30,2025-02-11,Medication,Paracetamol,D028,DEP02,Neurology,70170,Recovered,0.06,12,Medium,Active,4,No,Yes
+P0116,Sai Rao,65,Female,AB+,166,33.9,12.3,112,87,89,Arthritis,Moderate,2025-07-21,2025-08-02,Physiotherapy,Amlodipine,D016,DEP01,Cardiology,95833,Under Treatment,0.24,12,Medium,Active,3,No,No
+P0117,Pooja Singh,59,Female,AB+,186,106.8,30.9,158,86,105,Heart Disease,Mild,2025-06-04,2025-06-18,Physiotherapy,Losartan,D028,DEP08,Gastroenterology,122456,Referred,0.35,14,Medium,Active,17,No,No
+P0118,Priya Das,17,Female,O-,141,68.7,34.6,143,72,88,Asthma,Mild,2025-06-14,2025-06-23,Counseling,Losartan,D017,DEP04,Orthopedics,138070,Referred,0.26,9,Low,Active,11,No,No
+P0119,Ananya Singh,63,Male,AB+,143,110.0,53.8,105,95,105,Arthritis,Severe,2025-04-21,2025-04-23,Physiotherapy,Atorvastatin,D017,DEP01,Cardiology,21719,Referred,0.49,2,Medium,Active,20,No,No
+P0120,Ananya Das,21,Female,B-,130,69.4,41.1,150,79,95,Anemia,Severe,2026-06-01,2026-06-02,Observation,Paracetamol,D006,DEP06,Nephrology,15393,Improving,0.47,1,Medium,Active,14,No,No
+P0121,Varun Kumar,51,Male,A+,172,108.3,36.6,145,106,58,Diabetes,Severe,2025-03-23,2025-04-04,Physiotherapy,Ibuprofen,D019,DEP03,General Medicine,126938,Stable,0.57,12,Low,Active,13,No,No
+P0122,Rohit Sharma,22,Male,A-,162,98.5,37.5,115,75,120,Arthritis,Moderate,2025-11-16,2025-11-30,Physiotherapy,Losartan,D017,DEP02,Neurology,51347,Stable,0.08,14,Medium,Not Insured,0,Yes,Yes
+P0123,Sneha Rao,5,Male,B+,179,79.3,24.7,130,94,120,Arthritis,Mild,2025-05-07,2025-05-08,Medication,Salbutamol,D014,DEP08,Gastroenterology,22781,Under Treatment,0.02,1,Medium,Inactive,12,No,No
+P0124,Kavya Singh,40,Male,A+,136,65.1,35.2,154,61,120,Diabetes,Severe,2026-01-15,2026-01-21,Observation,Insulin,D030,DEP02,Neurology,69987,Referred,0.56,6,Low,Active,18,No,No
+P0125,Rohit Rao,55,Female,O+,142,98.0,48.6,166,79,86,Pneumonia,Moderate,2025-03-15,2025-03-25,Surgery,None,D023,DEP01,Cardiology,106359,Improving,0.3,10,Low,Active,1,Yes,No
+P0126,Vikram Naidu,76,Male,B+,168,48.6,17.2,120,77,92,Asthma,Severe,2025-08-29,2025-09-08,Surgery,Insulin,D027,DEP09,Emergency,82311,Improving,0.6,10,Low,Inactive,14,No,No
+P0127,Vikram Singh,56,Male,O-,170,28.0,9.7,123,92,114,Anemia,Moderate,2026-04-16,2026-04-26,Surgery,None,D017,DEP06,Nephrology,73354,Under Treatment,0.14,10,Medium,Active,20,No,No
+P0128,Kavya Naidu,42,Male,A-,136,52.4,28.3,122,100,101,Heart Disease,Mild,2025-10-31,2025-11-07,Emergency Care,Paracetamol,D002,DEP05,Pulmonology,124606,Recovered,0.13,7,Medium,Active,0,No,No
+P0129,Vikram Sharma,9,Male,A+,127,78.6,48.7,122,65,98,Diabetes,Moderate,2025-10-01,2025-10-04,Emergency Care,Omeprazole,D022,DEP02,Neurology,55836,Improving,0.09,3,Medium,Active,9,Yes,No
+P0130,Arjun Kumar,2,Female,O+,133,57.2,32.3,111,71,108,Anemia,Mild,2026-01-22,2026-02-06,Counseling,Metformin,D008,DEP08,Gastroenterology,98164,Under Treatment,0.08,15,High,Active,20,Yes,No
+P0131,Ananya Naidu,34,Female,B+,156,43.9,18.0,127,66,111,Arthritis,Moderate,2026-05-16,2026-05-25,Physiotherapy,Metformin,D023,DEP09,Emergency,54370,Recovered,0.18,9,Low,Active,3,No,No
+P0132,Suresh Kumar,28,Male,A-,163,25.2,9.5,103,64,110,Anemia,Critical,2026-08-25,2026-09-02,Surgery,Amoxicillin,D010,DEP02,Neurology,62715,Recovered,0.33,8,Medium,Inactive,12,No,No
+P0133,Nikhil Singh,68,Female,B-,147,77.9,36.0,146,97,108,Gastritis,Moderate,2025-02-18,2025-03-05,Medication,None,D024,DEP08,Gastroenterology,37581,Recovered,0.42,15,High,Active,14,No,No
+P0134,Ravi Kumar,6,Male,O-,157,103.6,42.0,172,69,100,COVID-19,Moderate,2026-03-22,2026-03-24,Emergency Care,Amlodipine,D011,DEP05,Pulmonology,97758,Under Treatment,0.12,2,Medium,Active,3,No,No
+P0135,Anil Kumar,62,Male,B+,130,61.3,36.3,149,97,80,Heart Disease,Mild,2025-10-01,2025-10-04,Observation,Amlodipine,D002,DEP10,Pediatrics,26872,Referred,0.43,3,High,Inactive,3,No,No
+P0136,Ravi Rao,59,Male,B+,163,21.1,7.9,122,101,97,Gastritis,Mild,2025-03-15,2025-03-19,Surgery,Salbutamol,D012,DEP07,Dermatology,64727,Referred,0.15,4,Low,Not Insured,1,No,Yes
+P0137,Nikhil Kumar,67,Female,A-,139,87.9,45.5,172,76,72,Pneumonia,Critical,2026-09-03,2026-09-04,Counseling,Paracetamol,D023,DEP07,Dermatology,68141,Improving,0.71,1,Medium,Inactive,4,Yes,No
+P0138,Sneha Verma,41,Female,B-,187,72.3,20.7,120,110,73,Hypertension,Mild,2025-04-09,2025-04-21,Surgery,Paracetamol,D013,DEP02,Neurology,9312,Referred,0.13,12,Low,Active,15,No,No
+P0139,Sneha Sharma,68,Female,A+,134,99.2,55.2,121,99,117,Diabetes,Moderate,2026-01-02,2026-01-10,Surgery,Amoxicillin,D021,DEP09,Emergency,21491,Under Treatment,0.21,8,Low,Active,20,No,Yes
+P0140,Neha Rao,60,Male,O+,173,52.6,17.6,132,80,115,Pneumonia,Moderate,2026-01-26,2026-02-02,Physiotherapy,Insulin,D005,DEP09,Emergency,91953,Referred,0.25,7,Low,Active,4,No,No
+P0141,Anil Naidu,47,Male,B+,158,39.8,15.9,148,80,70,Viral Infection,Mild,2025-01-22,2025-01-27,Surgery,Omeprazole,D025,DEP09,Emergency,135845,Recovered,0.24,5,Medium,Active,20,No,No
+P0142,Kavya Naidu,51,Male,A-,155,107.5,44.7,109,91,93,COVID-19,Moderate,2025-03-29,2025-03-31,Medication,Insulin,D029,DEP09,Emergency,92618,Recovered,0.21,2,Low,Active,19,No,No
+P0143,Vikram Patel,76,Male,O-,166,59.2,21.5,175,62,69,Viral Infection,Moderate,2025-07-11,2025-07-12,Observation,Metformin,D014,DEP01,Cardiology,73069,Improving,0.34,1,Low,Active,18,No,No
+P0144,Vikram Das,65,Male,B-,188,84.7,24.0,107,107,118,Pneumonia,Severe,2026-01-25,2026-02-02,Physiotherapy,Amoxicillin,D002,DEP08,Gastroenterology,37031,Stable,0.48,8,Medium,Active,13,No,No
+P0145,Kiran Rao,51,Female,B+,131,45.9,26.7,121,71,71,Diabetes,Critical,2025-11-27,2025-12-02,Counseling,Amlodipine,D016,DEP07,Dermatology,143380,Recovered,0.54,5,Medium,Active,1,No,No
+P0146,Ravi Das,13,Female,AB+,173,86.0,28.7,113,88,74,Viral Infection,Mild,2025-08-03,2025-08-17,Surgery,Metformin,D002,DEP01,Cardiology,53413,Improving,0.11,14,Low,Active,4,No,No
+P0147,Vikram Verma,49,Male,B+,190,43.8,12.1,129,75,56,Kidney Disease,Mild,2025-04-08,2025-04-17,Surgery,Paracetamol,D027,DEP01,Cardiology,89729,Recovered,0.25,9,Low,Active,19,Yes,No
+P0148,Sneha Kumar,34,Male,A-,141,106.9,53.8,167,92,102,Gastritis,Moderate,2025-10-10,2025-10-20,Physiotherapy,Losartan,D021,DEP05,Pulmonology,55830,Stable,0.28,10,Medium,Not Insured,3,No,No
+P0149,Arjun Rao,45,Male,A-,187,104.3,29.8,177,60,64,Hypertension,Moderate,2025-05-17,2025-05-21,Counseling,None,D022,DEP01,Cardiology,3593,Improving,0.26,4,Low,Inactive,14,No,No
+P0150,Varun Kumar,27,Male,AB-,145,109.7,52.2,135,101,104,Heart Disease,Severe,2025-02-12,2025-02-21,Medication,None,D016,DEP09,Emergency,45264,Improving,0.45,9,Low,Active,2,No,No
+P0151,Divya Gupta,48,Male,AB-,129,99.6,59.9,153,72,100,Viral Infection,Moderate,2025-10-02,2025-10-06,Emergency Care,Metformin,D009,DEP02,Neurology,98588,Referred,0.28,4,Medium,Active,16,No,No
+P0152,Nikhil Reddy,9,Male,AB-,175,90.9,29.7,154,97,94,COVID-19,Moderate,2026-03-21,2026-03-31,Observation,Losartan,D025,DEP05,Pulmonology,7168,Referred,0.23,10,Low,Active,10,No,No
+P0153,Kavya Sharma,55,Male,O+,122,56.9,38.2,132,80,83,Pneumonia,Mild,2025-05-01,2025-05-02,Surgery,Salbutamol,D003,DEP01,Cardiology,114999,Under Treatment,0.22,1,Low,Active,9,No,No
+P0154,Suresh Rao,52,Male,AB+,144,94.5,45.6,99,95,103,Asthma,Moderate,2026-06-28,2026-07-05,Medication,Amoxicillin,D022,DEP10,Pediatrics,24908,Recovered,0.12,7,High,Inactive,16,No,No
+P0155,Nikhil Rao,73,Female,A+,148,61.3,28.0,126,105,77,Diabetes,Moderate,2026-08-22,2026-09-04,Counseling,None,D010,DEP09,Emergency,124864,Stable,0.29,13,Low,Active,18,No,No
+P0156,Pooja Gupta,47,Male,A-,138,50.2,26.4,118,67,63,Diabetes,Moderate,2026-01-17,2026-01-29,Emergency Care,Amlodipine,D002,DEP07,Dermatology,37820,Stable,0.17,12,Medium,Active,15,No,No
+P0157,Sai Kumar,64,Male,A+,180,50.3,15.5,165,72,80,COVID-19,Severe,2025-10-09,2025-10-10,Surgery,Salbutamol,D015,DEP05,Pulmonology,113218,Referred,0.66,1,Medium,Inactive,15,Yes,No
+P0158,Priya Singh,56,Female,AB-,184,61.9,18.3,145,100,83,Gastritis,Mild,2026-08-21,2026-08-30,Surgery,Ibuprofen,D018,DEP08,Gastroenterology,120196,Stable,0.41,9,Low,Active,7,No,No
+P0159,Divya Gupta,36,Male,O+,176,108.4,35.0,171,104,74,Pneumonia,Critical,2025-03-23,2025-03-25,Physiotherapy,None,D028,DEP09,Emergency,81198,Under Treatment,0.51,2,Low,Active,10,No,No
+P0160,Varun Kumar,31,Male,AB+,180,29.3,9.0,130,67,112,Asthma,Severe,2025-02-17,2025-02-26,Counseling,None,D007,DEP09,Emergency,102658,Under Treatment,0.44,9,Low,Not Insured,16,No,No
+P0161,Ravi Naidu,64,Female,AB+,155,96.7,40.2,136,71,96,COVID-19,Moderate,2026-04-15,2026-04-29,Physiotherapy,Amlodipine,D030,DEP05,Pulmonology,34321,Under Treatment,0.21,14,Medium,Inactive,15,Yes,No
+P0162,Divya Patel,23,Male,AB-,137,106.3,56.6,132,106,92,Viral Infection,Severe,2026-01-04,2026-01-18,Counseling,Amoxicillin,D021,DEP03,General Medicine,38519,Under Treatment,0.37,14,Medium,Not Insured,19,No,No
+P0163,Arjun Naidu,28,Female,AB-,127,22.8,14.1,164,80,89,COVID-19,Severe,2026-07-29,2026-08-04,Observation,Ibuprofen,D008,DEP01,Cardiology,118025,Referred,0.57,6,Low,Inactive,17,No,No
+P0164,Rohit Kumar,38,Male,B-,167,94.4,33.8,125,86,115,COVID-19,Severe,2025-10-26,2025-11-08,Counseling,None,D021,DEP06,Nephrology,24886,Stable,0.39,13,Low,Active,15,No,Yes
+P0165,Ananya Reddy,49,Female,AB+,151,31.9,14.0,97,75,64,COVID-19,Moderate,2025-08-23,2025-09-02,Observation,Insulin,D020,DEP08,Gastroenterology,76824,Stable,0.19,10,High,Active,1,No,No
+P0166,Nikhil Gupta,51,Male,B+,140,108.3,55.3,178,97,79,Heart Disease,Moderate,2025-04-23,2025-05-03,Physiotherapy,Atorvastatin,D023,DEP05,Pulmonology,32408,Recovered,0.36,10,Medium,Not Insured,9,No,No
+P0167,Vikram Gupta,4,Female,B-,184,36.1,10.7,141,76,100,Kidney Disease,Mild,2026-02-10,2026-02-16,Observation,Salbutamol,D028,DEP07,Dermatology,137101,Improving,0.21,6,Low,Active,4,No,No
+P0168,Vikram Verma,26,Female,AB+,159,73.5,29.1,134,85,84,COVID-19,Severe,2025-01-08,2025-01-21,Observation,Ibuprofen,D016,DEP06,Nephrology,40850,Stable,0.45,13,Medium,Active,8,No,Yes
+P0169,Vikram Reddy,57,Female,O+,127,104.7,64.9,147,71,103,Anemia,Moderate,2026-01-01,2026-01-05,Surgery,Losartan,D002,DEP10,Pediatrics,92536,Stable,0.28,4,Medium,Active,9,Yes,No
+P0170,Pooja Verma,3,Female,A+,156,88.3,36.3,150,82,65,Pneumonia,Moderate,2026-08-07,2026-08-15,Counseling,Paracetamol,D005,DEP04,Orthopedics,100665,Improving,0.08,8,Medium,Active,5,No,No
+P0171,Priya Verma,22,Male,A+,121,94.6,64.6,140,91,116,Migraine,Mild,2025-01-11,2025-01-23,Emergency Care,Losartan,D025,DEP07,Dermatology,68483,Improving,0.05,12,Low,Active,12,No,No
+P0172,Nikhil Naidu,17,Male,B-,134,37.9,21.1,107,76,86,Anemia,Severe,2026-05-18,2026-05-25,Observation,Omeprazole,D019,DEP08,Gastroenterology,66229,Under Treatment,0.31,7,Low,Not Insured,17,Yes,No
+P0173,Ravi Naidu,62,Male,O-,132,100.1,57.4,177,72,114,COVID-19,Moderate,2025-08-17,2025-08-23,Emergency Care,Omeprazole,D006,DEP09,Emergency,127583,Under Treatment,0.44,6,Low,Not Insured,2,No,No
+P0174,Kiran Patel,38,Male,O+,181,32.9,10.0,104,62,113,Gastritis,Moderate,2025-07-25,2025-07-28,Physiotherapy,Atorvastatin,D026,DEP06,Nephrology,122106,Under Treatment,0.14,3,Low,Active,12,No,No
+P0175,Meena Verma,20,Female,AB-,173,43.9,14.7,152,67,77,Hypertension,Mild,2025-09-30,2025-10-08,Physiotherapy,Metformin,D030,DEP01,Cardiology,115392,Referred,0.21,8,Medium,Active,17,No,Yes
+P0176,Varun Naidu,55,Female,O+,159,40.4,16.0,146,69,107,Diabetes,Mild,2025-05-23,2025-06-01,Observation,Salbutamol,D011,DEP05,Pulmonology,123257,Improving,0.35,9,Low,Active,11,No,No
+P0177,Ravi Verma,8,Female,AB-,146,35.6,16.7,136,110,65,Kidney Disease,Moderate,2025-11-17,2025-11-28,Medication,Amlodipine,D006,DEP09,Emergency,117692,Referred,0.02,11,Medium,Active,7,No,No
+P0178,Anil Rao,49,Male,AB+,140,106.5,54.3,177,98,82,Asthma,Moderate,2025-03-04,2025-03-12,Emergency Care,Paracetamol,D004,DEP08,Gastroenterology,143982,Improving,0.27,8,High,Active,12,Yes,No
+P0179,Neha Gupta,60,Male,AB-,177,45.0,14.4,157,71,58,Gastritis,Mild,2025-07-29,2025-08-06,Physiotherapy,Amlodipine,D003,DEP09,Emergency,63076,Improving,0.32,8,Low,Active,8,No,No
+P0180,Neha Verma,67,Female,O+,143,93.6,45.8,109,94,107,Migraine,Mild,2025-10-10,2025-10-11,Surgery,Metformin,D022,DEP10,Pediatrics,20282,Recovered,0.21,1,Medium,Not Insured,20,No,No
+P0181,Vikram Verma,62,Female,B+,157,81.4,33.0,146,74,100,Hypertension,Moderate,2025-09-07,2025-09-21,Medication,Atorvastatin,D028,DEP06,Nephrology,17760,Stable,0.34,14,Medium,Inactive,2,No,No
+P0182,Meena Reddy,72,Male,O-,180,90.2,27.8,149,96,110,Anemia,Mild,2025-08-25,2025-08-30,Emergency Care,Salbutamol,D030,DEP04,Orthopedics,78496,Stable,0.33,5,Medium,Active,12,No,No
+P0183,Pooja Rao,73,Female,AB+,177,58.8,18.8,125,84,55,Diabetes,Moderate,2026-05-10,2026-05-12,Counseling,Omeprazole,D006,DEP06,Nephrology,77386,Stable,0.27,2,Low,Active,14,Yes,No
+P0184,Priya Rao,38,Male,AB-,164,95.7,35.6,166,74,108,Viral Infection,Severe,2026-01-01,2026-01-15,Counseling,Metformin,D023,DEP01,Cardiology,77004,Recovered,0.55,14,Medium,Not Insured,19,No,No
+P0185,Neha Sharma,18,Male,B+,123,70.6,46.7,107,66,98,Asthma,Mild,2026-06-10,2026-06-24,Physiotherapy,Paracetamol,D004,DEP02,Neurology,55322,Stable,0.13,14,Low,Not Insured,7,No,No
+P0186,Meena Patel,50,Male,A-,184,60.0,17.7,164,73,91,Anemia,Mild,2025-06-13,2025-06-26,Emergency Care,Amlodipine,D003,DEP07,Dermatology,70943,Stable,0.33,13,Low,Active,1,No,No
+P0187,Divya Patel,57,Male,O+,149,87.7,39.5,133,93,97,Kidney Disease,Severe,2025-07-16,2025-07-21,Counseling,Losartan,D018,DEP03,General Medicine,12089,Improving,0.51,5,Medium,Active,19,No,No
+P0188,Rahul Patel,11,Female,O-,162,108.1,41.2,162,76,95,Migraine,Mild,2026-01-23,2026-02-07,Emergency Care,None,D013,DEP03,General Medicine,44961,Stable,0.18,15,Medium,Not Insured,11,No,No
+P0189,Pooja Naidu,73,Female,A-,142,25.9,12.8,163,106,84,Migraine,Severe,2025-05-05,2025-05-20,Surgery,Insulin,D025,DEP01,Cardiology,86516,Stable,0.75,15,Medium,Active,2,No,No
+P0190,Ananya Reddy,45,Male,AB+,126,32.2,20.3,158,61,96,COVID-19,Severe,2026-03-24,2026-04-07,Physiotherapy,Losartan,D016,DEP06,Nephrology,105254,Recovered,0.59,14,Medium,Active,15,No,No
+P0191,Sai Kumar,2,Female,B-,178,68.2,21.5,166,66,117,Heart Disease,Moderate,2026-08-14,2026-08-29,Emergency Care,Ibuprofen,D005,DEP04,Orthopedics,149096,Improving,0.21,15,Low,Active,14,No,No
+P0192,Kiran Verma,71,Female,AB+,171,64.3,22.0,161,74,101,Pneumonia,Moderate,2025-10-20,2025-11-02,Physiotherapy,Insulin,D006,DEP10,Pediatrics,14248,Under Treatment,0.41,13,Low,Active,17,Yes,Yes
+P0193,Rohit Naidu,34,Female,A+,132,42.2,24.2,116,106,90,Pneumonia,Mild,2025-08-09,2025-08-13,Physiotherapy,Amlodipine,D018,DEP03,General Medicine,146433,Referred,0.08,4,Low,Inactive,4,Yes,Yes
+P0194,Ananya Singh,77,Female,A-,161,60.0,23.1,162,78,85,COVID-19,Moderate,2026-08-30,2026-09-06,Medication,Paracetamol,D010,DEP02,Neurology,11568,Improving,0.48,7,Medium,Inactive,15,No,Yes
+P0195,Rahul Singh,1,Female,O+,130,70.1,41.5,120,106,104,Hypertension,Mild,2025-01-04,2025-01-11,Medication,Losartan,D024,DEP08,Gastroenterology,90812,Under Treatment,0.02,7,Low,Active,7,Yes,No
+P0196,Pooja Das,12,Female,A+,186,80.9,23.4,143,75,56,Arthritis,Moderate,2025-07-01,2025-07-03,Emergency Care,Insulin,D022,DEP03,General Medicine,103671,Improving,0.23,2,Low,Inactive,12,No,No
+P0197,Anil Kumar,80,Male,B-,153,36.5,15.6,106,99,64,Pneumonia,Mild,2026-08-24,2026-08-26,Surgery,Ibuprofen,D022,DEP09,Emergency,88303,Stable,0.28,2,Medium,Not Insured,1,Yes,No
+P0198,Sneha Gupta,24,Male,O-,140,26.2,13.4,170,81,90,Diabetes,Critical,2025-05-08,2025-05-18,Emergency Care,Paracetamol,D020,DEP04,Orthopedics,81577,Improving,0.58,10,Medium,Active,12,No,No
+P0199,Kiran Patel,21,Male,O-,189,81.6,22.8,108,66,100,COVID-19,Mild,2025-12-03,2025-12-16,Observation,None,D001,DEP04,Orthopedics,8138,Referred,0.07,13,Medium,Active,18,Yes,No
+P0200,Rahul Patel,13,Female,O+,154,100.9,42.5,119,90,76,COVID-19,Moderate,2025-11-22,2025-12-07,Counseling,Amoxicillin,D015,DEP08,Gastroenterology,86198,Stable,0.02,15,Medium,Not Insured,2,No,No
+P0201,Neha Patel,53,Male,B-,120,56.2,39.0,123,107,105,Gastritis,Moderate,2025-11-22,2025-11-30,Observation,Amoxicillin,D004,DEP10,Pediatrics,130174,Stable,0.21,8,Medium,Inactive,12,No,No
+P0202,Varun Gupta,52,Male,O-,172,91.7,31.0,166,67,96,Migraine,Moderate,2025-02-12,2025-02-15,Physiotherapy,Salbutamol,D012,DEP09,Emergency,57896,Stable,0.34,3,Medium,Not Insured,5,No,No
+P0203,Neha Sharma,46,Male,AB+,161,33.9,13.1,153,106,61,Heart Disease,Moderate,2025-08-20,2025-08-28,Counseling,Ibuprofen,D016,DEP06,Nephrology,74869,Recovered,0.35,8,High,Not Insured,19,No,No
+P0204,Ananya Kumar,7,Female,AB-,130,53.3,31.5,117,109,82,Asthma,Moderate,2025-08-03,2025-08-16,Medication,Metformin,D003,DEP01,Cardiology,137205,Under Treatment,0.08,13,Low,Active,18,Yes,No
+P0205,Nikhil Rao,64,Male,B-,157,61.0,24.7,101,81,95,Diabetes,Mild,2025-08-05,2025-08-15,Medication,Metformin,D012,DEP05,Pulmonology,1890,Referred,0.23,10,Medium,Active,3,No,Yes
+P0206,Meena Sharma,71,Male,B+,169,98.5,34.5,118,78,90,COVID-19,Moderate,2025-10-18,2025-10-26,Physiotherapy,Paracetamol,D005,DEP01,Cardiology,50285,Recovered,0.2,8,Medium,Active,15,No,No
+P0207,Aman Rao,75,Female,B-,185,76.7,22.4,112,85,107,Arthritis,Mild,2025-08-10,2025-08-14,Counseling,Ibuprofen,D022,DEP06,Nephrology,75484,Stable,0.23,4,Medium,Active,4,Yes,No
+P0208,Neha Rao,12,Female,B+,146,50.8,23.8,170,88,87,Migraine,Moderate,2025-09-03,2025-09-08,Counseling,None,D018,DEP10,Pediatrics,112861,Under Treatment,0.22,5,Medium,Not Insured,11,Yes,No
+P0209,Ananya Verma,68,Male,A+,141,39.6,19.9,136,84,111,Viral Infection,Mild,2026-01-18,2026-01-24,Physiotherapy,Omeprazole,D005,DEP04,Orthopedics,89402,Referred,0.24,6,Medium,Active,9,No,No
+P0210,Ravi Gupta,29,Male,A-,122,36.6,24.6,173,94,60,Pneumonia,Moderate,2025-12-14,2025-12-27,Emergency Care,Paracetamol,D019,DEP07,Dermatology,99128,Referred,0.25,13,Low,Active,15,No,No
+P0211,Sai Naidu,71,Female,B-,134,90.0,50.1,116,83,98,Gastritis,Mild,2025-08-14,2025-08-23,Physiotherapy,Metformin,D028,DEP05,Pulmonology,11337,Improving,0.24,9,Medium,Inactive,3,No,No
+P0212,Rohit Naidu,43,Female,O-,144,32.8,15.8,172,87,72,Pneumonia,Moderate,2025-05-21,2025-06-01,Medication,Metformin,D004,DEP05,Pulmonology,133651,Recovered,0.29,11,Low,Not Insured,7,No,No
+P0213,Rohit Reddy,45,Male,A+,132,35.3,20.3,176,106,120,Migraine,Moderate,2025-05-28,2025-06-03,Counseling,None,D019,DEP07,Dermatology,71306,Stable,0.38,6,Low,Inactive,13,No,No
+P0214,Varun Kumar,65,Male,A-,170,86.6,30.0,113,77,109,Asthma,Mild,2026-03-16,2026-03-22,Observation,Amlodipine,D003,DEP09,Emergency,135534,Referred,0.23,6,Medium,Active,15,No,No
+P0215,Vikram Reddy,55,Male,O+,145,101.6,48.3,100,82,118,Diabetes,Severe,2026-05-04,2026-05-05,Physiotherapy,Atorvastatin,D025,DEP08,Gastroenterology,133947,Stable,0.47,1,Medium,Active,18,No,No
+P0216,Varun Singh,50,Female,AB+,167,70.8,25.4,151,90,75,Anemia,Severe,2025-12-13,2025-12-22,Counseling,Metformin,D028,DEP07,Dermatology,80936,Recovered,0.62,9,Low,Active,8,No,No
+P0217,Priya Kumar,6,Female,A+,164,48.7,18.1,118,78,72,Diabetes,Severe,2025-06-17,2025-06-20,Observation,None,D002,DEP06,Nephrology,74072,Recovered,0.26,3,Low,Active,18,No,No
+P0218,Vikram Verma,1,Male,A-,161,36.3,14.0,128,84,99,Viral Infection,Moderate,2026-03-15,2026-03-17,Surgery,Insulin,D020,DEP09,Emergency,15675,Improving,0.06,2,Low,Active,8,No,No
+P0219,Pooja Naidu,9,Female,B+,128,46.4,28.3,146,64,59,Gastritis,Moderate,2025-07-28,2025-08-12,Surgery,Atorvastatin,D011,DEP08,Gastroenterology,106719,Stable,0.26,15,High,Active,3,No,No
+P0220,Nikhil Patel,73,Female,O+,171,66.1,22.6,134,98,77,Diabetes,Moderate,2026-07-26,2026-08-02,Surgery,Amlodipine,D025,DEP10,Pediatrics,132750,Referred,0.32,7,Low,Active,5,No,No
+P0221,Arjun Patel,64,Male,AB-,188,40.9,11.6,156,75,69,Asthma,Severe,2026-04-12,2026-04-26,Physiotherapy,Metformin,D025,DEP06,Nephrology,147177,Stable,0.62,14,Low,Active,19,No,No
+P0222,Vikram Das,27,Male,B+,129,88.8,53.4,112,82,60,Hypertension,Moderate,2026-06-02,2026-06-10,Medication,Salbutamol,D011,DEP07,Dermatology,2962,Referred,0.09,8,Low,Not Insured,20,No,No
+P0223,Rahul Rao,51,Male,B-,139,46.0,23.8,103,104,55,Migraine,Moderate,2025-02-28,2025-03-07,Emergency Care,Insulin,D027,DEP08,Gastroenterology,73416,Stable,0.11,7,Medium,Active,3,No,No
+P0224,Sai Gupta,48,Female,O+,124,108.3,70.4,141,94,68,Hypertension,Moderate,2025-01-03,2025-01-07,Counseling,Amlodipine,D022,DEP01,Cardiology,51992,Improving,0.3,4,Low,Not Insured,14,No,No
+P0225,Anil Reddy,62,Female,O+,166,97.7,35.5,126,89,67,Migraine,Critical,2026-05-03,2026-05-16,Emergency Care,Insulin,D006,DEP03,General Medicine,103978,Stable,0.49,13,Low,Active,13,No,No
+P0226,Arjun Kumar,61,Male,A+,141,37.6,18.9,137,76,112,Heart Disease,Mild,2025-11-02,2025-11-12,Observation,Atorvastatin,D020,DEP04,Orthopedics,138626,Stable,0.18,10,Low,Active,4,No,No
+P0227,Nikhil Kumar,64,Female,A-,141,94.0,47.3,112,66,119,Gastritis,Mild,2025-06-06,2025-06-12,Medication,Amoxicillin,D004,DEP04,Orthopedics,1715,Under Treatment,0.19,6,High,Active,17,No,Yes
+P0228,Sneha Sharma,18,Male,O-,173,50.7,16.9,133,101,72,Hypertension,Severe,2025-08-17,2025-08-28,Physiotherapy,Losartan,D007,DEP08,Gastroenterology,135381,Improving,0.37,11,Medium,Not Insured,19,No,No
+P0229,Sai Kumar,78,Female,O-,128,20.6,12.6,150,110,74,Migraine,Severe,2025-10-25,2025-10-28,Emergency Care,Salbutamol,D022,DEP10,Pediatrics,31011,Recovered,0.69,3,Low,Active,10,No,No
+P0230,Ananya Naidu,42,Female,A-,184,105.8,31.2,111,97,68,Asthma,Moderate,2025-04-22,2025-04-24,Emergency Care,Amlodipine,D029,DEP09,Emergency,2801,Recovered,0.18,2,Medium,Active,4,No,No
+P0231,Neha Singh,53,Male,B-,135,35.2,19.3,134,85,119,Hypertension,Severe,2025-03-02,2025-03-08,Physiotherapy,Paracetamol,D014,DEP05,Pulmonology,13462,Stable,0.55,6,Medium,Active,16,No,No
+P0232,Rahul Patel,1,Male,O+,173,30.6,10.2,177,77,60,COVID-19,Moderate,2025-02-27,2025-03-05,Surgery,Insulin,D005,DEP09,Emergency,96098,Referred,0.12,6,Medium,Not Insured,15,No,No
+P0233,Vikram Verma,35,Male,A+,186,37.3,10.8,135,100,77,Pneumonia,Severe,2026-06-30,2026-07-01,Surgery,Omeprazole,D007,DEP10,Pediatrics,28155,Improving,0.45,1,Low,Active,3,No,No
+P0234,Rohit Naidu,74,Male,B-,182,79.2,23.9,126,74,116,Kidney Disease,Severe,2025-02-25,2025-03-06,Medication,Losartan,D001,DEP01,Cardiology,89677,Stable,0.62,9,Low,Active,10,Yes,No
+P0235,Ravi Das,40,Male,AB+,136,40.8,22.1,156,83,63,Heart Disease,Moderate,2025-05-10,2025-05-19,Medication,Amlodipine,D023,DEP08,Gastroenterology,54864,Referred,0.3,9,Medium,Active,17,No,No
+P0236,Ananya Das,17,Female,A-,133,88.4,50.0,114,106,63,Gastritis,Moderate,2025-05-12,2025-05-14,Physiotherapy,Losartan,D026,DEP02,Neurology,42218,Under Treatment,0.02,2,Medium,Not Insured,2,No,No
+P0237,Rahul Kumar,33,Male,A-,168,48.1,17.0,120,94,106,Kidney Disease,Severe,2025-02-18,2025-02-25,Emergency Care,Losartan,D008,DEP01,Cardiology,35480,Referred,0.45,7,Medium,Active,19,No,No
+P0238,Neha Kumar,78,Male,AB-,190,63.6,17.6,178,62,106,Arthritis,Moderate,2025-05-01,2025-05-14,Surgery,Amlodipine,D012,DEP10,Pediatrics,13049,Improving,0.39,13,Medium,Active,7,Yes,No
+P0239,Anil Rao,48,Male,O-,121,33.8,23.1,149,71,94,Pneumonia,Severe,2026-07-12,2026-07-15,Observation,Omeprazole,D018,DEP07,Dermatology,75305,Under Treatment,0.63,3,Medium,Active,20,No,No
+P0240,Kiran Naidu,6,Male,B+,146,96.6,45.3,153,64,65,Kidney Disease,Mild,2025-12-23,2025-12-30,Physiotherapy,Metformin,D026,DEP03,General Medicine,145237,Referred,0.21,7,Medium,Not Insured,5,No,No
+P0241,Ananya Kumar,14,Female,O+,133,82.7,46.8,128,100,64,Pneumonia,Severe,2025-12-30,2026-01-06,Medication,Losartan,D013,DEP03,General Medicine,92574,Improving,0.32,7,Low,Active,3,No,No
+P0242,Pooja Singh,74,Female,O-,125,37.3,23.9,157,71,56,Arthritis,Moderate,2025-11-03,2025-11-14,Physiotherapy,Paracetamol,D029,DEP01,Cardiology,77911,Improving,0.41,11,Low,Inactive,17,No,No
+P0243,Arjun Kumar,39,Male,A-,139,103.0,53.3,95,85,92,Kidney Disease,Severe,2025-05-15,2025-05-24,Counseling,Ibuprofen,D019,DEP02,Neurology,79409,Improving,0.41,9,Medium,Active,5,No,No
+P0244,Pooja Das,33,Male,B+,178,90.5,28.6,142,101,81,Migraine,Mild,2025-12-18,2025-12-30,Medication,Amlodipine,D025,DEP08,Gastroenterology,41615,Under Treatment,0.25,12,Low,Active,6,No,No
+P0245,Varun Kumar,47,Male,A-,152,55.4,24.0,145,109,72,Viral Infection,Moderate,2026-08-19,2026-08-22,Counseling,Losartan,D004,DEP02,Neurology,149264,Recovered,0.25,3,Medium,Inactive,3,No,No
+P0246,Ananya Sharma,58,Female,O-,142,43.9,21.8,128,67,72,COVID-19,Severe,2025-05-20,2025-05-28,Counseling,Losartan,D026,DEP03,General Medicine,88953,Under Treatment,0.43,8,High,Inactive,17,No,No
+P0247,Varun Naidu,7,Male,AB-,145,96.6,45.9,134,68,86,Hypertension,Mild,2025-07-23,2025-07-30,Counseling,Losartan,D024,DEP02,Neurology,7136,Under Treatment,0.02,7,Medium,Active,15,No,No
+P0248,Ravi Singh,11,Female,A+,145,105.0,49.9,134,72,77,Anemia,Critical,2025-08-09,2025-08-14,Emergency Care,Losartan,D005,DEP04,Orthopedics,79512,Recovered,0.42,5,Low,Active,19,No,No
+P0249,Vikram Naidu,77,Male,AB-,177,52.7,16.8,162,92,110,Heart Disease,Moderate,2025-02-11,2025-02-17,Counseling,Salbutamol,D022,DEP05,Pulmonology,92379,Stable,0.5,6,Low,Not Insured,17,Yes,No
+P0250,Sneha Naidu,76,Male,AB+,155,76.6,31.9,147,77,97,Hypertension,Critical,2026-06-05,2026-06-18,Medication,Losartan,D016,DEP07,Dermatology,9917,Under Treatment,0.76,13,Low,Active,0,No,No
+P0251,Kavya Verma,35,Female,A+,165,99.6,36.6,156,97,77,Arthritis,Moderate,2025-03-31,2025-04-01,Medication,Ibuprofen,D023,DEP08,Gastroenterology,114198,Stable,0.26,1,Medium,Not Insured,16,No,No
+P0252,Varun Verma,80,Female,O-,183,46.5,13.9,180,108,103,Heart Disease,Mild,2026-02-24,2026-02-27,Counseling,Atorvastatin,D015,DEP04,Orthopedics,41119,Recovered,0.49,3,Medium,Not Insured,12,No,No
+P0253,Aman Verma,52,Male,A-,138,62.4,32.8,138,63,88,Viral Infection,Severe,2025-01-07,2025-01-16,Surgery,Losartan,D006,DEP04,Orthopedics,20923,Stable,0.48,9,High,Active,7,Yes,No
+P0254,Sneha Reddy,30,Male,AB+,168,22.0,7.8,151,90,106,Arthritis,Moderate,2025-03-10,2025-03-20,Emergency Care,Metformin,D030,DEP05,Pulmonology,123526,Referred,0.18,10,Medium,Not Insured,11,No,No
+P0255,Nikhil Rao,71,Male,AB+,177,63.9,20.4,174,105,74,Asthma,Moderate,2025-04-02,2025-04-17,Medication,Metformin,D001,DEP01,Cardiology,42615,Referred,0.36,15,Low,Active,8,No,No
+P0256,Varun Naidu,55,Male,B+,171,30.4,10.4,164,110,120,Hypertension,Critical,2025-07-03,2025-07-10,Emergency Care,Paracetamol,D019,DEP06,Nephrology,43162,Recovered,0.66,7,Low,Not Insured,6,No,No
+P0257,Ananya Reddy,25,Male,AB-,188,25.2,7.1,123,68,105,Arthritis,Mild,2025-07-15,2025-07-23,Counseling,None,D003,DEP04,Orthopedics,131693,Recovered,0.02,8,High,Active,8,No,No
+P0258,Nikhil Verma,27,Male,AB+,139,41.4,21.4,95,69,101,Hypertension,Mild,2026-03-09,2026-03-22,Emergency Care,Ibuprofen,D022,DEP03,General Medicine,96877,Improving,0.15,13,Low,Active,5,No,No
+P0259,Divya Rao,72,Male,O+,170,106.2,36.7,124,63,93,Pneumonia,Critical,2026-01-24,2026-02-07,Medication,Omeprazole,D023,DEP09,Emergency,58023,Under Treatment,0.5,14,Medium,Active,6,No,No
+P0260,Kavya Verma,50,Female,AB-,161,47.9,18.5,173,89,71,Hypertension,Mild,2026-03-26,2026-04-05,Emergency Care,Omeprazole,D013,DEP05,Pulmonology,98564,Improving,0.36,10,Low,Active,14,Yes,No
+P0261,Pooja Verma,32,Female,A+,186,104.4,30.2,161,71,102,Pneumonia,Mild,2025-03-15,2025-03-18,Counseling,Omeprazole,D019,DEP02,Neurology,6995,Referred,0.32,3,Medium,Active,12,No,No
+P0262,Divya Rao,24,Male,B-,178,57.7,18.2,134,107,108,Arthritis,Moderate,2025-11-20,2025-11-29,Observation,Metformin,D003,DEP04,Orthopedics,78595,Recovered,0.02,9,Medium,Active,19,No,No
+P0263,Aman Gupta,22,Female,A+,174,97.6,32.2,106,83,93,Gastritis,Mild,2026-03-20,2026-03-30,Medication,Ibuprofen,D022,DEP10,Pediatrics,110736,Referred,0.09,10,Low,Active,10,No,No
+P0264,Kavya Verma,34,Male,AB+,186,24.6,7.1,165,104,120,COVID-19,Severe,2026-08-10,2026-08-23,Observation,Omeprazole,D029,DEP10,Pediatrics,16299,Stable,0.56,13,Medium,Active,19,Yes,No
+P0265,Nikhil Verma,37,Male,O-,168,78.2,27.7,112,97,91,Kidney Disease,Moderate,2025-08-27,2025-09-01,Surgery,Omeprazole,D003,DEP08,Gastroenterology,17494,Improving,0.16,5,High,Active,8,No,No
+P0266,Meena Sharma,45,Male,O-,139,76.3,39.5,121,85,61,Kidney Disease,Mild,2025-11-10,2025-11-23,Counseling,Losartan,D019,DEP05,Pulmonology,106685,Under Treatment,0.23,13,Medium,Inactive,19,No,No
+P0267,Vikram Rao,21,Female,B+,158,107.7,43.1,130,70,119,Asthma,Moderate,2025-02-15,2025-02-17,Physiotherapy,Amlodipine,D018,DEP01,Cardiology,119671,Under Treatment,0.15,2,Medium,Not Insured,8,No,No
+P0268,Arjun Das,76,Female,AB+,155,67.3,28.0,164,107,103,COVID-19,Critical,2025-02-18,2025-03-05,Counseling,Metformin,D016,DEP10,Pediatrics,72856,Referred,0.76,15,Low,Inactive,12,No,No
+P0269,Arjun Singh,66,Female,B+,173,86.3,28.8,156,97,100,Kidney Disease,Critical,2025-03-31,2025-04-10,Medication,Atorvastatin,D024,DEP05,Pulmonology,145488,Under Treatment,0.71,10,Medium,Active,17,No,No
+P0270,Rahul Naidu,10,Male,A+,148,85.5,39.0,131,81,77,COVID-19,Moderate,2025-03-25,2025-04-07,Counseling,Ibuprofen,D013,DEP10,Pediatrics,71809,Improving,0.02,13,Low,Active,7,No,No
+P0271,Priya Rao,42,Male,A-,155,45.5,18.9,160,84,81,Kidney Disease,Critical,2025-02-27,2025-03-13,Surgery,Atorvastatin,D002,DEP07,Dermatology,78725,Improving,0.55,14,Medium,Not Insured,11,No,No
+P0272,Aman Kumar,65,Female,O+,184,48.3,14.3,97,105,109,Viral Infection,Mild,2025-04-27,2025-05-01,Emergency Care,Salbutamol,D024,DEP08,Gastroenterology,47515,Under Treatment,0.23,4,Low,Active,16,No,No
+P0273,Nikhil Verma,11,Male,B+,184,87.9,26.0,137,64,67,Migraine,Critical,2025-04-25,2025-04-29,Surgery,Salbutamol,D012,DEP09,Emergency,76354,Recovered,0.4,4,High,Active,14,No,No
+P0274,Rahul Singh,20,Female,B+,155,37.1,15.4,154,94,84,Kidney Disease,Mild,2025-11-29,2025-11-30,Medication,Ibuprofen,D011,DEP04,Orthopedics,60459,Referred,0.21,1,Low,Active,3,Yes,No
+P0275,Meena Sharma,50,Male,O+,160,52.9,20.7,138,98,101,Diabetes,Mild,2025-03-07,2025-03-12,Emergency Care,Atorvastatin,D002,DEP02,Neurology,75829,Under Treatment,0.17,5,Low,Active,0,No,No
+P0276,Kiran Kumar,2,Female,A-,160,90.3,35.3,110,63,66,Viral Infection,Moderate,2025-08-17,2025-08-19,Emergency Care,None,D017,DEP03,General Medicine,91346,Referred,0.02,2,High,Inactive,0,No,No
+P0277,Pooja Rao,29,Male,A-,144,43.1,20.8,98,77,111,Hypertension,Mild,2025-06-06,2025-06-21,Physiotherapy,Losartan,D020,DEP09,Emergency,27998,Improving,0.09,15,Low,Not Insured,12,No,No
+P0278,Neha Sharma,37,Female,A+,127,65.3,40.5,163,90,99,Gastritis,Critical,2025-08-24,2025-08-29,Medication,Losartan,D002,DEP04,Orthopedics,22558,Stable,0.52,5,Medium,Active,12,No,No
+P0279,Anil Singh,9,Female,O+,121,26.3,18.0,141,61,112,Kidney Disease,Mild,2025-06-21,2025-07-06,Surgery,Omeprazole,D023,DEP07,Dermatology,2267,Stable,0.26,15,High,Active,20,No,No
+P0280,Vikram Gupta,42,Female,A+,185,42.4,12.4,112,80,106,Gastritis,Mild,2025-12-20,2025-12-30,Emergency Care,Salbutamol,D020,DEP01,Cardiology,107670,Recovered,0.14,10,Medium,Active,7,No,No
+P0281,Kavya Das,27,Female,B-,181,67.3,20.5,154,100,87,Arthritis,Moderate,2026-02-17,2026-02-24,Physiotherapy,Atorvastatin,D010,DEP10,Pediatrics,107580,Under Treatment,0.2,7,Low,Active,4,No,No
+P0282,Nikhil Rao,23,Female,O-,137,38.4,20.5,133,92,80,Hypertension,Moderate,2025-05-24,2025-06-06,Medication,None,D009,DEP01,Cardiology,35660,Under Treatment,0.14,13,Low,Active,5,No,No
+P0283,Suresh Patel,39,Female,A+,131,76.8,44.8,117,107,104,Hypertension,Severe,2025-10-05,2025-10-08,Counseling,Salbutamol,D026,DEP10,Pediatrics,134096,Improving,0.4,3,Low,Active,9,No,No
+P0284,Nikhil Naidu,19,Female,AB+,186,58.7,17.0,170,64,65,Arthritis,Mild,2025-11-25,2025-11-29,Observation,Salbutamol,D022,DEP01,Cardiology,117152,Under Treatment,0.29,4,High,Not Insured,2,No,Yes
+P0285,Divya Naidu,43,Female,A+,168,106.9,37.9,96,83,120,Heart Disease,Moderate,2025-03-05,2025-03-08,Physiotherapy,Salbutamol,D022,DEP10,Pediatrics,9461,Improving,0.23,3,High,Active,20,No,No
+P0286,Suresh Singh,70,Male,AB+,163,63.5,23.9,134,62,120,Asthma,Mild,2026-03-05,2026-03-06,Emergency Care,None,D017,DEP10,Pediatrics,36530,Improving,0.3,1,Medium,Active,13,Yes,No
+P0287,Arjun Patel,2,Female,A+,146,103.9,48.7,152,64,106,Hypertension,Moderate,2025-04-11,2025-04-16,Counseling,Insulin,D026,DEP07,Dermatology,96751,Recovered,0.16,5,Low,Active,18,No,No
+P0288,Kiran Gupta,57,Female,AB-,154,66.7,28.1,116,98,111,Diabetes,Severe,2025-09-18,2025-09-20,Physiotherapy,Ibuprofen,D024,DEP09,Emergency,20752,Improving,0.57,2,Medium,Not Insured,19,No,No
+P0289,Meena Naidu,46,Female,O-,166,60.3,21.9,144,72,114,Hypertension,Moderate,2026-05-13,2026-05-20,Surgery,Metformin,D018,DEP07,Dermatology,95692,Under Treatment,0.33,7,Medium,Active,15,No,No
+P0290,Nikhil Verma,14,Female,AB-,168,27.1,9.6,151,102,112,Diabetes,Moderate,2026-02-05,2026-02-12,Observation,Amoxicillin,D008,DEP07,Dermatology,9026,Improving,0.17,7,Medium,Not Insured,16,No,No
+P0291,Meena Verma,34,Female,B+,144,29.6,14.3,179,70,70,Viral Infection,Mild,2025-07-21,2025-07-29,Counseling,Ibuprofen,D030,DEP08,Gastroenterology,104121,Under Treatment,0.24,8,Low,Inactive,10,No,No
+P0292,Aman Reddy,6,Male,O+,146,88.4,41.5,147,97,57,Viral Infection,Moderate,2025-03-07,2025-03-16,Medication,Insulin,D014,DEP09,Emergency,71900,Improving,0.24,9,High,Active,9,No,No
+P0293,Ravi Patel,58,Female,A-,143,104.9,51.3,119,91,72,Kidney Disease,Severe,2026-05-17,2026-05-28,Medication,Salbutamol,D030,DEP04,Orthopedics,118743,Referred,0.5,11,Low,Active,10,No,No
+P0294,Ananya Gupta,19,Female,B+,131,72.9,42.5,173,88,80,Arthritis,Moderate,2026-09-05,2026-09-10,Observation,None,D005,DEP04,Orthopedics,114957,Improving,0.15,5,Low,Active,9,No,No
+P0295,Varun Reddy,53,Male,AB+,158,25.7,10.3,133,84,75,Heart Disease,Severe,2026-02-16,2026-02-27,Physiotherapy,Paracetamol,D028,DEP03,General Medicine,6155,Recovered,0.54,11,Low,Active,20,Yes,Yes
+P0296,Divya Kumar,43,Female,AB-,125,67.4,43.1,106,104,120,Kidney Disease,Moderate,2025-03-08,2025-03-20,Counseling,Salbutamol,D024,DEP03,General Medicine,105403,Stable,0.09,12,Low,Inactive,5,No,No
+P0297,Pooja Reddy,24,Female,A-,184,102.9,30.4,122,99,77,Anemia,Severe,2025-11-09,2025-11-20,Physiotherapy,Ibuprofen,D008,DEP06,Nephrology,112766,Improving,0.43,11,High,Inactive,3,No,No
+P0298,Arjun Patel,30,Female,A-,182,53.6,16.2,101,99,93,Anemia,Moderate,2026-03-17,2026-03-22,Observation,Insulin,D007,DEP01,Cardiology,142249,Under Treatment,0.05,5,Low,Active,14,No,No
+P0299,Aman Das,67,Male,B-,126,79.9,50.3,128,101,73,Anemia,Severe,2026-03-31,2026-04-14,Physiotherapy,Insulin,D019,DEP08,Gastroenterology,116397,Stable,0.48,14,Low,Active,18,Yes,No
+P0300,Neha Reddy,10,Male,O+,149,66.8,30.1,169,107,56,Hypertension,Mild,2025-04-15,2025-04-17,Emergency Care,Metformin,D010,DEP01,Cardiology,111686,Improving,0.16,2,High,Inactive,0,No,No
+P0301,Priya Reddy,19,Male,O+,146,25.6,12.0,134,91,71,Heart Disease,Moderate,2026-05-15,2026-05-16,Medication,Omeprazole,D020,DEP08,Gastroenterology,25661,Improving,0.03,1,High,Active,13,No,No
+P0302,Divya Patel,39,Female,O-,154,90.0,37.9,148,96,94,Gastritis,Moderate,2025-02-07,2025-02-15,Observation,Metformin,D028,DEP08,Gastroenterology,57068,Recovered,0.35,8,Medium,Active,20,Yes,No
+P0303,Sneha Verma,13,Male,A-,184,26.9,7.9,102,69,65,Migraine,Moderate,2025-08-27,2025-09-10,Medication,Ibuprofen,D008,DEP03,General Medicine,128652,Recovered,0.12,14,Low,Active,11,No,No
+P0304,Kavya Das,68,Female,O-,171,26.6,9.1,169,92,112,Viral Infection,Severe,2025-01-22,2025-02-04,Physiotherapy,Ibuprofen,D009,DEP06,Nephrology,75623,Recovered,0.61,13,High,Active,3,No,No
+P0305,Ravi Naidu,13,Male,O+,150,61.0,27.1,121,74,87,Heart Disease,Severe,2025-10-11,2025-10-23,Observation,Atorvastatin,D016,DEP02,Neurology,147264,Improving,0.32,12,High,Active,10,Yes,No
+P0306,Pooja Gupta,71,Male,B-,157,65.8,26.7,133,96,62,Viral Infection,Moderate,2025-03-03,2025-03-16,Physiotherapy,Metformin,D027,DEP07,Dermatology,113404,Referred,0.28,13,Medium,Not Insured,15,No,No
+P0307,Pooja Naidu,38,Male,A-,172,46.9,15.9,125,103,114,Kidney Disease,Severe,2026-09-04,2026-09-14,Medication,Losartan,D012,DEP06,Nephrology,24106,Stable,0.38,10,Low,Active,4,No,No
+P0308,Divya Rao,31,Female,O-,129,99.3,59.7,164,79,59,COVID-19,Moderate,2026-05-16,2026-05-28,Surgery,Paracetamol,D019,DEP10,Pediatrics,102072,Referred,0.26,12,Medium,Not Insured,7,No,No
+P0309,Sai Das,71,Male,B-,181,64.9,19.8,155,62,92,Hypertension,Moderate,2025-04-28,2025-05-07,Medication,None,D027,DEP02,Neurology,133639,Stable,0.43,9,High,Inactive,9,No,No
+P0310,Rohit Rao,62,Female,O-,166,103.2,37.5,148,71,94,Hypertension,Moderate,2025-12-23,2025-12-24,Surgery,Paracetamol,D016,DEP09,Emergency,73678,Stable,0.35,1,Low,Inactive,11,Yes,No
+P0311,Rahul Verma,1,Female,O-,168,106.9,37.9,118,84,61,COVID-19,Mild,2025-10-20,2025-10-24,Medication,Insulin,D012,DEP07,Dermatology,28728,Stable,0.02,4,Medium,Inactive,12,No,No
+P0312,Anil Verma,80,Male,AB+,131,22.7,13.2,107,90,56,Diabetes,Mild,2025-05-08,2025-05-22,Medication,Atorvastatin,D012,DEP07,Dermatology,77122,Under Treatment,0.3,14,Medium,Active,12,No,No
+P0313,Kiran Verma,70,Male,A+,180,39.8,12.3,164,102,83,Diabetes,Mild,2026-09-07,2026-09-10,Surgery,Metformin,D019,DEP08,Gastroenterology,101525,Improving,0.47,3,Medium,Inactive,0,No,No
+P0314,Kiran Patel,67,Female,AB-,150,53.0,23.6,130,96,80,Pneumonia,Mild,2026-03-15,2026-03-29,Emergency Care,Atorvastatin,D013,DEP04,Orthopedics,60376,Referred,0.18,14,Low,Inactive,6,Yes,Yes
+P0315,Pooja Reddy,21,Female,AB-,165,83.6,30.7,102,83,57,Diabetes,Severe,2025-12-06,2025-12-19,Medication,None,D013,DEP04,Orthopedics,8733,Recovered,0.41,13,Low,Active,13,No,No
+P0316,Vikram Naidu,48,Male,A-,182,30.6,9.2,137,76,94,Viral Infection,Moderate,2025-06-05,2025-06-17,Medication,Losartan,D011,DEP01,Cardiology,25906,Under Treatment,0.15,12,Medium,Not Insured,10,No,No
+P0317,Pooja Kumar,37,Female,AB-,125,80.6,51.6,119,74,105,Pneumonia,Moderate,2026-03-10,2026-03-16,Emergency Care,Losartan,D012,DEP09,Emergency,55713,Stable,0.13,6,Low,Inactive,6,No,No
+P0318,Priya Rao,13,Male,O-,137,105.3,56.1,167,90,109,COVID-19,Mild,2025-07-03,2025-07-11,Surgery,Paracetamol,D028,DEP01,Cardiology,36701,Improving,0.24,8,Low,Not Insured,17,Yes,No
+P0319,Varun Verma,2,Male,O-,162,42.6,16.2,99,70,119,Pneumonia,Moderate,2026-08-29,2026-09-08,Medication,Omeprazole,D020,DEP04,Orthopedics,36782,Improving,0.02,10,Medium,Active,13,No,Yes
+P0320,Vikram Singh,77,Male,A-,143,67.1,32.8,160,75,92,Kidney Disease,Moderate,2026-03-14,2026-03-24,Medication,Amoxicillin,D010,DEP07,Dermatology,114726,Under Treatment,0.48,10,Medium,Active,9,No,No
+P0321,Divya Kumar,32,Male,A+,151,63.4,27.8,95,101,56,Pneumonia,Moderate,2025-01-26,2025-01-29,Observation,Atorvastatin,D019,DEP10,Pediatrics,144228,Under Treatment,0.1,3,Low,Active,8,No,No
+P0322,Kiran Kumar,43,Female,A-,158,57.4,23.0,101,75,70,Kidney Disease,Severe,2025-02-17,2025-03-03,Counseling,Ibuprofen,D029,DEP10,Pediatrics,1986,Referred,0.5,14,High,Not Insured,19,Yes,Yes
+P0323,Priya Naidu,24,Male,AB+,123,79.8,52.7,171,77,120,Viral Infection,Mild,2026-08-12,2026-08-21,Surgery,Metformin,D010,DEP10,Pediatrics,101294,Referred,0.28,9,Low,Inactive,2,No,No
+P0324,Ananya Rao,64,Male,O+,160,72.9,28.5,119,86,60,Hypertension,Moderate,2026-07-22,2026-07-29,Medication,Insulin,D030,DEP06,Nephrology,74072,Referred,0.19,7,Medium,Active,20,No,No
+P0325,Nikhil Kumar,28,Male,AB+,187,77.2,22.1,174,110,96,Diabetes,Mild,2026-04-15,2026-04-27,Surgery,Paracetamol,D028,DEP05,Pulmonology,39909,Referred,0.18,12,Low,Inactive,1,No,No
+P0326,Anil Das,61,Female,B+,129,47.3,28.4,95,64,69,COVID-19,Mild,2025-03-06,2025-03-19,Counseling,Metformin,D015,DEP02,Neurology,96326,Recovered,0.16,13,Low,Active,17,No,Yes
+P0327,Neha Das,75,Female,B+,139,92.7,48.0,95,63,108,Viral Infection,Critical,2025-05-10,2025-05-15,Physiotherapy,Omeprazole,D006,DEP01,Cardiology,32484,Improving,0.61,5,Medium,Active,9,Yes,No
+P0328,Vikram Patel,48,Female,AB+,169,28.0,9.8,102,69,100,Hypertension,Moderate,2025-02-22,2025-03-06,Physiotherapy,Insulin,D018,DEP08,Gastroenterology,55937,Improving,0.19,12,Medium,Active,13,No,No
+P0329,Ravi Verma,61,Female,O-,180,56.1,17.3,111,78,105,Kidney Disease,Mild,2026-08-25,2026-09-09,Counseling,Insulin,D019,DEP04,Orthopedics,126246,Improving,0.25,15,Low,Active,14,No,No
+P0330,Kiran Naidu,28,Male,A+,154,58.5,24.7,166,100,120,Viral Infection,Mild,2025-03-26,2025-04-01,Emergency Care,Amoxicillin,D004,DEP09,Emergency,114819,Stable,0.28,6,High,Active,13,No,No
+P0331,Ananya Gupta,66,Female,O-,160,101.1,39.5,108,93,103,Asthma,Severe,2025-10-01,2025-10-05,Surgery,Salbutamol,D012,DEP03,General Medicine,112277,Recovered,0.5,4,Low,Not Insured,8,No,No
+P0332,Meena Singh,11,Female,B-,139,39.4,20.4,146,67,58,Anemia,Severe,2025-04-20,2025-05-01,Emergency Care,Paracetamol,D011,DEP05,Pulmonology,88586,Referred,0.54,11,Medium,Active,8,No,No
+P0333,Aman Das,77,Male,A+,158,58.4,23.4,177,108,112,Pneumonia,Moderate,2025-10-02,2025-10-10,Surgery,Metformin,D017,DEP06,Nephrology,103653,Referred,0.46,8,Medium,Not Insured,15,No,No
+P0334,Nikhil Verma,3,Female,AB-,131,99.9,58.2,143,102,103,Diabetes,Moderate,2025-11-30,2025-12-11,Medication,Amoxicillin,D015,DEP08,Gastroenterology,127382,Under Treatment,0.23,11,Low,Active,13,No,No
+P0335,Ravi Rao,52,Female,AB+,173,31.9,10.7,114,92,79,Pneumonia,Severe,2025-03-07,2025-03-13,Surgery,Metformin,D022,DEP09,Emergency,117344,Stable,0.47,6,Low,Not Insured,17,No,No
+P0336,Varun Singh,49,Male,A+,184,23.5,6.9,177,88,69,Viral Infection,Moderate,2025-05-13,2025-05-20,Counseling,Insulin,D007,DEP10,Pediatrics,82258,Improving,0.28,7,Low,Active,20,Yes,No
+P0337,Divya Patel,64,Male,O-,171,40.5,13.9,112,110,63,Pneumonia,Severe,2026-09-04,2026-09-05,Counseling,Salbutamol,D009,DEP03,General Medicine,38058,Improving,0.45,1,Low,Active,12,No,No
+P0338,Kiran Singh,63,Male,B+,144,90.6,43.7,144,84,103,Asthma,Severe,2025-01-11,2025-01-20,Medication,Amoxicillin,D009,DEP02,Neurology,95988,Improving,0.66,9,High,Active,13,No,No
+P0339,Ravi Verma,47,Female,AB-,163,59.3,22.3,149,74,88,Heart Disease,Mild,2025-08-09,2025-08-17,Surgery,Losartan,D029,DEP10,Pediatrics,3902,Recovered,0.32,8,Low,Not Insured,0,No,No
+P0340,Varun Kumar,64,Male,O+,151,56.6,24.8,113,83,65,Anemia,Moderate,2025-07-13,2025-07-25,Surgery,Losartan,D005,DEP07,Dermatology,114550,Referred,0.16,12,Low,Active,16,No,No
+P0341,Kiran Verma,74,Male,A-,173,43.6,14.6,152,100,64,COVID-19,Moderate,2025-01-31,2025-02-07,Counseling,Atorvastatin,D020,DEP07,Dermatology,87810,Referred,0.44,7,High,Not Insured,8,Yes,No
+P0342,Ravi Rao,63,Female,O+,180,64.3,19.8,127,75,76,Migraine,Mild,2026-03-11,2026-03-21,Emergency Care,Omeprazole,D010,DEP07,Dermatology,69549,Stable,0.19,10,High,Active,6,No,No
+P0343,Ananya Kumar,21,Female,O+,183,71.4,21.3,129,74,60,Heart Disease,Moderate,2026-04-25,2026-05-04,Counseling,Omeprazole,D002,DEP03,General Medicine,67388,Stable,0.04,9,Medium,Active,19,No,No
+P0344,Ananya Gupta,26,Female,AB+,170,84.0,29.1,153,65,112,Anemia,Mild,2025-11-05,2025-11-13,Counseling,Ibuprofen,D018,DEP06,Nephrology,59918,Under Treatment,0.22,8,Low,Active,3,No,No
+P0345,Rahul Verma,74,Male,O+,144,103.0,49.7,143,65,80,Pneumonia,Severe,2025-04-21,2025-04-23,Physiotherapy,Insulin,D005,DEP04,Orthopedics,69684,Stable,0.75,2,Medium,Active,18,No,No
+P0346,Ravi Rao,78,Female,A+,168,104.1,36.9,165,78,85,Pneumonia,Moderate,2025-09-18,2025-09-25,Surgery,None,D011,DEP10,Pediatrics,129522,Referred,0.39,7,Medium,Not Insured,14,No,No
+P0347,Priya Rao,24,Male,AB-,123,71.3,47.1,137,75,87,Viral Infection,Moderate,2026-05-19,2026-05-21,Observation,Insulin,D015,DEP10,Pediatrics,86501,Improving,0.09,2,Medium,Not Insured,6,No,No
+P0348,Sai Patel,39,Female,O+,182,68.2,20.6,98,88,55,Viral Infection,Severe,2025-03-06,2025-03-14,Emergency Care,Atorvastatin,D013,DEP05,Pulmonology,97713,Recovered,0.46,8,Low,Active,5,Yes,No
+P0349,Sai Singh,37,Female,AB+,166,24.4,8.9,163,95,86,Diabetes,Moderate,2026-03-07,2026-03-17,Surgery,Metformin,D015,DEP06,Nephrology,2059,Recovered,0.21,10,Medium,Active,0,No,No
+P0350,Pooja Sharma,49,Male,B+,167,45.5,16.3,159,71,60,Anemia,Mild,2026-03-07,2026-03-15,Medication,None,D029,DEP09,Emergency,67292,Improving,0.27,8,Medium,Active,13,No,No
+P0351,Meena Reddy,50,Male,O-,122,84.3,56.6,175,109,91,Arthritis,Critical,2026-07-16,2026-07-20,Medication,Insulin,D022,DEP04,Orthopedics,149202,Under Treatment,0.55,4,Medium,Active,14,Yes,No
+P0352,Divya Singh,61,Female,O-,177,41.3,13.2,125,91,86,Migraine,Severe,2025-01-12,2025-01-26,Counseling,Paracetamol,D027,DEP10,Pediatrics,144574,Under Treatment,0.52,14,Medium,Active,15,No,No
+P0353,Meena Singh,17,Female,A+,149,31.1,14.0,137,107,81,Pneumonia,Moderate,2026-05-01,2026-05-07,Medication,Salbutamol,D026,DEP07,Dermatology,123902,Recovered,0.06,6,High,Active,0,No,No
+P0354,Pooja Naidu,17,Male,O+,159,53.6,21.2,155,75,70,Arthritis,Moderate,2026-04-06,2026-04-17,Surgery,Salbutamol,D030,DEP02,Neurology,126791,Under Treatment,0.18,11,Low,Inactive,18,No,No
+P0355,Rohit Singh,61,Male,O-,121,81.9,55.9,127,73,65,Asthma,Mild,2025-07-22,2025-08-06,Counseling,Metformin,D027,DEP02,Neurology,14475,Improving,0.26,15,Medium,Active,17,No,No
+P0356,Varun Reddy,69,Male,B-,178,80.3,25.3,151,76,93,Asthma,Moderate,2025-08-04,2025-08-11,Counseling,Metformin,D012,DEP06,Nephrology,93916,Improving,0.44,7,Medium,Active,3,No,No
+P0357,Neha Kumar,53,Male,B+,123,67.4,44.6,168,106,110,Heart Disease,Severe,2026-09-12,2026-09-15,Medication,Salbutamol,D029,DEP03,General Medicine,85758,Recovered,0.58,3,Low,Active,3,No,No
+P0358,Arjun Gupta,22,Male,A+,167,83.7,30.0,162,80,97,Migraine,Mild,2025-08-21,2025-08-28,Surgery,Salbutamol,D001,DEP01,Cardiology,62980,Under Treatment,0.22,7,Low,Active,16,No,No
+P0359,Aman Sharma,77,Male,A-,131,78.6,45.8,127,88,85,Pneumonia,Severe,2026-02-27,2026-02-28,Medication,Amlodipine,D017,DEP01,Cardiology,124851,Under Treatment,0.49,1,Low,Inactive,12,No,No
+P0360,Sai Gupta,67,Male,B-,180,92.7,28.6,155,82,84,Pneumonia,Mild,2026-04-15,2026-04-28,Counseling,Amlodipine,D005,DEP05,Pulmonology,18658,Recovered,0.39,13,Low,Inactive,0,No,No
+P0361,Suresh Sharma,33,Female,B+,152,36.7,15.9,139,85,116,Viral Infection,Moderate,2026-06-12,2026-06-17,Surgery,Insulin,D010,DEP10,Pediatrics,62951,Stable,0.16,5,High,Not Insured,2,No,No
+P0362,Pooja Singh,13,Male,A+,121,43.4,29.6,141,81,87,Gastritis,Severe,2025-01-21,2025-01-24,Counseling,Metformin,D002,DEP09,Emergency,28507,Stable,0.47,3,Medium,Not Insured,9,No,No
+P0363,Divya Sharma,68,Male,O-,122,29.5,19.8,158,67,91,Migraine,Moderate,2025-06-03,2025-06-11,Medication,Metformin,D023,DEP09,Emergency,147318,Referred,0.39,8,High,Not Insured,5,No,No
+P0364,Suresh Naidu,56,Male,B+,133,83.6,47.3,162,86,97,Diabetes,Severe,2026-08-15,2026-08-29,Observation,Insulin,D013,DEP04,Orthopedics,83516,Improving,0.67,14,Medium,Active,11,No,No
+P0365,Rahul Reddy,49,Male,A+,184,109.1,32.2,97,84,109,Migraine,Moderate,2026-03-21,2026-03-29,Surgery,Omeprazole,D009,DEP02,Neurology,116877,Stable,0.18,8,Low,Not Insured,5,No,Yes
+P0366,Suresh Reddy,64,Female,AB+,132,97.5,56.0,97,94,87,Migraine,Moderate,2025-09-25,2025-10-04,Surgery,None,D004,DEP01,Cardiology,56211,Referred,0.29,9,Medium,Active,2,No,No
+P0367,Suresh Patel,61,Female,O-,142,70.1,34.8,171,75,95,Arthritis,Moderate,2025-05-18,2025-05-27,Counseling,Amlodipine,D021,DEP07,Dermatology,65873,Stable,0.32,9,Low,Not Insured,0,No,No
+P0368,Rohit Gupta,7,Male,A-,188,46.9,13.3,100,84,73,Arthritis,Moderate,2026-06-26,2026-07-05,Surgery,Paracetamol,D026,DEP09,Emergency,124645,Improving,0.08,9,Medium,Not Insured,12,No,No
+P0369,Ananya Sharma,71,Female,B+,154,70.0,29.5,124,98,97,Diabetes,Moderate,2025-07-14,2025-07-27,Emergency Care,Insulin,D011,DEP03,General Medicine,52124,Stable,0.26,13,Medium,Not Insured,0,No,No
+P0370,Aman Verma,78,Female,AB-,133,82.5,46.6,177,106,108,Kidney Disease,Severe,2026-05-02,2026-05-06,Physiotherapy,Losartan,D016,DEP05,Pulmonology,112314,Referred,0.66,4,Low,Inactive,1,No,No
+P0371,Vikram Gupta,19,Female,B-,120,20.5,14.2,160,99,92,COVID-19,Mild,2025-01-22,2025-02-04,Physiotherapy,Ibuprofen,D009,DEP02,Neurology,69804,Improving,0.29,13,Low,Not Insured,20,No,No
+P0372,Rahul Patel,14,Male,B-,143,74.3,36.3,145,91,104,Gastritis,Moderate,2026-04-30,2026-05-08,Medication,Paracetamol,D009,DEP08,Gastroenterology,2712,Under Treatment,0.17,8,Medium,Active,13,No,No
+P0373,Aman Verma,80,Female,AB-,134,27.3,15.2,137,66,71,Kidney Disease,Moderate,2025-09-26,2025-10-03,Emergency Care,Metformin,D029,DEP06,Nephrology,148498,Referred,0.33,7,Low,Active,18,No,No
+P0374,Rahul Sharma,66,Male,B-,189,22.8,6.4,154,106,94,Diabetes,Mild,2025-10-08,2025-10-20,Physiotherapy,Paracetamol,D010,DEP10,Pediatrics,59145,Stable,0.45,12,High,Active,5,No,No
+P0375,Sai Sharma,16,Female,A-,143,60.8,29.7,163,96,85,Diabetes,Severe,2025-06-24,2025-07-06,Emergency Care,Insulin,D024,DEP07,Dermatology,115061,Referred,0.46,12,Medium,Active,6,No,No
+P0376,Varun Reddy,17,Male,B-,158,84.4,33.8,170,94,65,Kidney Disease,Moderate,2026-07-20,2026-07-25,Medication,Omeprazole,D021,DEP02,Neurology,108020,Recovered,0.19,5,Low,Not Insured,16,No,No
+P0377,Suresh Verma,13,Male,B-,154,31.9,13.5,145,75,72,Arthritis,Mild,2026-09-15,2026-09-28,Observation,Salbutamol,D011,DEP03,General Medicine,66180,Referred,0.16,13,Low,Active,12,No,No
+P0378,Priya Kumar,80,Female,O+,175,76.5,25.0,112,63,61,Hypertension,Moderate,2025-12-30,2026-01-09,Physiotherapy,Paracetamol,D022,DEP07,Dermatology,54370,Under Treatment,0.35,10,Low,Active,10,Yes,No
+P0379,Kavya Rao,31,Male,B-,154,38.9,16.4,156,107,81,Heart Disease,Severe,2026-09-11,2026-09-13,Observation,Paracetamol,D003,DEP03,General Medicine,88712,Improving,0.56,2,Low,Inactive,12,No,Yes
+P0380,Rahul Kumar,80,Female,A+,144,93.0,44.8,174,102,110,Viral Infection,Moderate,2026-08-27,2026-09-11,Physiotherapy,Amoxicillin,D013,DEP08,Gastroenterology,101354,Stable,0.36,15,Medium,Active,6,No,No
+P0381,Meena Das,51,Female,A+,155,77.0,32.0,178,73,60,Gastritis,Moderate,2026-09-15,2026-09-23,Physiotherapy,Metformin,D017,DEP04,Orthopedics,108961,Recovered,0.39,8,High,Not Insured,11,No,No
+P0382,Sneha Gupta,36,Female,O+,138,25.7,13.5,132,62,120,Pneumonia,Severe,2026-04-08,2026-04-23,Emergency Care,Atorvastatin,D023,DEP02,Neurology,75989,Referred,0.47,15,Medium,Active,18,No,No
+P0383,Priya Gupta,53,Female,B-,149,21.7,9.8,101,108,95,Viral Infection,Severe,2025-05-02,2025-05-13,Emergency Care,Salbutamol,D029,DEP03,General Medicine,97882,Referred,0.5,11,Low,Inactive,20,No,No
+P0384,Varun Patel,66,Male,A-,122,38.9,26.1,178,84,84,Arthritis,Moderate,2025-07-15,2025-07-22,Physiotherapy,None,D002,DEP09,Emergency,124652,Recovered,0.45,7,Medium,Not Insured,3,No,No
+P0385,Divya Reddy,72,Male,B-,185,92.3,27.0,115,101,77,Arthritis,Severe,2026-05-17,2026-05-27,Observation,Amoxicillin,D006,DEP07,Dermatology,68420,Stable,0.51,10,Low,Active,9,No,No
+P0386,Priya Kumar,3,Female,B-,129,68.0,40.9,159,109,80,COVID-19,Severe,2025-09-20,2025-09-21,Observation,Omeprazole,D025,DEP05,Pulmonology,30400,Stable,0.49,1,Low,Not Insured,11,No,No
+P0387,Suresh Reddy,70,Male,O+,127,41.1,25.5,133,82,106,Diabetes,Moderate,2025-03-27,2025-04-08,Physiotherapy,Metformin,D020,DEP03,General Medicine,20976,Improving,0.32,12,Low,Active,0,No,No
+P0388,Meena Sharma,41,Male,O+,177,74.9,23.9,151,82,71,Kidney Disease,Severe,2025-02-11,2025-02-24,Surgery,Losartan,D016,DEP07,Dermatology,88484,Under Treatment,0.62,13,Low,Active,19,No,No
+P0389,Pooja Sharma,3,Male,A-,171,56.8,19.4,159,102,68,Pneumonia,Moderate,2025-09-11,2025-09-26,Physiotherapy,Amlodipine,D026,DEP08,Gastroenterology,104735,Referred,0.23,15,Medium,Active,10,Yes,No
+P0390,Sneha Naidu,19,Male,O-,185,85.8,25.1,119,107,72,COVID-19,Critical,2026-02-07,2026-02-13,Counseling,Losartan,D025,DEP04,Orthopedics,82022,Referred,0.44,6,Low,Active,11,No,No
+P0391,Arjun Kumar,52,Male,A-,124,48.0,31.2,116,86,64,Kidney Disease,Severe,2025-09-10,2025-09-19,Counseling,None,D024,DEP05,Pulmonology,23576,Stable,0.51,9,Low,Active,18,No,No
+P0392,Sai Naidu,51,Male,O+,171,65.0,22.2,164,102,70,Migraine,Moderate,2025-02-03,2025-02-07,Physiotherapy,Omeprazole,D023,DEP08,Gastroenterology,35517,Stable,0.33,4,Low,Not Insured,0,No,No
+P0393,Pooja Gupta,19,Female,A+,174,79.3,26.2,145,102,79,Arthritis,Severe,2025-01-08,2025-01-09,Medication,Amoxicillin,D017,DEP08,Gastroenterology,88622,Referred,0.47,1,Low,Active,5,No,No
+P0394,Sai Kumar,80,Male,A+,148,82.0,37.4,100,94,87,Hypertension,Critical,2025-03-21,2025-04-01,Counseling,Amoxicillin,D010,DEP10,Pediatrics,51392,Under Treatment,0.62,11,High,Not Insured,11,No,No
+P0395,Arjun Patel,12,Male,O-,140,86.0,43.9,148,93,61,Heart Disease,Mild,2026-07-24,2026-08-06,Medication,Amoxicillin,D025,DEP03,General Medicine,39638,Referred,0.23,13,Medium,Active,20,No,No
+P0396,Varun Verma,18,Female,B-,175,22.2,7.2,109,64,57,Anemia,Mild,2025-11-14,2025-11-20,Counseling,Amlodipine,D026,DEP04,Orthopedics,34142,Under Treatment,0.13,6,Low,Not Insured,15,No,No
+P0397,Kiran Naidu,8,Male,B-,175,64.8,21.2,106,107,85,Kidney Disease,Severe,2026-07-25,2026-08-04,Surgery,Losartan,D014,DEP09,Emergency,63106,Stable,0.34,10,Low,Active,8,No,No
+P0398,Pooja Singh,17,Female,B-,128,74.8,45.7,110,78,60,Hypertension,Moderate,2025-09-22,2025-09-29,Physiotherapy,Paracetamol,D028,DEP08,Gastroenterology,21592,Referred,0.05,7,Medium,Not Insured,2,No,No
+P0399,Ananya Sharma,41,Male,O+,164,90.9,33.8,180,106,59,Viral Infection,Mild,2025-05-17,2025-05-31,Observation,None,D018,DEP02,Neurology,149617,Improving,0.24,14,Low,Active,2,No,No
+P0400,Arjun Singh,24,Female,AB+,128,59.7,36.4,177,75,78,Viral Infection,Severe,2025-04-04,2025-04-09,Observation,Amlodipine,D029,DEP04,Orthopedics,142794,Under Treatment,0.57,5,High,Active,17,No,No
+P0401,Sai Rao,33,Male,B+,150,24.1,10.7,165,93,107,Gastritis,Severe,2025-04-18,2025-04-26,Physiotherapy,Atorvastatin,D029,DEP07,Dermatology,139855,Stable,0.62,8,Low,Not Insured,15,No,No
+P0402,Nikhil Reddy,4,Female,B+,157,107.1,43.5,180,110,119,COVID-19,Moderate,2026-02-02,2026-02-09,Emergency Care,Ibuprofen,D003,DEP05,Pulmonology,61610,Stable,0.17,7,Medium,Active,18,Yes,No
+P0403,Meena Patel,44,Female,O-,183,46.2,13.8,101,104,60,COVID-19,Critical,2025-12-30,2026-01-02,Physiotherapy,Ibuprofen,D016,DEP06,Nephrology,110783,Referred,0.4,3,Medium,Not Insured,12,No,No
+P0404,Ravi Naidu,6,Male,O-,126,58.2,36.7,132,60,98,Heart Disease,Moderate,2026-06-14,2026-06-21,Physiotherapy,Paracetamol,D014,DEP04,Orthopedics,137495,Under Treatment,0.09,7,Low,Active,3,No,No
+P0405,Varun Singh,77,Male,A+,173,72.9,24.4,134,91,82,Anemia,Mild,2025-01-08,2025-01-17,Physiotherapy,Insulin,D010,DEP01,Cardiology,60095,Referred,0.19,9,Medium,Active,13,No,No
+P0406,Aman Gupta,7,Male,AB-,168,82.5,29.2,167,74,111,Migraine,Mild,2026-07-21,2026-08-03,Medication,None,D021,DEP02,Neurology,82403,Referred,0.21,13,Low,Active,15,No,No
+P0407,Rohit Patel,16,Male,B+,131,24.7,14.4,116,92,101,Anemia,Moderate,2025-08-20,2025-08-31,Counseling,Atorvastatin,D007,DEP02,Neurology,34344,Referred,0.02,11,Low,Not Insured,3,No,No
+P0408,Pooja Rao,27,Male,B+,120,108.0,75.0,115,92,61,COVID-19,Mild,2025-03-09,2025-03-17,Physiotherapy,Omeprazole,D029,DEP08,Gastroenterology,84538,Recovered,0.06,8,Medium,Not Insured,16,No,No
+P0409,Kiran Rao,71,Male,A-,161,24.4,9.4,151,80,74,Viral Infection,Moderate,2025-08-24,2025-09-06,Counseling,Ibuprofen,D009,DEP08,Gastroenterology,51225,Stable,0.45,13,Medium,Inactive,7,No,No
+P0410,Varun Singh,49,Female,AB-,162,90.9,34.6,141,87,115,Arthritis,Mild,2025-07-04,2025-07-14,Counseling,None,D008,DEP03,General Medicine,11815,Under Treatment,0.35,10,Medium,Not Insured,13,No,No
+P0411,Varun Verma,21,Male,A-,134,56.5,31.5,157,63,81,Pneumonia,Mild,2026-04-09,2026-04-24,Medication,Atorvastatin,D005,DEP01,Cardiology,67087,Stable,0.29,15,Low,Not Insured,8,No,No
+P0412,Sai Kumar,67,Male,O+,140,44.1,22.5,103,79,82,Migraine,Mild,2026-09-12,2026-09-17,Physiotherapy,Amlodipine,D009,DEP02,Neurology,25380,Recovered,0.17,5,Medium,Inactive,18,Yes,No
+P0413,Pooja Gupta,31,Female,A+,164,86.6,32.2,159,68,71,Kidney Disease,Moderate,2025-11-27,2025-12-02,Physiotherapy,None,D009,DEP08,Gastroenterology,56266,Recovered,0.25,5,Low,Active,20,No,No
+P0414,Anil Naidu,62,Female,A-,131,88.3,51.5,140,60,114,Migraine,Mild,2025-01-29,2025-02-13,Medication,Ibuprofen,D019,DEP03,General Medicine,126286,Improving,0.24,15,Low,Active,12,No,No
+P0415,Kavya Kumar,10,Female,A-,134,99.8,55.6,118,72,58,Anemia,Mild,2025-03-31,2025-04-11,Medication,Atorvastatin,D011,DEP03,General Medicine,137811,Under Treatment,0.03,11,Low,Active,13,Yes,No
+P0416,Priya Rao,64,Male,O+,135,105.8,58.1,100,78,113,Migraine,Severe,2025-02-04,2025-02-07,Physiotherapy,Amoxicillin,D018,DEP04,Orthopedics,136931,Stable,0.6,3,High,Active,3,No,Yes
+P0417,Nikhil Sharma,80,Female,AB-,150,32.9,14.6,122,78,74,Kidney Disease,Critical,2025-06-05,2025-06-06,Physiotherapy,Amoxicillin,D005,DEP07,Dermatology,94603,Improving,0.6,1,Medium,Active,0,No,Yes
+P0418,Neha Singh,67,Male,B+,190,73.1,20.2,175,87,64,Kidney Disease,Moderate,2025-11-28,2025-12-01,Emergency Care,None,D008,DEP10,Pediatrics,47508,Referred,0.41,3,Medium,Active,15,No,No
+P0419,Ananya Naidu,33,Male,B-,163,82.2,30.9,130,76,75,Arthritis,Severe,2025-06-14,2025-06-23,Observation,Ibuprofen,D026,DEP08,Gastroenterology,21159,Under Treatment,0.47,9,Low,Active,9,No,No
+P0420,Ananya Naidu,73,Female,B-,190,63.3,17.5,137,67,67,Asthma,Moderate,2025-05-10,2025-05-19,Observation,Atorvastatin,D003,DEP08,Gastroenterology,87257,Recovered,0.21,9,Low,Active,4,No,No
+P0421,Varun Das,74,Male,AB-,186,40.7,11.8,142,98,101,Heart Disease,Mild,2026-02-13,2026-02-19,Emergency Care,Metformin,D005,DEP06,Nephrology,112439,Referred,0.37,6,Low,Active,14,No,No
+P0422,Varun Das,12,Male,AB+,183,105.3,31.4,99,68,100,Asthma,Severe,2025-05-24,2025-06-03,Observation,Ibuprofen,D023,DEP06,Nephrology,65861,Referred,0.39,10,Low,Active,2,No,No
+P0423,Kavya Reddy,32,Female,AB-,171,49.1,16.8,176,60,112,Arthritis,Moderate,2026-04-13,2026-04-28,Physiotherapy,Ibuprofen,D020,DEP01,Cardiology,107203,Referred,0.24,15,Medium,Active,15,No,No
+P0424,Arjun Das,33,Female,B+,163,27.8,10.5,126,107,93,Kidney Disease,Mild,2026-02-24,2026-03-03,Emergency Care,Ibuprofen,D001,DEP01,Cardiology,16051,Referred,0.05,7,Low,Active,5,No,No
+P0425,Pooja Reddy,64,Female,A+,149,90.5,40.8,107,93,79,Heart Disease,Mild,2025-06-18,2025-06-22,Observation,Losartan,D005,DEP07,Dermatology,142189,Recovered,0.17,4,Medium,Active,8,No,No
+P0426,Nikhil Sharma,37,Male,AB+,138,74.7,39.2,120,99,100,Anemia,Moderate,2026-08-29,2026-09-05,Emergency Care,Amlodipine,D005,DEP08,Gastroenterology,132378,Stable,0.08,7,Medium,Active,14,No,No
+P0427,Neha Verma,33,Female,A+,181,69.2,21.1,100,103,69,Gastritis,Moderate,2026-07-10,2026-07-20,Observation,Ibuprofen,D014,DEP01,Cardiology,144313,Recovered,0.17,10,Low,Not Insured,1,No,No
+P0428,Divya Rao,50,Female,O-,167,76.4,27.4,102,71,95,Arthritis,Mild,2026-06-26,2026-07-09,Surgery,Metformin,D025,DEP04,Orthopedics,126226,Referred,0.22,13,Medium,Active,18,Yes,No
+P0429,Arjun Rao,25,Female,A-,135,65.2,35.8,100,84,77,Pneumonia,Moderate,2025-03-28,2025-04-11,Physiotherapy,Ibuprofen,D008,DEP05,Pulmonology,21823,Referred,0.12,14,Medium,Active,11,No,No
+P0430,Anil Verma,46,Female,AB+,141,92.9,46.7,145,81,59,Pneumonia,Critical,2025-06-22,2025-06-29,Observation,Amlodipine,D010,DEP03,General Medicine,145852,Referred,0.57,7,Low,Active,14,No,No
+P0431,Rahul Rao,53,Female,AB+,144,89.8,43.3,103,107,92,Pneumonia,Moderate,2025-04-23,2025-04-28,Medication,Metformin,D009,DEP10,Pediatrics,59423,Under Treatment,0.2,5,Low,Inactive,6,No,No
+P0432,Meena Singh,80,Male,AB+,130,75.1,44.4,172,110,98,Diabetes,Moderate,2025-01-12,2025-01-24,Counseling,Ibuprofen,D013,DEP09,Emergency,7195,Under Treatment,0.4,12,High,Not Insured,14,No,No
+P0433,Rahul Kumar,70,Male,AB-,136,67.9,36.7,167,64,87,COVID-19,Mild,2026-05-20,2026-05-24,Emergency Care,Omeprazole,D027,DEP02,Neurology,135788,Recovered,0.33,4,Medium,Active,9,No,No
+P0434,Varun Das,68,Male,A-,161,98.5,38.0,132,66,104,Kidney Disease,Mild,2025-07-15,2025-07-23,Surgery,Metformin,D022,DEP07,Dermatology,35025,Referred,0.25,8,Medium,Not Insured,7,No,No
+P0435,Ravi Verma,67,Male,A+,173,55.8,18.6,120,93,62,Heart Disease,Severe,2026-04-21,2026-04-25,Physiotherapy,Amlodipine,D006,DEP09,Emergency,59597,Stable,0.59,4,High,Not Insured,15,No,No
+P0436,Kavya Reddy,13,Female,B-,166,52.8,19.2,175,86,83,Migraine,Moderate,2026-03-23,2026-03-25,Emergency Care,Metformin,D025,DEP02,Neurology,103246,Referred,0.17,2,Low,Active,17,No,No
+P0437,Sneha Reddy,77,Female,AB-,124,92.2,60.0,112,80,108,Anemia,Moderate,2026-06-17,2026-06-25,Counseling,Salbutamol,D007,DEP05,Pulmonology,29398,Improving,0.32,8,Low,Active,16,No,No
+P0438,Ravi Verma,60,Female,O+,169,67.5,23.6,161,107,119,Hypertension,Moderate,2026-09-07,2026-09-22,Emergency Care,Metformin,D007,DEP09,Emergency,136967,Referred,0.44,15,High,Not Insured,10,No,No
+P0439,Nikhil Reddy,55,Female,B-,139,42.5,22.0,154,82,100,Viral Infection,Mild,2025-03-09,2025-03-14,Emergency Care,Losartan,D010,DEP08,Gastroenterology,3959,Referred,0.35,5,Low,Active,5,No,No
+P0440,Sai Singh,2,Female,A+,185,90.6,26.5,136,79,99,Kidney Disease,Moderate,2025-08-24,2025-08-26,Counseling,Amlodipine,D014,DEP09,Emergency,124037,Stable,0.02,2,Low,Active,2,No,No
+P0441,Ananya Gupta,65,Male,O-,172,43.9,14.8,156,102,71,Asthma,Mild,2025-01-24,2025-02-05,Physiotherapy,Metformin,D009,DEP08,Gastroenterology,127872,Recovered,0.33,12,Low,Inactive,1,No,No
+P0442,Varun Sharma,41,Female,A+,120,93.3,64.8,157,69,82,Viral Infection,Moderate,2025-02-16,2025-02-20,Emergency Care,Amoxicillin,D004,DEP05,Pulmonology,111734,Stable,0.35,4,Low,Active,2,No,No
+P0443,Pooja Sharma,69,Female,A+,129,104.8,63.0,145,91,78,Arthritis,Moderate,2026-02-01,2026-02-04,Emergency Care,Paracetamol,D022,DEP06,Nephrology,129425,Stable,0.33,3,High,Active,5,No,No
+P0444,Neha Reddy,3,Male,AB-,122,88.2,59.3,136,83,94,Asthma,Mild,2025-06-25,2025-06-28,Physiotherapy,Omeprazole,D028,DEP09,Emergency,88379,Referred,0.02,3,Low,Active,13,No,No
+P0445,Priya Das,60,Male,O-,142,42.4,21.0,178,97,81,Diabetes,Severe,2026-03-07,2026-03-21,Emergency Care,Salbutamol,D011,DEP08,Gastroenterology,80562,Referred,0.7,14,High,Active,17,No,No
+P0446,Meena Naidu,78,Female,A-,175,50.3,16.4,111,106,90,Gastritis,Mild,2026-07-14,2026-07-22,Counseling,Paracetamol,D029,DEP07,Dermatology,61375,Under Treatment,0.34,8,Medium,Active,3,No,No
+P0447,Kiran Das,33,Female,B-,140,60.0,30.6,163,65,102,Kidney Disease,Mild,2026-05-17,2026-05-26,Medication,Metformin,D007,DEP02,Neurology,78262,Stable,0.27,9,Low,Active,10,No,No
+P0448,Nikhil Sharma,53,Male,AB-,175,90.7,29.6,139,86,106,Diabetes,Mild,2025-01-08,2025-01-19,Emergency Care,Omeprazole,D019,DEP08,Gastroenterology,141035,Improving,0.2,11,Low,Not Insured,14,No,No
+P0449,Meena Patel,5,Female,A+,179,107.8,33.6,137,63,110,Gastritis,Moderate,2025-03-11,2025-03-25,Medication,Atorvastatin,D022,DEP09,Emergency,43620,Stable,0.06,14,Low,Active,0,No,No
+P0450,Divya Singh,60,Female,A-,178,34.6,10.9,179,83,78,Anemia,Mild,2025-01-25,2025-01-31,Physiotherapy,Amoxicillin,D008,DEP09,Emergency,26509,Improving,0.37,6,Low,Not Insured,7,No,No
+P0451,Kavya Singh,63,Male,AB-,168,36.0,12.8,159,66,61,Heart Disease,Severe,2026-05-18,2026-05-25,Physiotherapy,Amoxicillin,D025,DEP03,General Medicine,23496,Stable,0.66,7,Medium,Active,16,Yes,No
+P0452,Varun Kumar,42,Male,A-,122,46.5,31.2,104,108,75,Migraine,Mild,2025-03-22,2025-04-06,Emergency Care,Salbutamol,D002,DEP03,General Medicine,43943,Referred,0.09,15,Low,Active,1,No,No
+P0453,Sai Rao,60,Male,B-,178,76.1,24.0,99,77,114,Anemia,Mild,2025-10-03,2025-10-05,Medication,Omeprazole,D022,DEP09,Emergency,139412,Improving,0.18,2,Medium,Active,19,Yes,No
+P0454,Sai Kumar,53,Male,A-,133,48.7,27.5,116,75,114,Viral Infection,Mild,2025-06-17,2025-06-23,Surgery,Losartan,D021,DEP10,Pediatrics,31604,Under Treatment,0.24,6,Medium,Active,3,No,No
+P0455,Aman Das,69,Male,B+,142,48.5,24.1,154,97,59,Arthritis,Critical,2026-08-07,2026-08-21,Physiotherapy,Losartan,D009,DEP04,Orthopedics,84508,Referred,0.66,14,Medium,Active,14,Yes,No
+P0456,Ravi Singh,40,Male,A-,139,23.9,12.4,100,87,103,Kidney Disease,Moderate,2026-08-04,2026-08-17,Surgery,Metformin,D005,DEP05,Pulmonology,53318,Improving,0.21,13,Low,Active,11,No,No
+P0457,Aman Reddy,61,Male,A+,129,77.8,46.8,156,101,67,Gastritis,Moderate,2026-04-10,2026-04-16,Physiotherapy,Amlodipine,D023,DEP02,Neurology,15825,Improving,0.3,6,High,Active,2,No,Yes
+P0458,Pooja Gupta,78,Male,O+,128,23.0,14.0,177,95,98,Diabetes,Mild,2026-08-02,2026-08-15,Observation,Salbutamol,D027,DEP09,Emergency,2714,Improving,0.41,13,Low,Not Insured,4,No,No
+P0459,Rahul Das,5,Female,B-,169,72.8,25.5,102,108,85,Arthritis,Mild,2026-08-14,2026-08-18,Emergency Care,Metformin,D027,DEP10,Pediatrics,46489,Improving,0.05,4,High,Active,0,Yes,No
+P0460,Sneha Rao,18,Female,O-,166,86.9,31.5,152,80,60,Viral Infection,Moderate,2025-01-10,2025-01-13,Physiotherapy,Amlodipine,D008,DEP06,Nephrology,130736,Improving,0.16,3,Low,Active,13,No,Yes
+P0461,Ravi Kumar,13,Male,O-,128,66.8,40.8,155,100,59,Heart Disease,Severe,2025-10-17,2025-10-24,Observation,Amoxicillin,D011,DEP10,Pediatrics,32783,Stable,0.45,7,High,Not Insured,5,No,No
+P0462,Ananya Singh,47,Female,O+,167,102.6,36.8,113,73,102,Hypertension,Severe,2026-02-20,2026-02-23,Physiotherapy,None,D013,DEP05,Pulmonology,82719,Improving,0.45,3,Low,Not Insured,12,No,No
+P0463,Ravi Das,24,Male,AB+,136,80.1,43.3,129,108,83,Arthritis,Moderate,2025-07-13,2025-07-18,Counseling,Losartan,D015,DEP03,General Medicine,148864,Improving,0.05,5,High,Not Insured,2,No,No
+P0464,Aman Das,36,Female,AB+,122,23.5,15.8,136,104,98,Pneumonia,Mild,2026-05-12,2026-05-26,Observation,Ibuprofen,D002,DEP10,Pediatrics,38817,Under Treatment,0.16,14,Low,Active,17,No,No
+P0465,Divya Sharma,14,Male,O+,139,21.9,11.3,176,91,101,Hypertension,Moderate,2025-01-03,2025-01-13,Surgery,Atorvastatin,D026,DEP04,Orthopedics,44403,Stable,0.27,10,High,Active,18,No,No
+P0466,Arjun Gupta,7,Female,AB+,171,80.5,27.5,174,105,64,Hypertension,Moderate,2025-05-22,2025-05-28,Emergency Care,Atorvastatin,D006,DEP01,Cardiology,39985,Referred,0.23,6,Medium,Active,10,No,No
+P0467,Neha Singh,50,Female,B+,124,43.5,28.3,151,85,60,Hypertension,Mild,2026-01-13,2026-01-25,Observation,Amoxicillin,D011,DEP10,Pediatrics,52455,Referred,0.29,12,Medium,Active,7,No,No
+P0468,Neha Sharma,80,Female,AB-,182,81.9,24.7,171,100,91,Diabetes,Moderate,2025-07-01,2025-07-15,Surgery,Metformin,D016,DEP09,Emergency,57246,Recovered,0.39,14,Medium,Not Insured,8,No,No
+P0469,Ananya Verma,75,Male,A-,130,93.8,55.5,147,79,93,Arthritis,Mild,2026-04-25,2026-05-01,Surgery,Amoxicillin,D028,DEP02,Neurology,20556,Referred,0.39,6,Low,Active,4,No,No
+P0470,Aman Naidu,50,Female,B-,139,79.3,41.0,166,91,55,Kidney Disease,Mild,2026-01-08,2026-01-19,Medication,Metformin,D028,DEP09,Emergency,28424,Recovered,0.34,11,Low,Active,0,No,No
+P0471,Pooja Singh,78,Male,O+,187,58.6,16.8,162,109,97,Anemia,Mild,2025-08-22,2025-09-04,Emergency Care,Insulin,D003,DEP04,Orthopedics,84141,Improving,0.38,13,Low,Active,9,No,No
+P0472,Sneha Kumar,29,Female,O+,170,62.8,21.7,110,60,56,Gastritis,Moderate,2025-06-21,2025-06-30,Observation,Omeprazole,D016,DEP03,General Medicine,132252,Stable,0.12,9,Medium,Active,9,No,No
+P0473,Ravi Verma,55,Female,AB+,176,65.3,21.1,180,85,66,Heart Disease,Moderate,2025-03-12,2025-03-21,Emergency Care,Insulin,D001,DEP01,Cardiology,126576,Recovered,0.28,9,Medium,Not Insured,6,Yes,No
+P0474,Vikram Kumar,77,Female,A-,132,35.7,20.5,177,97,86,Diabetes,Mild,2026-06-14,2026-06-23,Observation,Ibuprofen,D002,DEP08,Gastroenterology,7080,Referred,0.42,9,Low,Inactive,12,No,No
+P0475,Suresh Patel,48,Male,O+,180,38.0,11.7,176,75,106,Asthma,Mild,2026-02-15,2026-02-27,Surgery,Atorvastatin,D026,DEP07,Dermatology,149688,Recovered,0.35,12,Low,Not Insured,19,No,Yes
+P0476,Meena Singh,23,Male,O-,136,31.5,17.0,124,93,76,Diabetes,Critical,2026-04-01,2026-04-04,Observation,Insulin,D026,DEP08,Gastroenterology,5590,Stable,0.45,3,Low,Active,14,No,No
+P0477,Varun Gupta,33,Female,O+,152,108.3,46.9,173,85,84,Arthritis,Moderate,2025-05-31,2025-06-12,Counseling,Atorvastatin,D004,DEP04,Orthopedics,17767,Improving,0.19,12,Medium,Active,14,No,No
+P0478,Aman Reddy,75,Male,A-,180,92.1,28.4,177,104,103,Heart Disease,Severe,2025-10-24,2025-10-28,Surgery,Amlodipine,D011,DEP10,Pediatrics,10483,Improving,0.71,4,High,Not Insured,6,No,No
+P0479,Rohit Verma,35,Male,B+,153,94.7,40.5,162,83,93,Diabetes,Moderate,2026-04-16,2026-04-19,Medication,Losartan,D015,DEP02,Neurology,19595,Referred,0.23,3,High,Not Insured,13,No,No
+P0480,Ananya Patel,61,Female,A+,158,53.6,21.5,131,107,68,COVID-19,Severe,2026-07-02,2026-07-04,Physiotherapy,Omeprazole,D004,DEP05,Pulmonology,23332,Recovered,0.58,2,High,Active,10,No,No
+P0481,Neha Rao,38,Female,A+,140,106.9,54.5,102,98,62,Diabetes,Moderate,2026-01-29,2026-02-08,Surgery,None,D002,DEP08,Gastroenterology,31083,Referred,0.2,10,High,Not Insured,18,No,No
+P0482,Ananya Patel,38,Male,O-,180,109.4,33.8,140,85,97,Pneumonia,Moderate,2025-11-17,2025-11-20,Counseling,Salbutamol,D005,DEP08,Gastroenterology,119678,Referred,0.06,3,Medium,Active,12,No,No
+P0483,Priya Verma,17,Male,AB+,124,43.2,28.1,144,67,99,Heart Disease,Moderate,2025-07-02,2025-07-07,Emergency Care,Losartan,D022,DEP03,General Medicine,81640,Under Treatment,0.25,5,High,Active,3,No,No
+P0484,Meena Gupta,2,Male,B-,144,51.3,24.7,108,73,60,Anemia,Severe,2025-01-24,2025-02-08,Surgery,Insulin,D027,DEP01,Cardiology,140622,Under Treatment,0.24,15,Low,Active,16,No,No
+P0485,Ananya Verma,23,Male,B+,132,56.7,32.5,146,82,89,Gastritis,Moderate,2025-05-28,2025-06-03,Medication,Amlodipine,D007,DEP02,Neurology,116745,Recovered,0.19,6,Low,Active,20,No,Yes
+P0486,Suresh Verma,80,Female,A+,158,77.9,31.2,107,61,110,Pneumonia,Moderate,2025-12-29,2026-01-13,Observation,Paracetamol,D025,DEP01,Cardiology,140322,Under Treatment,0.23,15,Medium,Active,6,Yes,No
+P0487,Arjun Patel,69,Female,O-,163,53.3,20.1,144,86,79,Anemia,Severe,2026-08-13,2026-08-25,Counseling,Atorvastatin,D016,DEP07,Dermatology,93165,Under Treatment,0.64,12,Low,Active,8,No,No
+P0488,Suresh Naidu,12,Male,AB-,167,66.7,23.9,173,60,120,Asthma,Moderate,2025-06-26,2025-06-30,Emergency Care,Atorvastatin,D015,DEP07,Dermatology,128925,Improving,0.12,4,Medium,Active,5,No,No
+P0489,Meena Kumar,74,Female,A-,136,53.8,29.1,162,94,105,Arthritis,Mild,2025-08-20,2025-08-27,Medication,Paracetamol,D016,DEP07,Dermatology,15172,Referred,0.36,7,High,Inactive,20,No,No
+P0490,Sai Rao,51,Male,O-,162,35.5,13.5,163,100,65,Migraine,Moderate,2026-01-07,2026-01-10,Counseling,Amlodipine,D030,DEP02,Neurology,93616,Referred,0.33,3,High,Inactive,4,No,No
+P0491,Rohit Sharma,3,Female,B-,164,98.1,36.5,144,104,119,Anemia,Mild,2025-01-02,2025-01-11,Observation,Salbutamol,D029,DEP07,Dermatology,149248,Improving,0.17,9,Low,Active,6,No,No
+P0492,Anil Naidu,19,Female,O+,125,65.9,42.2,168,96,81,Arthritis,Critical,2025-09-22,2025-09-26,Surgery,Omeprazole,D014,DEP04,Orthopedics,93904,Stable,0.56,4,Low,Active,12,No,No
+P0493,Varun Kumar,11,Female,AB+,189,28.0,7.8,106,89,96,Diabetes,Severe,2025-08-24,2025-09-08,Surgery,Omeprazole,D028,DEP01,Cardiology,44128,Improving,0.34,15,High,Active,19,No,No
+P0494,Priya Verma,69,Female,A+,125,28.9,18.5,105,90,60,Anemia,Severe,2025-11-06,2025-11-13,Observation,Omeprazole,D006,DEP08,Gastroenterology,69073,Stable,0.54,7,Medium,Active,5,Yes,No
+P0495,Vikram Gupta,51,Female,O-,163,20.4,7.7,106,77,63,Anemia,Severe,2026-06-09,2026-06-19,Medication,Atorvastatin,D001,DEP09,Emergency,107792,Referred,0.51,10,Medium,Active,13,No,No
+P0496,Nikhil Rao,65,Female,B-,151,47.1,20.7,154,72,78,Migraine,Moderate,2025-05-26,2025-06-09,Physiotherapy,Omeprazole,D026,DEP07,Dermatology,140874,Recovered,0.32,14,Low,Inactive,16,No,No
+P0497,Ravi Rao,72,Female,B-,133,64.3,36.4,149,79,94,Migraine,Moderate,2025-03-09,2025-03-10,Medication,Ibuprofen,D019,DEP10,Pediatrics,95326,Stable,0.42,1,High,Active,5,No,No
+P0498,Anil Patel,38,Female,B+,135,74.6,40.9,100,100,69,Anemia,Mild,2025-04-02,2025-04-17,Physiotherapy,Amlodipine,D017,DEP04,Orthopedics,135178,Stable,0.15,15,Medium,Active,8,No,Yes
+P0499,Suresh Naidu,60,Female,O-,163,100.4,37.8,167,77,75,Arthritis,Moderate,2025-01-05,2025-01-12,Observation,Ibuprofen,D024,DEP05,Pulmonology,119485,Recovered,0.4,7,High,Active,18,No,No
+P0500,Sneha Patel,23,Male,A-,162,74.9,28.5,141,98,74,Anemia,Critical,2025-10-30,2025-11-08,Medication,Losartan,D023,DEP02,Neurology,134863,Under Treatment,0.5,9,Medium,Active,5,No,No
+P0501,Kavya Das,38,Male,B-,178,95.5,30.1,139,75,79,Migraine,Moderate,2026-06-01,2026-06-05,Counseling,Losartan,D006,DEP05,Pulmonology,130409,Stable,0.17,4,High,Not Insured,7,No,No
+P0502,Aman Rao,46,Male,AB-,160,24.3,9.5,145,104,93,Gastritis,Severe,2025-05-26,2025-06-07,Emergency Care,Insulin,D013,DEP09,Emergency,17445,Referred,0.6,12,Medium,Not Insured,6,No,No
+P0503,Ananya Patel,33,Male,B+,190,24.7,6.8,141,105,110,Diabetes,Moderate,2026-07-16,2026-07-30,Emergency Care,Salbutamol,D007,DEP08,Gastroenterology,50134,Referred,0.33,14,Low,Active,16,No,Yes
+P0504,Aman Rao,76,Female,O+,161,68.0,26.2,145,108,70,COVID-19,Mild,2025-10-01,2025-10-11,Emergency Care,Metformin,D004,DEP10,Pediatrics,97237,Stable,0.42,10,Low,Active,14,No,No
+P0505,Neha Rao,55,Female,AB+,182,44.6,13.5,120,108,117,Viral Infection,Moderate,2025-11-07,2025-11-16,Medication,Ibuprofen,D015,DEP09,Emergency,138272,Stable,0.21,9,High,Active,17,No,No
+P0506,Ananya Reddy,30,Male,O+,157,87.4,35.5,109,77,106,Heart Disease,Moderate,2025-10-21,2025-10-29,Emergency Care,Omeprazole,D012,DEP05,Pulmonology,139760,Stable,0.08,8,Low,Active,8,No,No
+P0507,Nikhil Patel,23,Female,B+,128,46.7,28.5,113,82,93,Viral Infection,Mild,2026-05-08,2026-05-15,Physiotherapy,Omeprazole,D022,DEP05,Pulmonology,33161,Referred,0.14,7,High,Active,14,No,No
+P0508,Varun Kumar,14,Female,O+,157,37.3,15.1,150,105,97,Arthritis,Critical,2026-04-29,2026-05-04,Emergency Care,Insulin,D002,DEP02,Neurology,27335,Recovered,0.44,5,Medium,Active,11,Yes,No
+P0509,Sneha Reddy,6,Female,B-,187,76.3,21.8,151,68,60,Arthritis,Mild,2026-02-23,2026-03-05,Emergency Care,Losartan,D018,DEP07,Dermatology,46263,Recovered,0.12,10,Medium,Not Insured,14,No,No
+P0510,Sneha Patel,47,Female,A-,133,98.2,55.5,157,78,63,Gastritis,Moderate,2026-02-17,2026-03-04,Physiotherapy,Salbutamol,D004,DEP06,Nephrology,19727,Improving,0.3,15,Medium,Not Insured,14,No,No
+P0511,Suresh Patel,64,Male,B+,131,67.2,39.2,173,96,70,Diabetes,Moderate,2025-06-23,2025-07-08,Observation,Amlodipine,D029,DEP06,Nephrology,121655,Recovered,0.4,15,Medium,Not Insured,17,No,No
+P0512,Pooja Gupta,50,Female,AB+,178,81.1,25.6,168,106,61,Viral Infection,Moderate,2025-06-16,2025-06-27,Observation,Losartan,D026,DEP09,Emergency,140439,Improving,0.31,11,Medium,Active,15,No,No
+P0513,Neha Verma,9,Female,O+,142,61.6,30.5,175,79,97,Kidney Disease,Severe,2026-08-08,2026-08-19,Observation,Insulin,D009,DEP10,Pediatrics,149806,Stable,0.51,11,Low,Active,16,No,No
+P0514,Nikhil Sharma,45,Male,A+,137,47.8,25.5,142,98,110,Migraine,Critical,2025-12-13,2025-12-27,Observation,Atorvastatin,D019,DEP08,Gastroenterology,14303,Improving,0.56,14,Medium,Active,17,No,No
+P0515,Pooja Patel,50,Female,A-,145,41.8,19.9,119,95,58,COVID-19,Mild,2025-09-27,2025-10-11,Surgery,Ibuprofen,D002,DEP06,Nephrology,18729,Referred,0.15,14,Low,Active,0,No,No
+P0516,Varun Kumar,23,Female,O-,162,91.9,35.0,107,83,65,Arthritis,Mild,2026-03-17,2026-03-20,Medication,Ibuprofen,D029,DEP05,Pulmonology,101864,Stable,0.03,3,Low,Not Insured,15,No,Yes
+P0517,Aman Kumar,42,Male,B-,148,45.6,20.8,113,80,71,Migraine,Mild,2026-03-13,2026-03-26,Counseling,Metformin,D001,DEP06,Nephrology,100752,Referred,0.22,13,Low,Active,15,No,No
+P0518,Suresh Naidu,48,Female,A-,125,80.1,51.3,171,103,96,Viral Infection,Moderate,2025-07-08,2025-07-12,Surgery,Insulin,D020,DEP03,General Medicine,97819,Stable,0.32,4,Medium,Active,8,No,No
+P0519,Rohit Verma,65,Male,A-,181,42.7,13.0,99,108,76,Anemia,Moderate,2025-11-12,2025-11-26,Emergency Care,Salbutamol,D012,DEP01,Cardiology,107211,Stable,0.3,14,Medium,Active,2,No,No
+P0520,Suresh Naidu,75,Female,AB+,183,58.7,17.5,145,63,74,Asthma,Mild,2026-05-31,2026-06-02,Surgery,Atorvastatin,D015,DEP07,Dermatology,24897,Stable,0.41,2,High,Active,15,No,No
+P0521,Nikhil Naidu,15,Female,AB+,171,23.5,8.0,163,89,74,COVID-19,Mild,2025-12-26,2025-12-27,Surgery,Ibuprofen,D005,DEP06,Nephrology,96093,Referred,0.28,1,Medium,Inactive,3,No,No
+P0522,Nikhil Kumar,56,Male,B-,136,30.4,16.4,176,110,72,Hypertension,Severe,2025-01-17,2025-01-27,Emergency Care,Losartan,D005,DEP02,Neurology,127531,Referred,0.64,10,Low,Not Insured,2,Yes,No
+P0523,Aman Reddy,18,Female,B+,171,56.5,19.3,138,110,73,Kidney Disease,Moderate,2025-05-28,2025-06-05,Medication,Ibuprofen,D016,DEP03,General Medicine,73245,Under Treatment,0.1,8,Low,Active,17,Yes,No
+P0524,Kiran Verma,79,Male,AB+,160,68.4,26.7,98,97,58,Anemia,Moderate,2025-06-29,2025-07-03,Observation,Ibuprofen,D025,DEP08,Gastroenterology,12594,Improving,0.26,4,Medium,Active,9,No,No
+P0525,Varun Verma,30,Male,O-,149,49.2,22.2,143,109,89,Arthritis,Severe,2025-11-29,2025-12-03,Medication,None,D029,DEP02,Neurology,104270,Improving,0.52,4,High,Active,9,No,Yes
+P0526,Vikram Sharma,9,Female,A+,168,105.4,37.3,129,74,85,COVID-19,Mild,2025-01-11,2025-01-13,Observation,Atorvastatin,D010,DEP05,Pulmonology,104052,Improving,0.02,2,Medium,Not Insured,17,No,No
+P0527,Vikram Sharma,75,Male,O-,181,54.1,16.5,144,97,109,Pneumonia,Severe,2025-10-15,2025-10-25,Emergency Care,Losartan,D024,DEP02,Neurology,136402,Improving,0.69,10,High,Inactive,13,No,No
+P0528,Kiran Sharma,21,Male,O-,183,47.0,14.0,134,63,85,Gastritis,Mild,2025-09-07,2025-09-21,Medication,Paracetamol,D025,DEP09,Emergency,27508,Recovered,0.1,14,Medium,Inactive,18,No,No
+P0529,Nikhil Naidu,57,Male,O+,138,48.3,25.4,161,62,72,Viral Infection,Moderate,2025-12-01,2025-12-11,Observation,Atorvastatin,D023,DEP06,Nephrology,49301,Under Treatment,0.38,10,Low,Not Insured,12,No,No
+P0530,Neha Rao,67,Male,B-,172,71.0,24.0,151,92,61,Kidney Disease,Mild,2025-07-12,2025-07-27,Medication,Paracetamol,D012,DEP04,Orthopedics,58114,Stable,0.31,15,High,Not Insured,8,No,No
+P0531,Kavya Kumar,65,Female,AB-,151,35.0,15.4,127,64,90,Kidney Disease,Moderate,2026-06-14,2026-06-27,Counseling,Atorvastatin,D015,DEP05,Pulmonology,114173,Improving,0.26,13,Low,Active,5,No,No
+P0532,Neha Sharma,68,Male,O+,163,53.1,20.0,108,74,74,Arthritis,Mild,2025-08-06,2025-08-08,Physiotherapy,Insulin,D013,DEP05,Pulmonology,57506,Under Treatment,0.18,2,Medium,Inactive,18,No,No
+P0533,Meena Patel,76,Female,AB-,133,49.9,28.2,145,83,62,Migraine,Mild,2026-03-27,2026-04-11,Physiotherapy,Insulin,D006,DEP07,Dermatology,63514,Stable,0.49,15,Low,Inactive,2,Yes,No
+P0534,Rohit Sharma,33,Male,B-,186,59.0,17.1,118,103,111,Asthma,Moderate,2025-10-27,2025-11-09,Counseling,Atorvastatin,D011,DEP10,Pediatrics,144320,Referred,0.05,13,Medium,Active,13,No,No
+P0535,Arjun Verma,75,Female,A+,122,105.4,70.8,157,79,75,Heart Disease,Moderate,2025-01-06,2025-01-12,Surgery,Amoxicillin,D017,DEP08,Gastroenterology,14611,Improving,0.39,6,Low,Active,6,No,No
+P0536,Pooja Gupta,19,Female,AB-,167,75.9,27.2,173,88,99,Diabetes,Critical,2026-03-29,2026-04-09,Observation,Atorvastatin,D019,DEP02,Neurology,145993,Improving,0.57,11,Medium,Inactive,11,No,No
+P0537,Rohit Das,11,Female,O+,135,77.8,42.7,113,90,107,Gastritis,Moderate,2025-08-27,2025-09-10,Surgery,Losartan,D026,DEP04,Orthopedics,106099,Under Treatment,0.12,14,Low,Active,7,Yes,No
+P0538,Meena Rao,75,Male,B-,124,63.9,41.6,171,64,84,Pneumonia,Severe,2025-12-06,2025-12-18,Surgery,Amlodipine,D002,DEP04,Orthopedics,121888,Referred,0.78,12,Medium,Active,16,No,No
+P0539,Rohit Das,3,Male,A+,136,58.4,31.6,100,87,109,Diabetes,Moderate,2026-01-13,2026-01-23,Counseling,Amoxicillin,D029,DEP08,Gastroenterology,100206,Stable,0.02,10,Medium,Active,4,No,No
+P0540,Arjun Kumar,6,Male,O+,186,65.2,18.8,171,97,97,Gastritis,Critical,2026-06-24,2026-06-27,Physiotherapy,Atorvastatin,D017,DEP02,Neurology,68761,Referred,0.45,3,Low,Active,7,No,No
+P0541,Kavya Verma,19,Male,B+,178,59.4,18.7,138,86,108,Migraine,Severe,2025-02-05,2025-02-12,Counseling,Salbutamol,D015,DEP01,Cardiology,7765,Under Treatment,0.41,7,Medium,Inactive,13,Yes,No
+P0542,Vikram Reddy,61,Male,AB+,151,38.0,16.7,176,109,106,Gastritis,Severe,2026-02-27,2026-03-03,Emergency Care,Insulin,D017,DEP06,Nephrology,32432,Recovered,0.66,4,Low,Active,13,No,No
+P0543,Ravi Naidu,64,Female,B+,133,24.6,13.9,157,105,75,Diabetes,Severe,2026-07-15,2026-07-23,Counseling,Paracetamol,D015,DEP02,Neurology,118251,Referred,0.6,8,Medium,Inactive,16,No,No
+P0544,Rahul Kumar,34,Female,A-,174,33.4,11.0,172,105,92,Viral Infection,Severe,2026-06-13,2026-06-27,Emergency Care,Ibuprofen,D002,DEP05,Pulmonology,40523,Stable,0.63,14,Medium,Inactive,15,No,No
+P0545,Sai Patel,16,Female,O+,131,92.1,53.7,106,89,63,Asthma,Mild,2025-10-10,2025-10-13,Emergency Care,None,D008,DEP06,Nephrology,139392,Under Treatment,0.04,3,Low,Active,6,No,No
+P0546,Pooja Singh,4,Female,B-,141,87.7,44.1,132,92,102,Anemia,Mild,2026-09-03,2026-09-18,Medication,Paracetamol,D017,DEP07,Dermatology,19883,Stable,0.02,15,Medium,Active,11,No,No
+P0547,Aman Rao,18,Male,B-,141,82.0,41.2,155,95,85,Migraine,Critical,2026-07-19,2026-07-20,Surgery,Losartan,D003,DEP10,Pediatrics,19728,Under Treatment,0.46,1,Low,Not Insured,6,No,No
+P0548,Divya Naidu,27,Male,A+,134,73.1,40.7,167,66,95,Arthritis,Moderate,2025-09-18,2025-09-25,Emergency Care,None,D007,DEP06,Nephrology,94495,Recovered,0.18,7,Low,Inactive,20,No,No
+P0549,Nikhil Kumar,46,Male,A+,178,67.7,21.4,162,88,116,Kidney Disease,Mild,2026-03-28,2026-04-08,Observation,Amlodipine,D016,DEP01,Cardiology,8964,Under Treatment,0.39,11,High,Active,18,No,No
+P0550,Divya Patel,62,Female,B-,143,83.5,40.8,161,74,104,Anemia,Mild,2025-07-18,2025-07-27,Medication,Amlodipine,D013,DEP01,Cardiology,136256,Recovered,0.36,9,Low,Active,8,No,No
+P0551,Aman Kumar,77,Male,B-,174,78.1,25.8,161,87,95,Kidney Disease,Moderate,2026-03-08,2026-03-19,Counseling,Metformin,D015,DEP05,Pulmonology,57605,Under Treatment,0.37,11,Low,Active,10,No,No
+P0552,Suresh Sharma,52,Male,A-,129,71.6,43.0,147,88,77,Kidney Disease,Critical,2025-12-06,2025-12-19,Counseling,Atorvastatin,D001,DEP02,Neurology,132683,Recovered,0.57,13,High,Inactive,3,No,No
+P0553,Priya Verma,46,Male,B-,173,34.4,11.5,149,61,120,Migraine,Severe,2025-10-06,2025-10-17,Physiotherapy,Atorvastatin,D017,DEP10,Pediatrics,88440,Improving,0.65,11,Medium,Active,15,No,No
+P0554,Ananya Rao,62,Female,B-,162,95.5,36.4,175,103,64,Anemia,Mild,2026-06-11,2026-06-12,Counseling,Amlodipine,D007,DEP02,Neurology,18941,Under Treatment,0.34,1,Medium,Active,3,Yes,Yes
+P0555,Suresh Singh,50,Female,O+,144,65.8,31.7,100,85,109,Heart Disease,Severe,2025-12-05,2025-12-09,Counseling,Paracetamol,D008,DEP01,Cardiology,122575,Referred,0.5,4,Low,Active,5,No,No
+P0556,Varun Rao,1,Female,B+,174,29.0,9.6,152,90,93,Anemia,Mild,2025-03-26,2025-04-09,Emergency Care,Losartan,D030,DEP03,General Medicine,17812,Improving,0.23,14,High,Inactive,2,No,No
+P0557,Rohit Rao,24,Male,AB+,159,62.6,24.8,166,74,118,Arthritis,Severe,2025-12-31,2026-01-06,Surgery,Insulin,D011,DEP04,Orthopedics,126213,Stable,0.47,6,Medium,Active,8,No,No
+P0558,Ravi Kumar,30,Male,A+,140,95.5,48.7,156,84,86,Pneumonia,Mild,2026-02-20,2026-03-02,Emergency Care,Ibuprofen,D026,DEP03,General Medicine,54649,Referred,0.24,10,Medium,Active,0,No,No
+P0559,Vikram Gupta,8,Female,O+,189,48.8,13.7,170,97,99,Migraine,Severe,2026-01-16,2026-01-29,Medication,Amoxicillin,D010,DEP02,Neurology,11619,Under Treatment,0.53,13,Medium,Active,9,No,No
+P0560,Suresh Das,68,Female,B+,169,24.9,8.7,121,100,69,Pneumonia,Moderate,2026-08-16,2026-08-26,Counseling,Paracetamol,D017,DEP02,Neurology,88343,Stable,0.26,10,Low,Active,12,Yes,No
+P0561,Suresh Patel,50,Male,AB+,133,35.5,20.1,97,93,94,COVID-19,Mild,2025-07-06,2025-07-07,Surgery,Insulin,D006,DEP01,Cardiology,105341,Improving,0.13,1,Medium,Active,11,No,No
+P0562,Pooja Verma,76,Male,AB-,143,103.5,50.6,113,79,81,Hypertension,Mild,2025-01-29,2025-02-13,Observation,Paracetamol,D018,DEP05,Pulmonology,146558,Recovered,0.27,15,Medium,Not Insured,16,No,No
+P0563,Pooja Kumar,77,Female,B+,174,32.1,10.6,131,63,80,Hypertension,Severe,2025-04-27,2025-05-10,Observation,Amoxicillin,D020,DEP09,Emergency,15781,Referred,0.49,13,Medium,Not Insured,18,No,No
+P0564,Sneha Singh,56,Male,A+,182,49.0,14.8,175,80,69,Migraine,Mild,2025-09-14,2025-09-22,Medication,Insulin,D001,DEP09,Emergency,56991,Improving,0.27,8,Low,Active,1,No,No
+P0565,Divya Reddy,43,Female,B+,170,77.5,26.8,111,77,81,Arthritis,Mild,2026-08-15,2026-08-18,Medication,Losartan,D030,DEP06,Nephrology,141611,Referred,0.09,3,Low,Active,11,No,No
+P0566,Divya Sharma,20,Male,B+,176,28.5,9.2,114,107,118,Asthma,Mild,2025-04-18,2025-04-19,Medication,Metformin,D012,DEP01,Cardiology,104652,Stable,0.02,1,Medium,Active,3,No,No
+P0567,Neha Patel,46,Female,O+,123,72.0,47.6,123,95,89,Hypertension,Mild,2026-06-25,2026-06-28,Physiotherapy,Ibuprofen,D025,DEP08,Gastroenterology,92914,Referred,0.23,3,Medium,Active,15,No,No
+P0568,Pooja Reddy,55,Female,A-,132,46.1,26.5,165,105,76,Migraine,Mild,2025-03-31,2025-04-08,Surgery,Losartan,D007,DEP07,Dermatology,149497,Referred,0.39,8,Medium,Active,7,Yes,No
+P0569,Nikhil Gupta,79,Female,AB-,167,52.5,18.8,100,89,117,Anemia,Critical,2025-03-25,2025-04-09,Counseling,None,D006,DEP06,Nephrology,122709,Recovered,0.64,15,High,Active,12,No,No
+P0570,Rahul Kumar,23,Female,A+,148,76.6,35.0,114,75,103,Pneumonia,Moderate,2026-06-26,2026-07-06,Observation,Losartan,D009,DEP04,Orthopedics,28871,Under Treatment,0.03,10,Low,Active,13,No,No
+P0571,Priya Patel,4,Female,B+,184,70.4,20.8,173,94,118,Anemia,Mild,2026-04-20,2026-04-25,Medication,Amoxicillin,D026,DEP01,Cardiology,86640,Stable,0.13,5,Low,Not Insured,12,Yes,No
+P0572,Kiran Verma,51,Female,AB-,138,90.2,47.4,140,71,75,Kidney Disease,Severe,2026-01-11,2026-01-25,Counseling,Amoxicillin,D021,DEP03,General Medicine,65557,Recovered,0.42,14,Low,Active,12,No,Yes
+P0573,Sneha Das,47,Female,AB+,127,73.4,45.5,175,91,78,Viral Infection,Mild,2025-10-01,2025-10-04,Emergency Care,Losartan,D022,DEP08,Gastroenterology,114614,Under Treatment,0.26,3,Low,Active,20,No,No
+P0574,Priya Patel,40,Female,AB+,178,44.5,14.0,180,77,102,Viral Infection,Mild,2026-09-08,2026-09-13,Emergency Care,Paracetamol,D029,DEP09,Emergency,87166,Improving,0.35,5,Low,Active,0,No,No
+P0575,Suresh Singh,44,Female,AB+,168,59.9,21.2,160,90,117,Heart Disease,Moderate,2026-07-15,2026-07-16,Physiotherapy,Insulin,D028,DEP08,Gastroenterology,39239,Referred,0.29,1,Low,Active,7,No,No
+P0576,Kavya Gupta,70,Female,O-,122,35.8,24.1,98,98,59,Migraine,Moderate,2025-01-07,2025-01-19,Surgery,Amlodipine,D030,DEP07,Dermatology,16360,Recovered,0.23,12,Medium,Not Insured,2,No,No
+P0577,Vikram Das,40,Female,AB-,188,91.2,25.8,95,81,116,Kidney Disease,Severe,2026-08-12,2026-08-23,Surgery,Ibuprofen,D018,DEP03,General Medicine,66012,Referred,0.46,11,High,Active,2,No,Yes
+P0578,Anil Verma,67,Female,O-,150,106.2,47.2,121,97,102,Heart Disease,Mild,2026-06-11,2026-06-16,Observation,Amoxicillin,D011,DEP06,Nephrology,77342,Stable,0.27,5,Low,Active,10,No,No
+P0579,Arjun Rao,74,Female,AB-,182,45.0,13.6,167,105,109,Heart Disease,Moderate,2025-05-18,2025-05-22,Observation,Salbutamol,D002,DEP09,Emergency,24380,Stable,0.37,4,Medium,Not Insured,17,No,No
+P0580,Pooja Kumar,7,Male,A+,125,61.7,39.5,117,71,116,Migraine,Moderate,2026-03-11,2026-03-20,Medication,Amlodipine,D024,DEP08,Gastroenterology,134440,Improving,0.07,9,Medium,Active,0,No,No
+P0581,Nikhil Kumar,6,Female,O-,170,32.3,11.2,176,78,79,Hypertension,Moderate,2026-01-10,2026-01-13,Medication,Salbutamol,D015,DEP09,Emergency,133435,Under Treatment,0.16,3,Low,Not Insured,18,No,No
+P0582,Arjun Singh,54,Female,A+,166,103.9,37.7,144,104,64,Asthma,Severe,2025-09-20,2025-09-26,Physiotherapy,Amoxicillin,D024,DEP04,Orthopedics,63183,Improving,0.61,6,High,Active,4,No,No
+P0583,Kiran Das,22,Female,B-,187,48.6,13.9,132,102,116,Hypertension,Mild,2026-08-01,2026-08-09,Counseling,Losartan,D021,DEP02,Neurology,130493,Referred,0.13,8,Medium,Active,16,No,No
+P0584,Nikhil Kumar,21,Male,B+,126,32.4,20.4,167,87,120,Anemia,Mild,2025-10-10,2025-10-18,Surgery,Paracetamol,D013,DEP06,Nephrology,147249,Referred,0.17,8,Low,Active,17,No,No
+P0585,Kiran Kumar,48,Male,B+,178,81.3,25.7,149,60,62,Diabetes,Moderate,2026-05-14,2026-05-24,Counseling,Amoxicillin,D001,DEP08,Gastroenterology,4174,Under Treatment,0.33,10,Low,Not Insured,5,No,No
+P0586,Suresh Reddy,72,Male,O-,183,96.2,28.7,102,99,59,Asthma,Severe,2026-07-11,2026-07-21,Medication,Paracetamol,D017,DEP04,Orthopedics,84690,Improving,0.61,10,High,Not Insured,8,No,No
+P0587,Ravi Kumar,47,Female,A+,120,69.5,48.3,173,84,119,Gastritis,Moderate,2025-02-07,2025-02-21,Physiotherapy,Insulin,D012,DEP10,Pediatrics,3564,Referred,0.31,14,High,Active,10,No,No
+P0588,Arjun Kumar,61,Male,O+,136,88.6,47.9,101,95,70,Diabetes,Severe,2025-10-19,2025-10-29,Medication,Salbutamol,D008,DEP06,Nephrology,40927,Recovered,0.57,10,Medium,Active,20,No,No
+P0589,Rohit Reddy,54,Male,O-,123,68.0,44.9,106,76,106,Kidney Disease,Moderate,2026-03-04,2026-03-13,Medication,Omeprazole,D026,DEP06,Nephrology,98076,Improving,0.14,9,Medium,Not Insured,10,Yes,No
+P0590,Divya Sharma,24,Male,B+,170,39.4,13.6,133,103,58,Viral Infection,Moderate,2026-02-23,2026-02-27,Emergency Care,Losartan,D029,DEP07,Dermatology,113300,Referred,0.06,4,High,Active,14,No,No
+P0591,Sneha Singh,76,Male,A-,188,105.0,29.7,141,97,98,Arthritis,Mild,2026-02-18,2026-03-05,Observation,Omeprazole,D010,DEP03,General Medicine,34459,Referred,0.49,15,Medium,Active,9,Yes,No
+P0592,Rahul Patel,8,Male,A-,140,32.6,16.6,162,89,73,Kidney Disease,Mild,2025-08-12,2025-08-20,Surgery,Metformin,D007,DEP09,Emergency,130265,Stable,0.13,8,Low,Active,6,No,No
+P0593,Nikhil Verma,24,Male,A+,188,96.1,27.2,153,109,87,Asthma,Mild,2025-06-10,2025-06-25,Observation,Omeprazole,D025,DEP09,Emergency,114308,Improving,0.16,15,High,Active,1,No,No
+P0594,Sneha Kumar,8,Female,O-,139,77.0,39.9,166,74,117,Gastritis,Severe,2025-05-07,2025-05-16,Counseling,Losartan,D030,DEP09,Emergency,11608,Under Treatment,0.55,9,Medium,Active,15,Yes,No
+P0595,Sai Naidu,15,Female,B-,125,69.6,44.5,95,60,82,Gastritis,Severe,2026-07-15,2026-07-27,Medication,Amoxicillin,D029,DEP09,Emergency,21173,Under Treatment,0.43,12,Medium,Active,13,No,No
+P0596,Neha Patel,65,Female,O+,178,44.2,14.0,113,110,96,Anemia,Mild,2025-02-05,2025-02-20,Physiotherapy,Amlodipine,D017,DEP03,General Medicine,89575,Stable,0.24,15,Low,Not Insured,0,No,No
+P0597,Kavya Reddy,5,Male,B-,143,61.9,30.3,127,69,91,Heart Disease,Moderate,2025-11-11,2025-11-17,Surgery,Losartan,D025,DEP09,Emergency,47193,Under Treatment,0.04,6,High,Active,7,No,No
+P0598,Varun Reddy,66,Female,O+,123,102.2,67.6,110,100,55,Kidney Disease,Severe,2025-07-28,2025-08-12,Counseling,Omeprazole,D012,DEP05,Pulmonology,83026,Referred,0.52,15,Medium,Active,3,No,No
+P0599,Nikhil Naidu,3,Male,AB-,124,91.8,59.7,165,65,80,Pneumonia,Mild,2025-12-08,2025-12-11,Physiotherapy,Metformin,D009,DEP02,Neurology,63026,Stable,0.19,3,Low,Active,14,No,No
+P0600,Varun Reddy,80,Female,AB-,121,25.8,17.6,149,61,80,Arthritis,Mild,2026-01-11,2026-01-25,Counseling,Amoxicillin,D020,DEP02,Neurology,10333,Improving,0.48,14,Low,Active,13,No,No
+P0601,Kiran Naidu,76,Male,AB+,188,78.9,22.3,137,97,99,Migraine,Mild,2026-06-12,2026-06-19,Surgery,None,D014,DEP07,Dermatology,10995,Referred,0.25,7,Low,Not Insured,3,No,No
+P0602,Meena Patel,5,Male,AB+,137,94.6,50.4,115,106,84,Heart Disease,Mild,2025-04-29,2025-05-13,Observation,Ibuprofen,D013,DEP03,General Medicine,54276,Under Treatment,0.02,14,Low,Active,4,No,No
+P0603,Varun Das,26,Female,A-,156,91.9,37.8,107,83,74,COVID-19,Severe,2025-07-16,2025-07-25,Observation,Atorvastatin,D009,DEP06,Nephrology,126832,Referred,0.36,9,High,Active,1,No,No
+P0604,Ravi Gupta,3,Male,O-,186,54.7,15.8,148,64,69,Gastritis,Mild,2025-10-13,2025-10-23,Emergency Care,None,D013,DEP01,Cardiology,147604,Referred,0.17,10,Medium,Active,20,No,No
+P0605,Nikhil Das,54,Female,A+,122,26.5,17.8,108,62,78,Migraine,Moderate,2025-07-16,2025-07-24,Counseling,Omeprazole,D016,DEP04,Orthopedics,88206,Under Treatment,0.21,8,Medium,Active,2,No,No
+P0606,Pooja Kumar,9,Male,O-,170,74.3,25.7,108,81,106,Kidney Disease,Mild,2026-09-01,2026-09-05,Physiotherapy,Metformin,D020,DEP10,Pediatrics,41651,Referred,0.02,4,Low,Active,11,No,No
+P0607,Kiran Das,36,Male,A+,155,41.6,17.3,95,64,91,Arthritis,Severe,2025-03-14,2025-03-20,Surgery,Amoxicillin,D021,DEP08,Gastroenterology,88255,Recovered,0.36,6,Medium,Not Insured,3,No,No
+P0608,Rahul Patel,77,Male,A-,140,34.9,17.8,158,99,80,Asthma,Moderate,2026-04-11,2026-04-24,Medication,Salbutamol,D025,DEP01,Cardiology,64594,Referred,0.39,13,Medium,Active,1,No,No
+P0609,Anil Sharma,29,Female,O-,141,51.2,25.8,123,101,85,Arthritis,Mild,2025-02-12,2025-02-13,Emergency Care,Atorvastatin,D021,DEP08,Gastroenterology,12180,Improving,0.03,1,Low,Active,14,No,No
+P0610,Ananya Sharma,68,Male,O-,141,77.6,39.0,109,103,63,COVID-19,Severe,2026-06-18,2026-06-29,Medication,Losartan,D008,DEP01,Cardiology,135432,Recovered,0.59,11,Medium,Active,10,No,No
+P0611,Suresh Singh,47,Female,B-,133,77.6,43.9,175,110,83,Gastritis,Severe,2025-07-26,2025-08-10,Surgery,Insulin,D003,DEP06,Nephrology,42663,Referred,0.62,15,Medium,Not Insured,9,No,No
+P0612,Sai Kumar,32,Female,A-,138,103.8,54.5,179,94,81,Arthritis,Moderate,2026-06-11,2026-06-19,Emergency Care,Ibuprofen,D014,DEP03,General Medicine,142680,Under Treatment,0.3,8,Low,Active,14,No,No
+P0613,Varun Gupta,5,Male,B-,136,80.4,43.5,95,88,90,Pneumonia,Moderate,2025-10-12,2025-10-20,Counseling,Metformin,D007,DEP05,Pulmonology,10512,Recovered,0.02,8,Low,Not Insured,16,No,No
+P0614,Ananya Sharma,54,Female,B-,169,36.0,12.6,141,80,74,Hypertension,Mild,2026-01-11,2026-01-21,Counseling,Omeprazole,D013,DEP06,Nephrology,116444,Recovered,0.39,10,Low,Active,6,No,No
+P0615,Arjun Rao,13,Male,AB-,162,54.4,20.7,152,84,71,Heart Disease,Moderate,2026-01-07,2026-01-10,Counseling,Ibuprofen,D013,DEP01,Cardiology,32915,Improving,0.14,3,Low,Active,4,No,No
+P0616,Sneha Das,49,Male,B-,125,66.1,42.3,111,105,98,Asthma,Critical,2025-08-12,2025-08-19,Observation,Omeprazole,D013,DEP04,Orthopedics,18189,Under Treatment,0.52,7,Medium,Active,13,No,No
+P0617,Rohit Verma,49,Female,A+,134,100.3,55.9,95,66,107,Asthma,Moderate,2025-06-28,2025-07-06,Observation,None,D006,DEP10,Pediatrics,147961,Stable,0.13,8,Low,Inactive,17,No,No
+P0618,Rahul Kumar,26,Female,B-,159,96.8,38.3,137,80,57,Anemia,Severe,2025-05-16,2025-05-21,Physiotherapy,None,D021,DEP05,Pulmonology,46537,Recovered,0.32,5,High,Active,1,No,No
+P0619,Pooja Reddy,79,Male,B-,147,106.6,49.3,168,68,85,Kidney Disease,Severe,2025-09-30,2025-10-10,Emergency Care,None,D018,DEP02,Neurology,142380,Under Treatment,0.75,10,Medium,Not Insured,14,No,No
+P0620,Suresh Das,78,Female,A-,128,97.7,59.6,150,101,118,Gastritis,Moderate,2026-01-24,2026-02-02,Observation,Losartan,D003,DEP07,Dermatology,57652,Stable,0.43,9,Low,Active,5,No,No
+P0621,Divya Verma,5,Male,B-,172,104.6,35.4,146,105,73,Hypertension,Mild,2025-01-23,2025-02-04,Physiotherapy,None,D028,DEP06,Nephrology,145907,Stable,0.18,12,Medium,Active,7,No,No
+P0622,Neha Kumar,25,Male,O+,163,43.9,16.5,128,104,62,Viral Infection,Mild,2025-02-20,2025-02-25,Observation,Ibuprofen,D017,DEP09,Emergency,47649,Improving,0.14,5,Medium,Active,14,Yes,Yes
+P0623,Divya Singh,18,Male,O-,139,25.5,13.2,157,62,100,Kidney Disease,Moderate,2025-04-29,2025-05-06,Medication,Omeprazole,D001,DEP05,Pulmonology,69956,Referred,0.28,7,Low,Active,1,No,Yes
+P0624,Varun Kumar,25,Female,B+,134,101.7,56.6,151,74,106,Arthritis,Mild,2025-07-13,2025-07-22,Surgery,Losartan,D004,DEP08,Gastroenterology,100841,Under Treatment,0.18,9,Low,Active,6,No,No
+P0625,Aman Singh,74,Male,A+,181,82.0,25.0,169,84,102,Asthma,Mild,2025-04-22,2025-04-25,Counseling,Amoxicillin,D016,DEP04,Orthopedics,110622,Under Treatment,0.45,3,High,Active,9,No,No
+P0626,Vikram Patel,11,Male,O-,163,43.0,16.2,95,97,63,Arthritis,Mild,2026-07-21,2026-07-31,Medication,Ibuprofen,D005,DEP04,Orthopedics,66970,Under Treatment,0.09,10,Medium,Active,17,No,No
+P0627,Meena Das,26,Male,AB+,180,56.7,17.5,116,85,114,Pneumonia,Mild,2026-08-02,2026-08-08,Observation,Ibuprofen,D009,DEP05,Pulmonology,73968,Improving,0.06,6,Low,Inactive,5,No,No
+P0628,Ananya Das,58,Female,AB-,179,29.1,9.1,141,93,56,COVID-19,Moderate,2026-05-24,2026-06-08,Emergency Care,Salbutamol,D018,DEP05,Pulmonology,129807,Referred,0.33,15,Medium,Active,13,No,No
+P0629,Pooja Kumar,45,Male,AB-,180,109.8,33.9,123,62,120,Asthma,Severe,2025-06-17,2025-06-25,Counseling,Salbutamol,D007,DEP03,General Medicine,128682,Referred,0.44,8,Low,Active,2,Yes,No
+P0630,Varun Reddy,13,Male,A-,133,68.8,38.9,157,66,96,Arthritis,Moderate,2026-09-03,2026-09-10,Medication,Amoxicillin,D012,DEP10,Pediatrics,86316,Referred,0.17,7,Medium,Active,1,No,No
+P0631,Anil Das,68,Male,O-,189,51.8,14.5,166,98,67,Migraine,Mild,2026-01-19,2026-01-30,Emergency Care,Metformin,D024,DEP06,Nephrology,125046,Stable,0.33,11,Low,Active,5,No,Yes
+P0632,Rohit Das,6,Female,O+,125,102.3,65.5,150,99,61,Hypertension,Mild,2025-11-20,2025-11-29,Medication,Losartan,D013,DEP10,Pediatrics,51920,Improving,0.22,9,Medium,Active,18,No,No
+P0633,Aman Singh,54,Male,AB-,124,76.4,49.7,138,73,92,Kidney Disease,Moderate,2025-03-18,2025-03-23,Medication,Metformin,D003,DEP08,Gastroenterology,134348,Under Treatment,0.25,5,High,Not Insured,10,No,No
+P0634,Rahul Verma,65,Female,O+,144,48.5,23.4,175,62,91,Migraine,Moderate,2026-06-11,2026-06-13,Counseling,Salbutamol,D020,DEP06,Nephrology,85068,Stable,0.31,2,Low,Not Insured,8,No,No
+P0635,Ananya Kumar,34,Female,O-,171,37.9,13.0,109,76,70,Asthma,Moderate,2026-06-02,2026-06-04,Surgery,Losartan,D012,DEP06,Nephrology,88228,Improving,0.11,2,Low,Active,1,Yes,No
+P0636,Sai Reddy,34,Female,AB+,159,78.2,30.9,144,71,103,COVID-19,Mild,2025-05-25,2025-06-07,Physiotherapy,Amoxicillin,D022,DEP10,Pediatrics,97033,Referred,0.21,13,Low,Active,6,No,No
+P0637,Sneha Rao,38,Male,B+,173,43.9,14.7,144,90,63,Asthma,Severe,2026-05-18,2026-05-24,Physiotherapy,None,D029,DEP02,Neurology,105123,Improving,0.53,6,High,Not Insured,17,No,No
+P0638,Varun Singh,63,Female,AB-,145,96.5,45.9,144,95,67,Arthritis,Severe,2026-04-04,2026-04-14,Emergency Care,Ibuprofen,D015,DEP08,Gastroenterology,20950,Stable,0.65,10,Medium,Active,18,Yes,No
+P0639,Sai Rao,78,Female,B-,177,78.7,25.1,174,101,75,Pneumonia,Moderate,2025-11-07,2025-11-14,Medication,Amlodipine,D029,DEP10,Pediatrics,35603,Stable,0.45,7,Low,Active,20,No,No
+P0640,Arjun Sharma,2,Male,A+,128,63.2,38.6,142,101,95,Asthma,Moderate,2025-02-14,2025-02-16,Surgery,Amlodipine,D008,DEP10,Pediatrics,49855,Referred,0.13,2,Low,Active,16,No,No
+P0641,Aman Sharma,41,Female,O-,161,47.6,18.4,167,97,94,Diabetes,Moderate,2025-04-08,2025-04-19,Observation,Paracetamol,D018,DEP08,Gastroenterology,60821,Improving,0.35,11,Low,Not Insured,19,Yes,No
+P0642,Meena Rao,5,Female,O-,126,91.2,57.4,139,87,104,Migraine,Moderate,2025-04-06,2025-04-08,Observation,Losartan,D004,DEP04,Orthopedics,134235,Improving,0.04,2,Low,Active,7,No,No
+P0643,Sai Patel,66,Female,O-,189,77.1,21.6,158,93,72,Viral Infection,Moderate,2026-02-25,2026-02-26,Surgery,None,D021,DEP07,Dermatology,130369,Improving,0.38,1,Low,Active,5,No,No
+P0644,Neha Naidu,9,Female,O+,136,63.3,34.2,104,71,69,Diabetes,Moderate,2025-10-22,2025-10-31,Observation,Amoxicillin,D006,DEP03,General Medicine,148818,Under Treatment,0.02,9,Low,Not Insured,13,No,No
+P0645,Sneha Reddy,6,Male,A-,156,61.3,25.2,163,85,95,Anemia,Severe,2025-09-02,2025-09-13,Counseling,Amlodipine,D026,DEP05,Pulmonology,11552,Recovered,0.52,11,Medium,Active,14,No,No
+P0646,Ravi Gupta,45,Male,AB+,159,90.1,35.6,167,104,89,Hypertension,Severe,2026-02-18,2026-03-04,Counseling,Losartan,D026,DEP06,Nephrology,93140,Referred,0.65,14,Medium,Active,6,No,No
+P0647,Meena Patel,70,Male,A-,130,30.1,17.8,129,64,75,Anemia,Moderate,2026-02-28,2026-03-08,Medication,None,D013,DEP02,Neurology,49517,Under Treatment,0.25,8,Low,Active,0,Yes,No
+P0648,Ananya Rao,6,Female,B+,185,97.8,28.6,142,78,102,Gastritis,Mild,2026-08-07,2026-08-22,Emergency Care,Amoxicillin,D014,DEP04,Orthopedics,43738,Referred,0.14,15,Medium,Inactive,6,No,No
+P0649,Kavya Rao,21,Female,B-,134,83.8,46.7,162,91,120,Asthma,Moderate,2025-07-13,2025-07-21,Surgery,None,D013,DEP06,Nephrology,112345,Under Treatment,0.27,8,Medium,Active,1,No,No
+P0650,Sneha Naidu,80,Female,O+,170,109.8,38.0,167,98,73,Viral Infection,Mild,2025-06-25,2025-07-05,Physiotherapy,Atorvastatin,D007,DEP04,Orthopedics,116519,Referred,0.51,10,High,Active,20,No,No
+P0651,Ananya Sharma,6,Female,O-,169,24.8,8.7,151,89,112,Heart Disease,Moderate,2026-01-06,2026-01-07,Counseling,Metformin,D028,DEP09,Emergency,2571,Improving,0.18,1,Medium,Not Insured,4,No,No
+P0652,Ananya Verma,74,Female,B+,144,52.1,25.1,169,66,71,Anemia,Mild,2025-04-27,2025-05-07,Observation,None,D008,DEP08,Gastroenterology,131349,Stable,0.44,10,High,Active,19,No,No
+P0653,Rahul Naidu,78,Female,AB-,121,21.9,15.0,135,107,77,Kidney Disease,Severe,2025-10-17,2025-10-26,Physiotherapy,None,D003,DEP02,Neurology,36633,Under Treatment,0.65,9,Low,Active,5,No,No
+P0654,Neha Kumar,63,Female,O-,152,33.3,14.4,97,61,89,Diabetes,Moderate,2025-10-14,2025-10-19,Counseling,Atorvastatin,D028,DEP06,Nephrology,90390,Under Treatment,0.3,5,Low,Active,9,No,No
+P0655,Rohit Gupta,7,Female,B-,181,64.8,19.8,141,67,108,Viral Infection,Moderate,2025-02-09,2025-02-21,Emergency Care,None,D026,DEP07,Dermatology,99312,Referred,0.24,12,Medium,Active,14,No,No
+P0656,Sai Naidu,34,Female,B-,179,75.2,23.5,174,78,103,Arthritis,Moderate,2025-01-02,2025-01-14,Observation,Losartan,D016,DEP04,Orthopedics,143419,Stable,0.33,12,High,Active,12,Yes,No
+P0657,Aman Naidu,59,Male,A-,163,59.9,22.5,102,73,61,Hypertension,Severe,2026-02-11,2026-02-20,Emergency Care,None,D017,DEP10,Pediatrics,133767,Improving,0.52,9,Medium,Active,4,No,No
+P0658,Rohit Patel,29,Male,AB+,145,97.7,46.5,156,106,113,Anemia,Moderate,2025-06-05,2025-06-06,Emergency Care,Metformin,D011,DEP08,Gastroenterology,105722,Stable,0.23,1,Medium,Inactive,1,No,No
+P0659,Varun Reddy,47,Male,A-,149,57.2,25.8,124,104,63,Viral Infection,Mild,2025-08-26,2025-09-10,Emergency Care,Metformin,D021,DEP09,Emergency,26723,Referred,0.12,15,Low,Not Insured,13,No,No
+P0660,Kiran Kumar,61,Male,O-,165,106.1,39.0,136,104,101,Migraine,Moderate,2025-06-12,2025-06-13,Surgery,Losartan,D006,DEP09,Emergency,36742,Under Treatment,0.18,1,Low,Not Insured,10,Yes,No
+P0661,Suresh Reddy,1,Male,A+,162,37.3,14.2,154,60,105,Arthritis,Mild,2025-04-05,2025-04-07,Counseling,Losartan,D006,DEP03,General Medicine,126076,Referred,0.15,2,Medium,Active,11,No,No
+P0662,Nikhil Reddy,50,Female,O-,122,92.3,62.0,171,76,86,Migraine,Moderate,2025-12-29,2025-12-31,Medication,Metformin,D017,DEP04,Orthopedics,26309,Recovered,0.29,2,Low,Inactive,16,No,No
+P0663,Meena Rao,57,Male,O+,185,31.3,9.1,107,109,68,Anemia,Critical,2026-06-11,2026-06-23,Surgery,Insulin,D026,DEP04,Orthopedics,62910,Referred,0.56,12,Low,Active,9,No,No
+P0664,Meena Singh,16,Female,O+,135,48.1,26.4,98,69,105,Arthritis,Moderate,2025-07-05,2025-07-17,Emergency Care,Amlodipine,D028,DEP02,Neurology,89471,Stable,0.02,12,Low,Active,3,No,No
+P0665,Kavya Sharma,46,Male,O-,168,58.8,20.8,126,78,57,Heart Disease,Mild,2026-02-11,2026-02-22,Physiotherapy,Losartan,D008,DEP09,Emergency,33900,Referred,0.14,11,Low,Not Insured,14,Yes,No
+P0666,Ravi Singh,55,Female,A-,160,98.3,38.4,128,95,73,COVID-19,Moderate,2025-06-17,2025-06-20,Counseling,None,D013,DEP10,Pediatrics,72147,Referred,0.25,3,Medium,Not Insured,10,No,No
+P0667,Pooja Patel,40,Female,AB-,179,32.5,10.1,125,67,59,Viral Infection,Severe,2026-06-02,2026-06-14,Observation,Metformin,D030,DEP10,Pediatrics,55020,Stable,0.36,12,Medium,Not Insured,15,No,No
+P0668,Ananya Gupta,64,Female,B+,137,31.1,16.6,153,109,83,Diabetes,Severe,2026-03-04,2026-03-17,Surgery,None,D022,DEP10,Pediatrics,6430,Referred,0.74,13,Medium,Not Insured,2,No,No
+P0669,Arjun Das,53,Male,O-,172,60.2,20.3,109,109,64,Gastritis,Moderate,2025-05-19,2025-05-21,Counseling,Amoxicillin,D002,DEP01,Cardiology,49146,Recovered,0.11,2,Medium,Active,10,No,No
+P0670,Vikram Sharma,77,Male,B-,178,41.9,13.2,107,89,72,Diabetes,Severe,2026-01-30,2026-01-31,Surgery,Atorvastatin,D029,DEP09,Emergency,89935,Recovered,0.63,1,High,Inactive,8,No,No
+P0671,Kiran Reddy,75,Female,B+,152,90.5,39.2,146,71,86,COVID-19,Severe,2025-03-31,2025-04-08,Observation,Omeprazole,D002,DEP07,Dermatology,130273,Under Treatment,0.75,8,Medium,Inactive,9,No,No
+P0672,Arjun Sharma,48,Male,B-,150,106.4,47.3,101,106,62,Heart Disease,Mild,2025-05-15,2025-05-18,Counseling,Salbutamol,D004,DEP10,Pediatrics,146142,Referred,0.09,3,Medium,Active,7,No,Yes
+P0673,Suresh Das,50,Male,A+,142,38.2,18.9,171,71,72,Migraine,Severe,2025-04-07,2025-04-21,Surgery,None,D007,DEP03,General Medicine,29788,Improving,0.66,14,Low,Not Insured,4,No,No
+P0674,Meena Kumar,28,Female,A+,145,51.3,24.4,124,62,87,Anemia,Moderate,2025-10-06,2025-10-20,Counseling,Atorvastatin,D027,DEP06,Nephrology,14638,Improving,0.16,14,Low,Active,9,No,No
+P0675,Rahul Kumar,67,Male,O+,134,104.1,58.0,117,96,116,Kidney Disease,Moderate,2026-07-04,2026-07-08,Medication,Atorvastatin,D014,DEP09,Emergency,42368,Referred,0.21,4,Medium,Active,17,No,No
+P0676,Neha Reddy,7,Male,AB+,159,100.7,39.8,169,100,109,Arthritis,Severe,2026-05-13,2026-05-21,Emergency Care,Amlodipine,D017,DEP03,General Medicine,52539,Under Treatment,0.48,8,Medium,Active,18,No,No
+P0677,Sai Reddy,24,Male,O-,166,107.3,38.9,138,97,83,Arthritis,Moderate,2026-08-25,2026-09-04,Counseling,Salbutamol,D011,DEP01,Cardiology,95548,Under Treatment,0.02,10,Medium,Not Insured,8,No,No
+P0678,Vikram Singh,68,Female,O-,167,50.9,18.3,99,109,57,Kidney Disease,Moderate,2026-01-25,2026-02-01,Physiotherapy,Omeprazole,D017,DEP02,Neurology,120553,Stable,0.21,7,Medium,Active,10,No,Yes
+P0679,Ravi Reddy,37,Female,AB+,166,52.1,18.9,134,98,69,Kidney Disease,Moderate,2025-01-23,2025-01-27,Observation,Omeprazole,D022,DEP03,General Medicine,20137,Under Treatment,0.12,4,High,Inactive,5,No,No
+P0680,Pooja Naidu,80,Male,O+,162,46.0,17.5,150,90,111,Asthma,Mild,2026-04-19,2026-04-27,Surgery,Amlodipine,D010,DEP06,Nephrology,111140,Stable,0.47,8,Medium,Inactive,20,No,Yes
+P0681,Ananya Naidu,66,Female,A-,170,105.0,36.3,131,107,110,Gastritis,Severe,2025-11-09,2025-11-19,Observation,Atorvastatin,D024,DEP01,Cardiology,144762,Recovered,0.56,10,High,Active,7,No,No
+P0682,Priya Sharma,7,Female,A+,155,61.3,25.5,114,108,113,Pneumonia,Mild,2026-02-24,2026-03-09,Surgery,Metformin,D014,DEP07,Dermatology,52981,Referred,0.02,13,Medium,Active,16,No,No
+P0683,Suresh Sharma,78,Female,O+,131,43.1,25.1,145,72,111,COVID-19,Mild,2026-05-22,2026-06-05,Surgery,Omeprazole,D014,DEP10,Pediatrics,14662,Stable,0.35,14,Low,Active,16,No,No
+P0684,Kiran Reddy,35,Female,O+,178,98.7,31.2,128,108,95,Gastritis,Severe,2025-03-24,2025-03-27,Physiotherapy,Salbutamol,D010,DEP07,Dermatology,9604,Under Treatment,0.44,3,Low,Active,12,No,No
+P0685,Neha Sharma,73,Male,O-,154,28.6,12.1,171,78,116,Anemia,Moderate,2025-07-15,2025-07-25,Medication,Paracetamol,D006,DEP06,Nephrology,3463,Under Treatment,0.34,10,Low,Not Insured,6,Yes,No
+P0686,Aman Verma,36,Male,A+,168,85.7,30.4,101,86,105,Pneumonia,Moderate,2025-12-09,2025-12-20,Surgery,Amoxicillin,D014,DEP10,Pediatrics,113236,Stable,0.11,11,Medium,Inactive,8,No,No
+P0687,Rohit Verma,1,Male,A-,160,80.1,31.3,173,76,67,Diabetes,Severe,2026-04-27,2026-04-29,Observation,Salbutamol,D016,DEP07,Dermatology,134554,Improving,0.5,2,Medium,Inactive,17,No,No
+P0688,Neha Naidu,57,Male,A+,137,36.3,19.3,139,75,97,Hypertension,Mild,2026-05-10,2026-05-23,Surgery,Ibuprofen,D023,DEP06,Nephrology,136146,Stable,0.16,13,Medium,Not Insured,19,No,Yes
+P0689,Neha Verma,46,Male,A+,172,76.6,25.9,111,107,78,Diabetes,Mild,2025-06-13,2025-06-20,Surgery,Salbutamol,D006,DEP04,Orthopedics,96566,Recovered,0.19,7,Low,Active,14,No,No
+P0690,Ravi Gupta,56,Male,B+,129,33.5,20.1,155,95,70,Heart Disease,Mild,2025-06-13,2025-06-28,Emergency Care,Amlodipine,D012,DEP03,General Medicine,126203,Under Treatment,0.32,15,High,Not Insured,8,No,No
+P0691,Arjun Das,54,Female,AB+,166,61.7,22.4,147,91,116,Hypertension,Critical,2026-02-20,2026-03-07,Physiotherapy,Salbutamol,D011,DEP04,Orthopedics,18515,Stable,0.59,15,Low,Active,16,No,No
+P0692,Kavya Patel,42,Male,AB+,167,95.3,34.2,143,89,95,Asthma,Severe,2025-01-11,2025-01-20,Physiotherapy,Ibuprofen,D008,DEP05,Pulmonology,98315,Referred,0.53,9,High,Active,11,No,No
+P0693,Meena Singh,6,Male,O-,162,23.6,9.0,122,105,117,Gastritis,Moderate,2025-03-30,2025-04-06,Observation,Losartan,D005,DEP02,Neurology,52228,Stable,0.04,7,Low,Not Insured,13,No,No
+P0694,Suresh Reddy,61,Male,O-,180,23.6,7.3,171,99,120,Asthma,Severe,2026-06-08,2026-06-16,Observation,None,D018,DEP10,Pediatrics,31566,Stable,0.68,8,Low,Active,12,No,No
+P0695,Rohit Singh,54,Female,A-,186,100.5,29.0,113,105,69,Heart Disease,Severe,2025-08-20,2025-08-28,Counseling,Insulin,D020,DEP10,Pediatrics,142876,Improving,0.48,8,Medium,Not Insured,1,Yes,No
+P0696,Priya Reddy,16,Male,A-,124,48.1,31.3,116,73,111,Hypertension,Moderate,2026-07-13,2026-07-18,Surgery,Atorvastatin,D015,DEP02,Neurology,122903,Under Treatment,0.11,5,Low,Active,1,No,Yes
+P0697,Kiran Singh,37,Male,A-,160,23.6,9.2,131,99,100,Asthma,Moderate,2025-04-07,2025-04-16,Emergency Care,Paracetamol,D016,DEP07,Dermatology,1518,Improving,0.15,9,High,Active,2,No,No
+P0698,Anil Patel,62,Female,B-,126,52.5,33.1,105,106,103,Diabetes,Severe,2026-06-15,2026-06-16,Medication,None,D003,DEP01,Cardiology,139161,Referred,0.47,1,High,Active,4,No,No
+P0699,Aman Kumar,53,Female,A+,180,72.4,22.3,105,70,61,Heart Disease,Mild,2025-04-02,2025-04-08,Emergency Care,Insulin,D013,DEP09,Emergency,33691,Referred,0.23,6,Medium,Active,15,No,No
+P0700,Arjun Gupta,46,Male,O-,178,71.0,22.4,95,93,63,Heart Disease,Severe,2026-08-02,2026-08-06,Surgery,Ibuprofen,D010,DEP03,General Medicine,147793,Improving,0.47,4,Medium,Active,1,No,No
+P0701,Nikhil Rao,6,Female,AB-,184,36.5,10.8,132,106,76,COVID-19,Mild,2026-03-28,2026-04-10,Medication,Amoxicillin,D018,DEP09,Emergency,41832,Referred,0.02,13,Medium,Active,13,No,No
+P0702,Ravi Sharma,57,Male,B-,123,73.3,48.4,105,94,62,Gastritis,Mild,2025-08-20,2025-08-30,Physiotherapy,Insulin,D017,DEP02,Neurology,43376,Stable,0.19,10,Low,Active,5,No,No
+P0703,Aman Sharma,75,Male,A-,131,82.8,48.2,121,71,67,Diabetes,Severe,2026-05-15,2026-05-19,Emergency Care,Ibuprofen,D030,DEP08,Gastroenterology,138878,Recovered,0.54,4,Low,Inactive,16,No,No
+P0704,Meena Rao,13,Female,AB-,173,66.2,22.1,117,109,68,Arthritis,Severe,2025-09-26,2025-10-03,Counseling,Atorvastatin,D005,DEP07,Dermatology,28826,Improving,0.39,7,Medium,Active,4,No,No
+P0705,Priya Patel,64,Male,O+,163,62.8,23.6,110,102,117,Kidney Disease,Mild,2025-10-20,2025-11-03,Observation,Losartan,D010,DEP06,Nephrology,3253,Stable,0.19,14,Low,Not Insured,18,No,No
+P0706,Vikram Rao,65,Female,B-,164,36.7,13.6,95,98,55,COVID-19,Moderate,2025-06-29,2025-07-03,Surgery,Ibuprofen,D002,DEP04,Orthopedics,52841,Stable,0.3,4,Low,Active,11,No,No
+P0707,Varun Kumar,78,Male,A-,180,45.6,14.1,140,91,68,Anemia,Moderate,2025-09-20,2025-09-22,Emergency Care,Salbutamol,D006,DEP08,Gastroenterology,105504,Stable,0.3,2,Low,Active,9,No,No
+P0708,Priya Reddy,32,Male,A-,124,75.2,48.9,110,84,83,Heart Disease,Moderate,2025-02-17,2025-02-27,Medication,Insulin,D002,DEP01,Cardiology,94405,Recovered,0.05,10,Medium,Active,7,No,No
+P0709,Ravi Patel,49,Female,O-,135,92.5,50.8,102,106,109,Viral Infection,Critical,2025-05-12,2025-05-24,Physiotherapy,Insulin,D005,DEP06,Nephrology,23161,Referred,0.47,12,Medium,Not Insured,19,No,No
+P0710,Anil Kumar,13,Male,B-,185,25.9,7.6,108,68,117,Pneumonia,Moderate,2026-09-07,2026-09-12,Emergency Care,Amlodipine,D003,DEP03,General Medicine,30900,Stable,0.08,5,Medium,Active,7,No,No
+P0711,Meena Verma,77,Female,O+,129,67.1,40.3,171,82,84,Gastritis,Mild,2026-07-25,2026-08-03,Observation,Atorvastatin,D006,DEP06,Nephrology,87814,Stable,0.5,9,High,Active,17,No,Yes
+P0712,Meena Reddy,37,Male,O-,164,50.9,18.9,105,78,88,Anemia,Critical,2025-04-28,2025-05-12,Counseling,Paracetamol,D028,DEP07,Dermatology,145159,Recovered,0.42,14,Low,Active,16,No,No
+P0713,Anil Sharma,22,Female,O+,188,103.8,29.4,147,66,74,Diabetes,Moderate,2025-12-20,2025-12-22,Physiotherapy,Paracetamol,D007,DEP08,Gastroenterology,56277,Referred,0.26,2,Medium,Inactive,12,No,No
+P0714,Ravi Rao,64,Male,O-,169,51.9,18.2,148,64,71,Heart Disease,Mild,2026-04-01,2026-04-07,Medication,Losartan,D018,DEP09,Emergency,47034,Stable,0.33,6,Low,Inactive,6,No,No
+P0715,Neha Gupta,72,Male,O-,140,42.5,21.7,133,92,94,Gastritis,Moderate,2026-06-24,2026-07-05,Observation,Insulin,D021,DEP07,Dermatology,64495,Under Treatment,0.32,11,Low,Not Insured,14,Yes,No
+P0716,Arjun Rao,52,Female,A+,151,81.6,35.8,138,92,84,COVID-19,Mild,2026-06-09,2026-06-17,Surgery,Amoxicillin,D008,DEP03,General Medicine,17821,Improving,0.13,8,Low,Active,5,Yes,Yes
+P0717,Neha Gupta,79,Female,O+,190,86.6,24.0,109,92,107,Arthritis,Moderate,2026-02-22,2026-02-26,Observation,Atorvastatin,D007,DEP04,Orthopedics,134936,Under Treatment,0.28,4,Low,Not Insured,15,No,No
+P0718,Meena Rao,14,Female,O-,185,103.4,30.2,115,78,70,Diabetes,Severe,2025-05-26,2025-06-01,Physiotherapy,Metformin,D005,DEP10,Pediatrics,146154,Referred,0.42,6,Medium,Active,3,Yes,No
+P0719,Kiran Singh,63,Female,O+,125,84.4,54.0,170,73,104,Asthma,Moderate,2026-08-18,2026-08-24,Physiotherapy,Atorvastatin,D001,DEP05,Pulmonology,96695,Stable,0.39,6,Medium,Active,6,No,No
+P0720,Vikram Patel,28,Male,O+,132,96.7,55.5,119,106,116,Anemia,Mild,2025-01-13,2025-01-19,Counseling,Insulin,D011,DEP10,Pediatrics,92305,Referred,0.18,6,High,Active,0,No,No
+P0721,Aman Patel,46,Female,AB-,120,88.2,61.3,129,69,108,COVID-19,Moderate,2025-08-07,2025-08-13,Observation,Amoxicillin,D014,DEP01,Cardiology,138993,Stable,0.2,6,Low,Inactive,0,No,Yes
+P0722,Anil Reddy,36,Female,AB-,189,62.2,17.4,143,70,77,Pneumonia,Severe,2025-01-24,2025-02-04,Emergency Care,Ibuprofen,D001,DEP03,General Medicine,134008,Improving,0.53,11,Medium,Active,10,No,No
+P0723,Priya Singh,68,Male,O+,127,27.7,17.2,113,61,109,Hypertension,Mild,2025-06-10,2025-06-19,Medication,Metformin,D007,DEP03,General Medicine,8581,Under Treatment,0.26,9,Medium,Active,3,No,No
+P0724,Nikhil Gupta,8,Female,O-,187,32.6,9.3,158,61,55,Diabetes,Mild,2026-08-02,2026-08-09,Emergency Care,Losartan,D009,DEP03,General Medicine,51554,Recovered,0.11,7,Low,Active,20,No,Yes
+P0725,Meena Patel,10,Female,A-,133,45.0,25.4,112,75,91,Pneumonia,Severe,2025-02-03,2025-02-11,Medication,Paracetamol,D006,DEP07,Dermatology,84451,Stable,0.32,8,Medium,Active,2,Yes,No
+P0726,Priya Reddy,61,Female,B-,134,104.2,58.0,180,86,99,Migraine,Mild,2025-05-13,2025-05-20,Surgery,Paracetamol,D017,DEP05,Pulmonology,125938,Stable,0.42,7,Medium,Inactive,2,No,No
+P0727,Priya Verma,69,Male,A+,128,73.7,45.0,169,63,112,Arthritis,Moderate,2025-11-29,2025-12-09,Medication,Amoxicillin,D001,DEP06,Nephrology,124047,Improving,0.41,10,Low,Inactive,12,No,No
+P0728,Nikhil Das,14,Male,AB+,121,84.0,57.4,111,73,102,Kidney Disease,Moderate,2025-12-30,2026-01-14,Medication,Insulin,D015,DEP10,Pediatrics,126439,Improving,0.09,15,High,Active,11,No,No
+P0729,Ananya Patel,55,Male,A-,172,50.0,16.9,171,75,120,Gastritis,Mild,2025-05-16,2025-05-30,Physiotherapy,Omeprazole,D019,DEP01,Cardiology,128392,Recovered,0.38,14,High,Active,6,No,No
+P0730,Suresh Kumar,58,Female,O-,178,46.1,14.5,130,91,79,Migraine,Mild,2025-08-27,2025-09-03,Physiotherapy,Amlodipine,D007,DEP07,Dermatology,142434,Recovered,0.21,7,Medium,Not Insured,10,No,No
+P0731,Ananya Sharma,3,Male,A+,149,70.7,31.8,166,63,104,Anemia,Moderate,2026-07-02,2026-07-09,Counseling,None,D020,DEP09,Emergency,133544,Stable,0.18,7,High,Active,13,No,No
+P0732,Meena Sharma,10,Male,B+,145,95.1,45.2,167,74,63,COVID-19,Critical,2026-07-10,2026-07-24,Observation,Amoxicillin,D021,DEP04,Orthopedics,103763,Under Treatment,0.55,14,Medium,Active,2,No,No
+P0733,Meena Kumar,53,Male,O+,164,57.4,21.3,173,74,68,Pneumonia,Moderate,2026-01-14,2026-01-15,Counseling,Salbutamol,D006,DEP05,Pulmonology,136143,Referred,0.39,1,Low,Inactive,20,No,No
+P0734,Ananya Rao,9,Female,B-,145,77.8,37.0,156,79,59,Asthma,Moderate,2026-07-13,2026-07-18,Medication,Omeprazole,D015,DEP02,Neurology,47409,Stable,0.22,5,Medium,Active,5,No,No
+P0735,Suresh Gupta,55,Male,AB+,129,46.6,28.0,137,70,87,Kidney Disease,Moderate,2025-06-11,2025-06-26,Counseling,Omeprazole,D004,DEP04,Orthopedics,120729,Recovered,0.22,15,Medium,Active,19,No,Yes
+P0736,Meena Reddy,29,Female,O-,166,94.9,34.4,135,60,74,Diabetes,Mild,2026-02-04,2026-02-08,Counseling,Salbutamol,D015,DEP05,Pulmonology,91851,Stable,0.17,4,Low,Active,3,Yes,No
+P0737,Neha Naidu,75,Female,O+,144,63.7,30.7,130,90,72,Hypertension,Critical,2025-02-05,2025-02-15,Observation,Insulin,D017,DEP08,Gastroenterology,5986,Referred,0.57,10,Medium,Inactive,1,No,Yes
+P0738,Rohit Kumar,55,Female,AB-,159,50.3,19.9,153,101,68,Kidney Disease,Critical,2026-04-16,2026-04-20,Surgery,Losartan,D012,DEP09,Emergency,110990,Recovered,0.66,4,Low,Active,13,No,No
+P0739,Rohit Singh,57,Male,O-,120,95.9,66.6,164,64,105,Gastritis,Moderate,2026-04-10,2026-04-12,Counseling,Metformin,D010,DEP04,Orthopedics,48045,Stable,0.4,2,Medium,Not Insured,3,No,No
+P0740,Ravi Das,80,Female,O+,128,104.8,64.0,170,81,102,Pneumonia,Severe,2026-01-14,2026-01-15,Medication,None,D030,DEP09,Emergency,146348,Improving,0.78,1,Medium,Active,2,No,No
+P0741,Ravi Gupta,33,Male,B+,177,86.0,27.5,132,86,61,Migraine,Moderate,2025-10-09,2025-10-20,Counseling,Paracetamol,D006,DEP10,Pediatrics,105514,Recovered,0.08,11,Low,Active,5,No,No
+P0742,Sai Sharma,12,Female,O-,178,75.0,23.7,142,73,103,Gastritis,Critical,2025-05-12,2025-05-16,Counseling,Paracetamol,D014,DEP07,Dermatology,89840,Under Treatment,0.48,4,Medium,Not Insured,8,No,No
+P0743,Pooja Patel,74,Female,B-,185,38.1,11.1,111,92,60,Arthritis,Severe,2025-09-23,2025-10-01,Surgery,Metformin,D008,DEP03,General Medicine,92068,Under Treatment,0.51,8,Low,Not Insured,15,No,No
+P0744,Suresh Reddy,16,Female,A+,156,24.9,10.2,132,103,108,Hypertension,Mild,2025-09-23,2025-10-03,Physiotherapy,Insulin,D023,DEP01,Cardiology,124855,Recovered,0.13,10,Low,Active,8,No,No
+P0745,Aman Kumar,3,Male,A+,132,37.2,21.3,156,104,62,Kidney Disease,Mild,2025-02-21,2025-03-05,Counseling,Salbutamol,D003,DEP08,Gastroenterology,114394,Improving,0.18,12,Low,Active,11,No,No
+P0746,Nikhil Naidu,56,Male,B-,174,100.5,33.2,105,108,92,Arthritis,Moderate,2025-09-22,2025-10-04,Surgery,Salbutamol,D021,DEP09,Emergency,79754,Improving,0.19,12,High,Inactive,20,No,No
+P0747,Arjun Gupta,70,Female,A-,166,103.7,37.6,131,70,56,Arthritis,Mild,2025-07-20,2025-07-24,Observation,Paracetamol,D028,DEP03,General Medicine,81760,Stable,0.27,4,Low,Not Insured,1,No,No
+P0748,Neha Singh,13,Female,AB-,138,104.5,54.9,154,71,97,Hypertension,Severe,2025-07-21,2025-07-22,Observation,Atorvastatin,D007,DEP07,Dermatology,33016,Recovered,0.56,1,Low,Active,3,No,No
+P0749,Nikhil Das,32,Male,AB-,142,71.3,35.4,107,93,119,Diabetes,Mild,2026-07-03,2026-07-06,Physiotherapy,Atorvastatin,D010,DEP06,Nephrology,71908,Recovered,0.04,3,High,Not Insured,0,No,No
+P0750,Anil Das,10,Female,B+,163,79.1,29.8,135,61,73,Viral Infection,Mild,2026-05-10,2026-05-23,Observation,Salbutamol,D010,DEP01,Cardiology,69596,Referred,0.05,13,Low,Active,7,No,No
+P0751,Kiran Verma,59,Female,A-,158,108.9,43.6,151,109,95,Asthma,Critical,2026-03-15,2026-03-23,Surgery,Insulin,D026,DEP09,Emergency,118796,Under Treatment,0.66,8,Medium,Not Insured,20,No,No
+P0752,Ananya Das,19,Male,O+,175,53.0,17.3,131,78,91,Migraine,Mild,2025-07-04,2025-07-10,Observation,Paracetamol,D009,DEP10,Pediatrics,72383,Under Treatment,0.09,6,Low,Active,14,No,No
+P0753,Neha Kumar,53,Female,O-,144,22.3,10.8,102,98,97,Diabetes,Severe,2025-05-13,2025-05-14,Physiotherapy,Salbutamol,D022,DEP06,Nephrology,125280,Improving,0.56,1,Low,Not Insured,15,Yes,No
+P0754,Ananya Rao,51,Female,O-,128,37.8,23.1,118,98,62,Migraine,Moderate,2026-01-28,2026-02-06,Surgery,None,D003,DEP10,Pediatrics,70259,Recovered,0.23,9,Medium,Active,16,No,No
+P0755,Meena Rao,11,Female,B+,146,74.5,35.0,148,100,75,Arthritis,Mild,2025-10-01,2025-10-12,Surgery,Metformin,D006,DEP06,Nephrology,77907,Stable,0.17,11,Low,Active,7,Yes,No
+P0756,Ananya Naidu,28,Male,A+,165,73.6,27.0,155,76,88,COVID-19,Mild,2025-05-16,2025-05-20,Surgery,Insulin,D007,DEP05,Pulmonology,52197,Under Treatment,0.28,4,Medium,Active,7,No,No
+P0757,Rohit Gupta,55,Male,AB-,129,65.6,39.4,180,104,104,COVID-19,Severe,2025-03-20,2025-03-25,Surgery,Atorvastatin,D009,DEP08,Gastroenterology,64805,Under Treatment,0.65,5,Low,Active,16,No,No
+P0758,Sai Das,8,Female,A+,186,106.6,30.8,130,84,114,Pneumonia,Mild,2026-09-09,2026-09-12,Physiotherapy,Omeprazole,D006,DEP09,Emergency,47193,Stable,0.02,3,Medium,Inactive,19,Yes,No
+P0759,Anil Das,30,Male,A+,143,51.2,25.0,142,66,76,COVID-19,Critical,2025-05-11,2025-05-21,Counseling,Insulin,D007,DEP10,Pediatrics,62989,Stable,0.49,10,Low,Active,16,No,No
+P0760,Varun Kumar,52,Female,A+,177,93.0,29.7,97,67,113,Kidney Disease,Severe,2025-04-06,2025-04-19,Emergency Care,Omeprazole,D030,DEP09,Emergency,52046,Stable,0.44,13,Low,Active,11,No,No
+P0761,Pooja Sharma,76,Female,AB-,137,51.0,27.2,106,108,87,Gastritis,Moderate,2025-03-21,2025-03-25,Surgery,Amlodipine,D024,DEP06,Nephrology,55825,Under Treatment,0.34,4,Medium,Active,3,No,No
+P0762,Ananya Patel,70,Female,AB+,123,46.9,31.0,131,62,85,Anemia,Severe,2026-04-14,2026-04-22,Counseling,Ibuprofen,D029,DEP07,Dermatology,97842,Recovered,0.62,8,Medium,Inactive,9,No,No
+P0763,Suresh Das,2,Male,A-,185,34.2,10.0,162,93,91,Anemia,Mild,2026-01-11,2026-01-26,Counseling,Ibuprofen,D016,DEP01,Cardiology,40711,Recovered,0.13,15,Medium,Active,17,No,No
+P0764,Aman Patel,14,Male,B+,189,23.2,6.5,121,85,66,Diabetes,Severe,2025-05-20,2025-06-03,Observation,Amoxicillin,D028,DEP06,Nephrology,99061,Recovered,0.33,14,Low,Inactive,16,No,No
+P0765,Suresh Das,29,Female,A-,156,23.4,9.6,108,106,59,Pneumonia,Mild,2026-03-06,2026-03-14,Surgery,Ibuprofen,D018,DEP01,Cardiology,125261,Under Treatment,0.04,8,Low,Active,16,No,No
+P0766,Kiran Sharma,50,Female,O-,123,61.6,40.7,122,62,60,Kidney Disease,Mild,2026-05-15,2026-05-19,Counseling,Atorvastatin,D013,DEP01,Cardiology,84799,Recovered,0.22,4,High,Active,12,Yes,No
+P0767,Meena Singh,67,Male,B+,136,56.6,30.6,147,79,111,Viral Infection,Mild,2026-07-31,2026-08-02,Physiotherapy,Omeprazole,D018,DEP10,Pediatrics,148983,Improving,0.37,2,Low,Not Insured,12,No,No
+P0768,Neha Verma,33,Male,B-,147,33.6,15.5,134,61,101,Hypertension,Moderate,2026-02-14,2026-02-20,Surgery,None,D016,DEP05,Pulmonology,30576,Stable,0.11,6,Low,Active,15,Yes,No
+P0769,Aman Rao,37,Male,O+,125,49.1,31.4,126,76,92,Kidney Disease,Moderate,2025-05-30,2025-06-05,Medication,Atorvastatin,D006,DEP10,Pediatrics,35224,Referred,0.15,6,Medium,Active,14,No,No
+P0770,Kiran Singh,42,Male,A-,142,71.5,35.5,165,62,103,COVID-19,Critical,2025-09-06,2025-09-11,Observation,Omeprazole,D010,DEP10,Pediatrics,149498,Under Treatment,0.63,5,High,Active,13,No,No
+P0771,Arjun Sharma,14,Female,AB+,164,23.4,8.7,160,91,112,Arthritis,Moderate,2025-08-18,2025-08-25,Emergency Care,Omeprazole,D002,DEP09,Emergency,66078,Under Treatment,0.2,7,Medium,Active,15,No,No
+P0772,Sneha Reddy,34,Female,A-,170,100.6,34.8,108,64,62,Kidney Disease,Mild,2025-09-12,2025-09-16,Physiotherapy,Insulin,D016,DEP02,Neurology,148630,Improving,0.08,4,Medium,Not Insured,18,Yes,No
+P0773,Priya Reddy,50,Female,O+,131,93.8,54.7,166,101,80,Migraine,Mild,2025-02-01,2025-02-02,Counseling,Omeprazole,D019,DEP10,Pediatrics,100356,Under Treatment,0.36,1,Low,Active,15,No,No
+P0774,Kiran Singh,38,Male,A-,144,90.1,43.5,106,69,113,Kidney Disease,Mild,2026-02-24,2026-03-05,Medication,Atorvastatin,D018,DEP08,Gastroenterology,138784,Under Treatment,0.17,9,Low,Active,10,No,No
+P0775,Ravi Das,27,Male,B+,178,33.7,10.6,138,88,84,Arthritis,Moderate,2025-05-24,2025-05-31,Medication,Salbutamol,D004,DEP09,Emergency,79260,Improving,0.14,7,Low,Active,3,No,No
+P0776,Rahul Das,25,Female,O+,183,94.7,28.3,164,94,106,Viral Infection,Moderate,2025-04-23,2025-05-08,Observation,Amoxicillin,D019,DEP04,Orthopedics,145603,Recovered,0.3,15,High,Active,13,Yes,No
+P0777,Vikram Rao,74,Female,A+,133,106.8,60.4,161,74,62,Hypertension,Mild,2026-02-05,2026-02-10,Surgery,Salbutamol,D022,DEP07,Dermatology,71707,Improving,0.49,5,High,Inactive,14,No,No
+P0778,Ravi Singh,77,Male,O-,175,69.9,22.8,138,74,96,Diabetes,Severe,2025-03-09,2025-03-13,Physiotherapy,Omeprazole,D026,DEP06,Nephrology,53704,Referred,0.65,4,High,Active,15,No,No
+P0779,Vikram Naidu,12,Female,AB+,171,23.2,7.9,167,96,57,COVID-19,Mild,2026-05-17,2026-05-23,Surgery,Insulin,D004,DEP09,Emergency,98692,Improving,0.22,6,Medium,Inactive,11,Yes,No
+P0780,Ravi Gupta,66,Female,A-,134,30.9,17.2,134,101,105,Migraine,Mild,2026-01-12,2026-01-27,Emergency Care,Paracetamol,D016,DEP07,Dermatology,128599,Under Treatment,0.17,15,Medium,Not Insured,4,No,No
+P0781,Varun Rao,24,Male,B-,136,105.8,57.2,97,61,56,Anemia,Critical,2025-07-30,2025-08-09,Observation,Losartan,D004,DEP01,Cardiology,31692,Improving,0.36,10,High,Not Insured,17,No,No
+P0782,Kavya Naidu,37,Male,O-,141,55.1,27.7,139,87,113,Arthritis,Moderate,2025-09-30,2025-10-03,Surgery,None,D009,DEP05,Pulmonology,108589,Stable,0.06,3,Low,Active,19,No,No
+P0783,Arjun Reddy,35,Female,O-,149,70.8,31.9,131,85,60,Heart Disease,Moderate,2025-06-28,2025-07-06,Medication,None,D011,DEP10,Pediatrics,92136,Referred,0.09,8,Medium,Not Insured,2,No,No
+P0784,Sai Patel,40,Female,A+,156,92.3,37.9,169,95,88,COVID-19,Mild,2025-09-07,2025-09-09,Counseling,None,D009,DEP02,Neurology,79127,Improving,0.25,2,Low,Inactive,19,Yes,No
+P0785,Ananya Naidu,23,Female,O+,177,33.4,10.7,133,87,118,Asthma,Mild,2025-04-11,2025-04-20,Medication,Paracetamol,D026,DEP03,General Medicine,98739,Recovered,0.07,9,Low,Active,7,No,No
+P0786,Vikram Kumar,43,Male,O-,140,104.4,53.3,99,100,117,Arthritis,Critical,2026-02-14,2026-02-15,Surgery,Paracetamol,D030,DEP07,Dermatology,61547,Improving,0.49,1,Medium,Active,19,No,Yes
+P0787,Arjun Verma,2,Female,A+,168,88.0,31.2,170,83,84,Anemia,Mild,2025-06-12,2025-06-13,Surgery,Metformin,D018,DEP01,Cardiology,99597,Stable,0.09,1,Low,Inactive,1,No,No
+P0788,Nikhil Das,72,Male,B-,170,57.2,19.8,120,96,84,Heart Disease,Mild,2026-03-22,2026-04-04,Physiotherapy,None,D024,DEP01,Cardiology,86112,Improving,0.21,13,Medium,Active,10,No,No
+P0789,Varun Gupta,15,Male,O+,161,47.8,18.4,115,89,75,Asthma,Severe,2025-10-16,2025-10-29,Surgery,Ibuprofen,D013,DEP06,Nephrology,121905,Improving,0.38,13,Low,Active,14,No,No
+P0790,Sneha Naidu,50,Female,B+,157,107.0,43.4,126,100,69,Diabetes,Moderate,2025-01-27,2025-01-31,Emergency Care,None,D029,DEP01,Cardiology,3757,Stable,0.11,4,Medium,Active,4,No,No
+P0791,Arjun Patel,74,Female,B+,161,85.3,32.9,131,98,107,COVID-19,Mild,2025-03-01,2025-03-07,Counseling,Omeprazole,D001,DEP08,Gastroenterology,112490,Improving,0.31,6,Medium,Active,4,Yes,No
+P0792,Ravi Sharma,24,Female,O+,149,80.6,36.3,97,99,59,Anemia,Moderate,2026-07-26,2026-07-31,Observation,Amoxicillin,D008,DEP02,Neurology,142182,Improving,0.14,5,Low,Not Insured,3,No,No
+P0793,Neha Patel,59,Male,O+,125,53.5,34.2,146,88,74,Heart Disease,Moderate,2026-07-04,2026-07-15,Physiotherapy,Ibuprofen,D007,DEP03,General Medicine,124749,Improving,0.3,11,Low,Active,16,No,No
+P0794,Kavya Kumar,57,Female,O-,133,64.3,36.4,114,105,99,Pneumonia,Severe,2025-08-11,2025-08-22,Observation,Amlodipine,D015,DEP05,Pulmonology,121116,Stable,0.45,11,Medium,Active,5,No,No
+P0795,Arjun Sharma,13,Female,B+,174,23.4,7.7,98,66,114,Viral Infection,Moderate,2026-09-13,2026-09-24,Counseling,Paracetamol,D005,DEP10,Pediatrics,55185,Recovered,0.04,11,Low,Active,16,No,Yes
+P0796,Pooja Naidu,71,Male,AB+,137,75.2,40.1,133,101,108,Hypertension,Critical,2025-12-08,2025-12-21,Observation,Insulin,D030,DEP07,Dermatology,60761,Recovered,0.55,13,Low,Inactive,6,No,No
+P0797,Nikhil Gupta,56,Male,O-,130,93.4,55.3,171,70,114,Kidney Disease,Severe,2025-12-20,2025-12-23,Physiotherapy,Salbutamol,D014,DEP08,Gastroenterology,112769,Improving,0.59,3,High,Inactive,0,No,No
+P0798,Rahul Reddy,25,Male,AB-,130,85.8,50.8,151,105,102,Pneumonia,Moderate,2025-10-24,2025-10-31,Surgery,None,D009,DEP07,Dermatology,136624,Recovered,0.29,7,Medium,Not Insured,3,No,No
+P0799,Priya Das,36,Male,A+,175,36.2,11.8,179,92,77,Diabetes,Mild,2026-05-24,2026-06-02,Emergency Care,Amoxicillin,D013,DEP03,General Medicine,89019,Under Treatment,0.23,9,Low,Active,5,No,No
+P0800,Suresh Naidu,70,Female,A+,164,71.5,26.6,105,84,85,Kidney Disease,Severe,2026-04-25,2026-05-05,Physiotherapy,Paracetamol,D004,DEP04,Orthopedics,71374,Stable,0.54,10,Medium,Active,14,Yes,No
+P0801,Neha Patel,36,Female,O-,173,94.4,31.5,148,106,118,Heart Disease,Mild,2025-01-04,2025-01-11,Counseling,Metformin,D023,DEP04,Orthopedics,33477,Referred,0.3,7,Low,Active,20,No,No
+P0802,Anil Reddy,57,Female,O+,123,60.7,40.1,157,102,105,Kidney Disease,Moderate,2025-08-16,2025-08-19,Physiotherapy,None,D017,DEP10,Pediatrics,5491,Improving,0.29,3,High,Inactive,15,No,No
+P0803,Vikram Patel,16,Male,O+,153,35.4,15.1,162,102,118,Diabetes,Mild,2026-03-31,2026-04-01,Surgery,Amlodipine,D018,DEP02,Neurology,65868,Under Treatment,0.19,1,Medium,Active,7,No,No
+P0804,Ravi Reddy,66,Female,AB-,183,27.2,8.1,97,64,119,Asthma,Severe,2025-09-27,2025-10-06,Medication,Insulin,D018,DEP08,Gastroenterology,12133,Stable,0.55,9,Low,Active,0,No,No
+P0805,Neha Rao,23,Male,A+,182,76.4,23.1,99,97,116,Heart Disease,Mild,2025-07-07,2025-07-22,Surgery,Paracetamol,D013,DEP04,Orthopedics,37732,Referred,0.09,15,Medium,Not Insured,17,No,No
+P0806,Anil Sharma,47,Male,O+,169,95.8,33.5,153,104,97,Kidney Disease,Moderate,2025-01-13,2025-01-22,Counseling,Ibuprofen,D024,DEP04,Orthopedics,13554,Referred,0.27,9,Medium,Not Insured,15,No,No
+P0807,Divya Patel,1,Male,B+,169,53.2,18.6,161,100,64,Asthma,Critical,2026-07-25,2026-07-29,Physiotherapy,Amoxicillin,D017,DEP10,Pediatrics,106565,Improving,0.44,4,Medium,Active,13,No,No
+P0808,Nikhil Naidu,35,Female,A-,179,66.3,20.7,142,83,112,Diabetes,Moderate,2026-09-04,2026-09-08,Counseling,None,D001,DEP06,Nephrology,149211,Recovered,0.22,4,Medium,Active,8,No,No
+P0809,Meena Sharma,3,Female,A+,170,69.7,24.1,155,65,66,Kidney Disease,Moderate,2025-07-17,2025-07-28,Medication,Atorvastatin,D012,DEP01,Cardiology,14126,Under Treatment,0.13,11,Medium,Not Insured,11,Yes,No
+P0810,Rohit Naidu,52,Female,B+,134,69.5,38.7,156,102,58,Viral Infection,Mild,2026-05-26,2026-06-10,Physiotherapy,Atorvastatin,D012,DEP10,Pediatrics,28946,Referred,0.27,15,Low,Active,13,No,No
+P0811,Pooja Rao,72,Male,A+,149,105.4,47.5,142,108,56,Kidney Disease,Moderate,2025-08-29,2025-09-08,Medication,Atorvastatin,D030,DEP08,Gastroenterology,28366,Improving,0.33,10,Low,Not Insured,6,No,Yes
+P0812,Sai Sharma,47,Female,AB+,185,66.9,19.5,110,92,101,Anemia,Critical,2026-07-24,2026-08-08,Physiotherapy,Amlodipine,D023,DEP07,Dermatology,29487,Improving,0.48,15,Low,Active,4,No,No
+P0813,Sai Rao,17,Male,AB+,139,79.6,41.2,132,87,83,Asthma,Moderate,2025-12-20,2025-12-21,Physiotherapy,Atorvastatin,D024,DEP06,Nephrology,12424,Referred,0.04,1,High,Inactive,10,Yes,No
+P0814,Varun Gupta,16,Male,AB-,130,94.0,55.6,136,82,64,Hypertension,Moderate,2025-04-22,2025-05-03,Physiotherapy,Salbutamol,D017,DEP05,Pulmonology,110837,Recovered,0.02,11,Low,Active,1,No,No
+P0815,Meena Naidu,2,Male,AB+,153,66.4,28.4,162,73,77,Migraine,Moderate,2026-03-31,2026-04-06,Medication,Losartan,D007,DEP10,Pediatrics,18844,Under Treatment,0.1,6,Medium,Not Insured,14,No,No
+P0816,Neha Sharma,39,Male,AB+,174,102.1,33.7,109,98,89,Asthma,Moderate,2025-01-30,2025-02-03,Surgery,Omeprazole,D002,DEP03,General Medicine,9239,Referred,0.14,4,Low,Active,12,No,No
+P0817,Aman Verma,80,Male,B+,177,39.2,12.5,147,87,72,Pneumonia,Mild,2026-08-15,2026-08-29,Counseling,Amlodipine,D007,DEP10,Pediatrics,48701,Referred,0.45,14,Low,Not Insured,15,No,No
+P0818,Varun Naidu,15,Female,B+,174,68.4,22.6,156,98,66,Gastritis,Severe,2025-09-19,2025-09-20,Surgery,Metformin,D007,DEP04,Orthopedics,119037,Under Treatment,0.57,1,Medium,Active,14,No,No
+P0819,Rohit Das,27,Female,A-,136,88.1,47.6,148,92,62,Migraine,Moderate,2026-05-15,2026-05-21,Counseling,Insulin,D028,DEP08,Gastroenterology,79295,Stable,0.26,6,Medium,Active,17,No,No
+P0820,Suresh Gupta,69,Female,AB-,190,36.6,10.1,162,91,55,Anemia,Severe,2026-03-07,2026-03-12,Medication,Insulin,D020,DEP10,Pediatrics,77523,Recovered,0.63,5,Low,Active,9,No,Yes
+P0821,Anil Patel,44,Male,A+,181,100.5,30.7,153,90,65,Gastritis,Critical,2026-07-14,2026-07-24,Emergency Care,Salbutamol,D029,DEP08,Gastroenterology,124689,Referred,0.66,10,Low,Active,2,No,No
+P0822,Kiran Sharma,42,Female,B+,180,75.7,23.4,178,88,118,Diabetes,Severe,2025-10-31,2025-11-14,Emergency Care,Amlodipine,D018,DEP09,Emergency,132648,Recovered,0.52,14,High,Inactive,18,No,Yes
+P0823,Nikhil Naidu,31,Male,B-,171,75.4,25.8,178,75,68,Viral Infection,Moderate,2025-08-28,2025-08-31,Surgery,Losartan,D003,DEP01,Cardiology,48398,Stable,0.26,3,Low,Active,5,No,No
+P0824,Varun Rao,34,Female,A+,126,49.2,31.0,163,83,84,Viral Infection,Moderate,2025-11-15,2025-11-30,Medication,Atorvastatin,D005,DEP06,Nephrology,117194,Stable,0.34,15,High,Active,5,No,No
+P0825,Ravi Rao,3,Male,O+,168,22.7,8.0,116,78,85,Anemia,Moderate,2026-09-06,2026-09-20,Physiotherapy,Amoxicillin,D017,DEP05,Pulmonology,12637,Improving,0.04,14,Low,Active,17,No,No
+P0826,Anil Sharma,66,Male,AB+,154,94.9,40.0,121,69,97,Asthma,Mild,2025-11-23,2025-11-30,Emergency Care,Amlodipine,D025,DEP10,Pediatrics,140072,Improving,0.26,7,Low,Inactive,14,No,No
+P0827,Arjun Das,57,Female,A-,169,20.1,7.0,115,108,90,Gastritis,Moderate,2026-05-14,2026-05-22,Surgery,Amlodipine,D018,DEP08,Gastroenterology,136730,Referred,0.18,8,Medium,Active,11,Yes,No
+P0828,Sneha Das,21,Male,B-,120,86.6,60.1,107,105,101,Migraine,Mild,2026-07-24,2026-07-25,Physiotherapy,Metformin,D006,DEP05,Pulmonology,89042,Improving,0.05,1,Low,Active,9,No,No
+P0829,Pooja Kumar,40,Female,AB+,132,85.6,49.1,110,110,67,Gastritis,Mild,2026-06-11,2026-06-12,Observation,Amoxicillin,D010,DEP02,Neurology,31238,Stable,0.15,1,Medium,Active,4,No,No
+P0830,Sneha Das,38,Male,A-,133,50.2,28.4,147,62,95,Migraine,Critical,2025-08-12,2025-08-23,Physiotherapy,Salbutamol,D007,DEP07,Dermatology,50460,Recovered,0.64,11,Low,Not Insured,15,No,No
+P0831,Varun Patel,42,Female,AB-,121,42.3,28.9,109,66,111,COVID-19,Mild,2025-10-29,2025-11-09,Medication,Paracetamol,D027,DEP01,Cardiology,106535,Improving,0.11,11,Medium,Active,17,No,No
+P0832,Vikram Sharma,23,Female,O-,161,74.1,28.6,144,72,69,Viral Infection,Severe,2025-07-24,2025-07-25,Observation,None,D006,DEP05,Pulmonology,81669,Recovered,0.5,1,Low,Inactive,11,No,No
+P0833,Anil Gupta,62,Female,O-,137,74.8,39.9,161,88,64,Migraine,Mild,2026-01-06,2026-01-12,Physiotherapy,Omeprazole,D001,DEP01,Cardiology,100038,Recovered,0.31,6,Medium,Active,9,No,No
+P0834,Priya Rao,16,Male,O+,175,38.1,12.4,157,96,55,Diabetes,Mild,2025-01-06,2025-01-20,Medication,Amlodipine,D012,DEP05,Pulmonology,71770,Referred,0.24,14,Medium,Active,8,No,No
+P0835,Rahul Singh,46,Female,A+,177,79.0,25.2,107,65,112,COVID-19,Severe,2025-04-09,2025-04-10,Physiotherapy,Salbutamol,D028,DEP10,Pediatrics,74464,Referred,0.47,1,Medium,Not Insured,1,No,No
+P0836,Arjun Naidu,1,Female,A-,178,20.6,6.5,112,93,55,Migraine,Moderate,2026-09-07,2026-09-21,Counseling,Atorvastatin,D017,DEP10,Pediatrics,19085,Stable,0.02,14,Medium,Active,16,No,No
+P0837,Anil Sharma,68,Female,A-,179,33.4,10.4,96,76,74,Gastritis,Critical,2025-12-08,2025-12-09,Medication,Salbutamol,D025,DEP02,Neurology,90034,Under Treatment,0.53,1,Low,Active,7,No,No
+P0838,Ravi Kumar,41,Female,O+,138,67.7,35.5,155,91,100,Kidney Disease,Moderate,2026-03-15,2026-03-23,Surgery,Amlodipine,D009,DEP07,Dermatology,88557,Referred,0.35,8,High,Active,6,No,No
+P0839,Neha Naidu,46,Male,O-,139,92.6,47.9,126,78,78,Hypertension,Moderate,2026-08-31,2026-09-03,Medication,Paracetamol,D023,DEP10,Pediatrics,3539,Recovered,0.21,3,Low,Active,19,No,No
+P0840,Varun Gupta,72,Male,B+,120,105.2,73.1,155,105,114,Heart Disease,Moderate,2025-04-06,2025-04-11,Counseling,Omeprazole,D015,DEP07,Dermatology,117284,Stable,0.33,5,High,Active,9,No,No
+P0841,Suresh Sharma,35,Female,B-,122,48.0,32.2,147,106,57,Kidney Disease,Severe,2026-07-18,2026-07-31,Observation,Metformin,D009,DEP09,Emergency,13309,Recovered,0.55,13,High,Not Insured,15,Yes,Yes
+P0842,Divya Naidu,3,Male,O+,134,66.3,36.9,176,82,57,Viral Infection,Critical,2025-09-12,2025-09-13,Medication,Ibuprofen,D015,DEP04,Orthopedics,41365,Under Treatment,0.53,1,Medium,Active,1,Yes,No
+P0843,Varun Reddy,5,Male,O+,149,74.9,33.7,143,84,104,Anemia,Moderate,2025-05-21,2025-05-24,Emergency Care,Losartan,D015,DEP05,Pulmonology,126901,Recovered,0.1,3,Medium,Not Insured,17,No,No
+P0844,Vikram Rao,62,Female,B-,144,64.4,31.1,113,74,95,Diabetes,Mild,2026-04-08,2026-04-09,Observation,Atorvastatin,D029,DEP01,Cardiology,4811,Recovered,0.23,1,High,Active,6,No,No
+P0845,Pooja Singh,77,Female,O-,161,21.2,8.2,115,61,94,Asthma,Moderate,2025-09-24,2025-10-04,Physiotherapy,Paracetamol,D020,DEP02,Neurology,96172,Under Treatment,0.3,10,High,Inactive,17,No,No
+P0846,Meena Singh,1,Male,AB-,154,27.1,11.4,168,77,78,Heart Disease,Critical,2026-04-07,2026-04-17,Surgery,Omeprazole,D020,DEP09,Emergency,7742,Stable,0.51,10,High,Not Insured,16,No,No
+P0847,Sai Reddy,5,Female,A-,152,83.7,36.2,110,96,76,Gastritis,Severe,2026-02-14,2026-02-18,Surgery,Insulin,D025,DEP09,Emergency,115070,Recovered,0.34,4,Medium,Active,12,No,No
+P0848,Arjun Verma,45,Male,O-,186,94.7,27.4,136,79,102,Gastritis,Severe,2026-09-06,2026-09-20,Counseling,Amoxicillin,D020,DEP03,General Medicine,51617,Improving,0.53,14,High,Inactive,5,No,No
+P0849,Meena Singh,16,Female,A-,137,60.7,32.3,104,71,100,Anemia,Severe,2026-01-21,2026-01-31,Emergency Care,Metformin,D019,DEP05,Pulmonology,91904,Under Treatment,0.36,10,Medium,Active,6,No,No
+P0850,Ravi Rao,18,Male,A+,152,37.3,16.1,132,97,58,Diabetes,Mild,2025-10-08,2025-10-22,Surgery,Amlodipine,D015,DEP09,Emergency,34533,Recovered,0.06,14,Low,Active,10,No,No
+P0851,Priya Das,42,Male,B+,164,93.0,34.6,174,107,75,Heart Disease,Moderate,2025-11-17,2025-11-21,Physiotherapy,Amlodipine,D015,DEP09,Emergency,136125,Improving,0.32,4,High,Not Insured,19,No,No
+P0852,Pooja Rao,80,Male,AB+,148,99.0,45.2,153,108,107,COVID-19,Moderate,2026-05-17,2026-05-27,Observation,Ibuprofen,D003,DEP10,Pediatrics,129685,Referred,0.37,10,High,Active,14,No,No
+P0853,Kavya Singh,30,Male,AB+,187,46.5,13.3,105,67,120,Migraine,Severe,2025-10-08,2025-10-23,Medication,Atorvastatin,D028,DEP03,General Medicine,78359,Recovered,0.35,15,Medium,Active,0,No,Yes
+P0854,Divya Kumar,15,Male,B-,133,50.9,28.8,102,95,106,Kidney Disease,Moderate,2025-05-04,2025-05-10,Observation,Amoxicillin,D014,DEP10,Pediatrics,22669,Under Treatment,0.08,6,Medium,Active,11,No,No
+P0855,Aman Sharma,78,Female,B-,189,47.1,13.2,153,68,76,Viral Infection,Moderate,2025-06-30,2025-07-01,Physiotherapy,Ibuprofen,D019,DEP05,Pulmonology,147391,Under Treatment,0.45,1,Medium,Active,12,No,No
+P0856,Priya Das,47,Male,AB+,140,70.0,35.7,100,94,104,Pneumonia,Moderate,2025-12-10,2025-12-25,Medication,Omeprazole,D012,DEP03,General Medicine,79452,Stable,0.14,15,Low,Active,13,No,No
+P0857,Divya Reddy,54,Female,A+,138,22.3,11.7,169,107,96,Arthritis,Critical,2025-04-19,2025-04-24,Surgery,Losartan,D016,DEP06,Nephrology,144861,Improving,0.6,5,Low,Inactive,11,No,No
+P0858,Nikhil Verma,51,Male,A+,188,49.8,14.1,154,105,95,Diabetes,Severe,2026-05-08,2026-05-09,Counseling,Salbutamol,D022,DEP05,Pulmonology,97095,Under Treatment,0.66,1,Low,Active,4,No,No
+P0859,Anil Sharma,13,Male,O-,145,102.8,48.9,151,81,70,Arthritis,Severe,2026-02-26,2026-03-05,Surgery,None,D012,DEP08,Gastroenterology,2221,Under Treatment,0.51,7,Medium,Not Insured,15,No,No
+P0860,Neha Sharma,71,Male,B-,129,103.1,62.0,172,73,76,Hypertension,Moderate,2025-01-24,2025-02-01,Surgery,Atorvastatin,D003,DEP06,Nephrology,62414,Improving,0.48,8,Low,Active,8,No,No
+P0861,Arjun Das,35,Male,AB-,181,41.4,12.6,129,96,108,Gastritis,Moderate,2025-07-20,2025-07-24,Medication,Ibuprofen,D027,DEP06,Nephrology,16454,Under Treatment,0.07,4,High,Active,0,No,No
+P0862,Rahul Das,42,Male,AB+,171,100.5,34.4,139,89,88,Kidney Disease,Moderate,2026-07-17,2026-07-23,Counseling,Amoxicillin,D013,DEP02,Neurology,21137,Referred,0.21,6,Low,Active,19,No,No
+P0863,Rohit Kumar,75,Male,A-,175,26.4,8.6,119,108,73,Viral Infection,Moderate,2026-07-01,2026-07-02,Medication,Ibuprofen,D010,DEP04,Orthopedics,7122,Referred,0.29,1,Medium,Active,7,Yes,No
+P0864,Sai Kumar,47,Female,A-,188,29.4,8.3,163,70,92,Pneumonia,Severe,2026-03-21,2026-03-31,Physiotherapy,Metformin,D004,DEP08,Gastroenterology,144706,Improving,0.65,10,Medium,Active,8,No,No
+P0865,Pooja Sharma,2,Male,O+,186,106.5,30.8,138,92,118,Kidney Disease,Moderate,2026-01-02,2026-01-09,Emergency Care,Metformin,D007,DEP05,Pulmonology,102772,Stable,0.02,7,Medium,Active,15,No,No
+P0866,Ananya Naidu,50,Female,B+,143,61.6,30.1,133,84,79,COVID-19,Moderate,2025-06-01,2025-06-04,Physiotherapy,None,D010,DEP08,Gastroenterology,102304,Improving,0.21,3,Medium,Active,7,No,No
+P0867,Priya Singh,21,Female,B-,148,70.0,32.0,136,72,95,Diabetes,Moderate,2026-06-29,2026-07-07,Emergency Care,Atorvastatin,D026,DEP08,Gastroenterology,39462,Recovered,0.15,8,Low,Not Insured,1,No,No
+P0868,Suresh Reddy,11,Male,B+,174,99.8,33.0,180,65,65,Anemia,Severe,2026-02-27,2026-03-04,Observation,Paracetamol,D022,DEP05,Pulmonology,15487,Under Treatment,0.51,5,Medium,Active,0,No,No
+P0869,Pooja Singh,62,Male,B-,187,32.5,9.3,155,80,64,Diabetes,Moderate,2025-06-21,2025-06-25,Observation,Losartan,D003,DEP03,General Medicine,14238,Improving,0.36,4,High,Active,20,No,No
+P0870,Aman Kumar,1,Male,A-,184,94.8,28.0,161,73,73,Heart Disease,Mild,2025-09-01,2025-09-05,Observation,Insulin,D006,DEP04,Orthopedics,54400,Under Treatment,0.22,4,Medium,Active,2,No,No
+P0871,Ravi Sharma,64,Female,O+,156,107.4,44.1,138,72,58,Pneumonia,Moderate,2025-09-05,2025-09-13,Medication,Amlodipine,D020,DEP05,Pulmonology,45956,Referred,0.22,8,Low,Active,18,No,Yes
+P0872,Suresh Reddy,62,Male,AB-,167,102.2,36.6,164,65,85,Migraine,Severe,2025-09-19,2025-09-26,Emergency Care,Paracetamol,D025,DEP02,Neurology,92435,Improving,0.74,7,Medium,Not Insured,9,No,No
+P0873,Aman Naidu,63,Male,AB+,190,23.8,6.6,124,97,89,Gastritis,Moderate,2026-01-19,2026-01-31,Emergency Care,Ibuprofen,D024,DEP01,Cardiology,46367,Under Treatment,0.27,12,Medium,Inactive,15,No,No
+P0874,Divya Verma,31,Male,AB-,172,58.9,19.9,161,85,67,Hypertension,Severe,2025-11-01,2025-11-02,Emergency Care,Paracetamol,D001,DEP08,Gastroenterology,107312,Under Treatment,0.6,1,High,Active,2,No,No
+P0875,Rohit Kumar,36,Male,O+,125,27.4,17.5,164,101,70,COVID-19,Severe,2025-08-02,2025-08-14,Physiotherapy,Atorvastatin,D001,DEP01,Cardiology,95420,Referred,0.64,12,Medium,Active,6,Yes,No
+P0876,Kiran Naidu,11,Male,B+,148,89.2,40.7,148,78,112,Gastritis,Severe,2026-02-01,2026-02-04,Observation,Salbutamol,D020,DEP10,Pediatrics,24926,Recovered,0.57,3,Medium,Active,17,No,No
+P0877,Aman Reddy,77,Male,O+,189,24.7,6.9,145,87,118,Gastritis,Severe,2026-05-23,2026-05-28,Counseling,Amoxicillin,D028,DEP08,Gastroenterology,109552,Referred,0.67,5,Low,Inactive,3,No,No
+P0878,Ananya Gupta,3,Male,B-,180,47.0,14.5,128,88,85,COVID-19,Mild,2026-01-31,2026-02-13,Emergency Care,None,D030,DEP04,Orthopedics,36877,Stable,0.04,13,Low,Active,16,No,No
+P0879,Vikram Gupta,22,Female,A-,180,63.1,19.5,163,85,87,Viral Infection,Moderate,2025-06-09,2025-06-18,Counseling,Ibuprofen,D002,DEP02,Neurology,49696,Referred,0.23,9,Low,Active,2,No,No
+P0880,Sneha Sharma,35,Male,AB+,162,23.9,9.1,114,60,60,Kidney Disease,Mild,2025-01-10,2025-01-20,Physiotherapy,None,D004,DEP09,Emergency,39169,Recovered,0.06,10,Medium,Active,7,No,No
+P0881,Kiran Rao,71,Female,O+,138,69.6,36.5,146,110,60,Hypertension,Mild,2026-02-22,2026-02-28,Medication,Amoxicillin,D018,DEP07,Dermatology,26141,Recovered,0.4,6,Low,Active,11,No,Yes
+P0882,Neha Sharma,76,Male,AB-,148,41.3,18.9,153,74,98,Arthritis,Mild,2026-03-05,2026-03-18,Observation,Metformin,D027,DEP09,Emergency,134996,Recovered,0.44,13,High,Inactive,6,No,No
+P0883,Ravi Das,80,Male,AB+,150,50.9,22.6,150,100,99,Migraine,Severe,2025-09-22,2025-10-03,Observation,Losartan,D006,DEP08,Gastroenterology,38769,Stable,0.69,11,Medium,Active,12,No,No
+P0884,Rohit Patel,37,Female,A+,150,52.3,23.2,119,90,111,Asthma,Mild,2026-02-02,2026-02-13,Medication,Losartan,D015,DEP08,Gastroenterology,119871,Improving,0.15,11,Medium,Active,6,Yes,No
+P0885,Ananya Kumar,67,Male,B-,172,20.9,7.1,153,77,55,Pneumonia,Critical,2025-06-28,2025-07-03,Observation,Losartan,D002,DEP06,Nephrology,29515,Under Treatment,0.68,5,Medium,Not Insured,11,No,No
+P0886,Kiran Rao,13,Female,AB-,162,51.1,19.5,96,63,114,Kidney Disease,Severe,2025-04-22,2025-05-07,Observation,Insulin,D017,DEP03,General Medicine,111724,Improving,0.41,15,Low,Active,11,No,No
+P0887,Ravi Verma,52,Male,AB-,136,32.0,17.3,169,79,107,Hypertension,Severe,2025-03-01,2025-03-03,Medication,Insulin,D020,DEP05,Pulmonology,81500,Stable,0.62,2,High,Active,12,No,No
+P0888,Pooja Das,70,Female,B-,187,79.7,22.8,164,80,82,Anemia,Critical,2026-01-17,2026-01-25,Physiotherapy,Paracetamol,D028,DEP06,Nephrology,67536,Referred,0.69,8,Low,Active,20,No,No
+P0889,Varun Kumar,34,Female,B+,128,66.6,40.6,128,66,69,Migraine,Critical,2026-01-28,2026-02-01,Physiotherapy,None,D013,DEP09,Emergency,36027,Stable,0.44,4,Medium,Inactive,13,No,No
+P0890,Ravi Reddy,46,Female,O-,131,99.4,57.9,107,63,77,Migraine,Mild,2025-10-15,2025-10-17,Surgery,Salbutamol,D029,DEP08,Gastroenterology,26002,Under Treatment,0.09,2,Medium,Not Insured,16,No,No
+P0891,Varun Kumar,13,Male,B-,164,65.0,24.2,137,63,82,COVID-19,Moderate,2026-07-28,2026-07-30,Emergency Care,Salbutamol,D015,DEP09,Emergency,88657,Referred,0.04,2,Low,Active,13,Yes,No
+P0892,Rahul Reddy,47,Female,B-,154,104.0,43.9,145,75,113,Diabetes,Mild,2026-03-14,2026-03-26,Emergency Care,Amlodipine,D028,DEP01,Cardiology,77677,Recovered,0.36,12,High,Inactive,7,Yes,No
+P0893,Meena Sharma,57,Male,B-,129,65.6,39.4,113,95,116,Heart Disease,Moderate,2025-03-08,2025-03-09,Physiotherapy,Paracetamol,D009,DEP03,General Medicine,17971,Stable,0.26,1,Medium,Active,12,No,No
+P0894,Varun Singh,46,Female,AB-,166,34.4,12.5,97,72,67,COVID-19,Moderate,2026-02-13,2026-02-22,Counseling,Amlodipine,D024,DEP01,Cardiology,22662,Under Treatment,0.19,9,Low,Active,10,No,No
+P0895,Anil Patel,47,Male,O+,186,49.3,14.3,155,103,104,Heart Disease,Moderate,2025-09-21,2025-09-30,Counseling,Ibuprofen,D017,DEP07,Dermatology,67538,Recovered,0.29,9,Medium,Not Insured,1,No,No
+P0896,Arjun Das,48,Male,AB+,185,74.7,21.8,165,71,57,Asthma,Severe,2025-12-16,2025-12-27,Emergency Care,Paracetamol,D026,DEP05,Pulmonology,109418,Referred,0.55,11,Medium,Not Insured,7,Yes,Yes
+P0897,Priya Singh,18,Female,B+,155,64.1,26.7,97,77,61,Anemia,Severe,2026-07-27,2026-08-04,Emergency Care,Paracetamol,D013,DEP10,Pediatrics,52264,Referred,0.44,8,Medium,Not Insured,2,No,No
+P0898,Neha Kumar,25,Male,AB-,130,74.5,44.1,175,89,89,Asthma,Severe,2026-01-04,2026-01-14,Emergency Care,Amoxicillin,D022,DEP02,Neurology,20436,Stable,0.62,10,Medium,Inactive,20,No,No
+P0899,Aman Rao,47,Female,O+,165,30.2,11.1,178,95,115,Diabetes,Mild,2026-05-22,2026-05-27,Physiotherapy,Paracetamol,D012,DEP07,Dermatology,41406,Stable,0.34,5,Medium,Active,13,No,No
+P0900,Sai Sharma,26,Female,AB+,154,54.7,23.1,148,62,105,Migraine,Moderate,2025-12-27,2026-01-11,Physiotherapy,Atorvastatin,D014,DEP01,Cardiology,54419,Improving,0.31,15,Low,Inactive,7,No,No
+P0901,Nikhil Reddy,75,Female,A+,121,45.9,31.4,145,64,95,Pneumonia,Mild,2025-06-06,2025-06-15,Medication,None,D022,DEP03,General Medicine,147097,Referred,0.47,9,Low,Active,19,No,No
+P0902,Sneha Naidu,63,Female,B-,186,60.4,17.5,143,101,78,Hypertension,Mild,2025-07-17,2025-07-20,Surgery,Amoxicillin,D015,DEP05,Pulmonology,19790,Referred,0.39,3,Medium,Inactive,12,No,No
+P0903,Divya Gupta,17,Male,O-,124,36.7,23.9,111,92,93,Heart Disease,Severe,2025-12-03,2025-12-18,Counseling,Paracetamol,D015,DEP06,Nephrology,113931,Improving,0.37,15,Medium,Active,8,Yes,No
+P0904,Ravi Reddy,33,Male,A-,154,33.7,14.2,170,86,110,Hypertension,Severe,2025-10-19,2025-10-21,Counseling,Amlodipine,D012,DEP08,Gastroenterology,7225,Improving,0.5,2,Medium,Not Insured,13,Yes,No
+P0905,Sneha Rao,42,Male,B-,123,108.7,71.8,180,62,91,COVID-19,Mild,2025-06-01,2025-06-07,Observation,Omeprazole,D029,DEP07,Dermatology,6560,Under Treatment,0.26,6,High,Active,0,No,No
+P0906,Neha Rao,68,Male,O-,133,79.5,44.9,120,108,71,Diabetes,Moderate,2026-06-05,2026-06-14,Observation,Amoxicillin,D010,DEP03,General Medicine,36446,Stable,0.27,9,High,Not Insured,12,No,Yes
+P0907,Rahul Singh,13,Male,B+,131,101.1,58.9,125,67,78,Pneumonia,Mild,2026-08-19,2026-08-23,Medication,Amlodipine,D007,DEP03,General Medicine,67845,Under Treatment,0.04,4,Medium,Active,1,Yes,No
+P0908,Sneha Naidu,50,Male,A-,187,91.4,26.1,177,99,109,Hypertension,Moderate,2026-06-13,2026-06-21,Medication,Amlodipine,D006,DEP08,Gastroenterology,107553,Improving,0.26,8,Low,Active,13,No,No
+P0909,Anil Sharma,78,Female,O+,169,42.8,15.0,180,81,92,Migraine,Moderate,2025-07-01,2025-07-10,Medication,Salbutamol,D029,DEP08,Gastroenterology,125020,Improving,0.4,9,High,Active,2,No,No
+P0910,Divya Sharma,45,Male,O+,158,61.9,24.8,116,70,91,Viral Infection,Moderate,2026-05-17,2026-05-18,Physiotherapy,Amoxicillin,D027,DEP10,Pediatrics,112040,Recovered,0.15,1,Low,Active,6,No,No
+P0911,Nikhil Sharma,67,Female,B+,160,70.0,27.3,174,75,98,Hypertension,Mild,2026-05-18,2026-05-26,Medication,Salbutamol,D014,DEP02,Neurology,107946,Recovered,0.42,8,Medium,Active,5,No,No
+P0912,Pooja Singh,36,Male,O-,185,107.4,31.4,157,87,76,COVID-19,Moderate,2025-07-19,2025-08-03,Medication,Ibuprofen,D021,DEP04,Orthopedics,80307,Referred,0.2,15,Low,Active,20,No,No
+P0913,Anil Singh,44,Female,B-,154,52.2,22.0,102,110,116,Gastritis,Moderate,2025-09-12,2025-09-18,Observation,Amlodipine,D023,DEP08,Gastroenterology,83831,Referred,0.16,6,Low,Active,7,Yes,No
+P0914,Anil Sharma,48,Male,A+,148,82.5,37.7,138,64,106,COVID-19,Severe,2025-10-21,2025-11-03,Emergency Care,Salbutamol,D010,DEP02,Neurology,96979,Under Treatment,0.48,13,High,Active,6,Yes,No
+P0915,Sneha Kumar,74,Female,B-,123,27.0,17.8,118,88,65,Arthritis,Mild,2025-01-18,2025-01-29,Physiotherapy,Losartan,D028,DEP01,Cardiology,129115,Stable,0.3,11,Low,Active,2,No,No
+P0916,Ananya Patel,6,Female,B-,159,62.6,24.8,136,96,98,Migraine,Mild,2026-05-31,2026-06-05,Surgery,Atorvastatin,D017,DEP04,Orthopedics,19704,Under Treatment,0.02,5,Low,Active,4,Yes,No
+P0917,Meena Gupta,52,Female,B-,184,80.6,23.8,136,66,81,Pneumonia,Mild,2026-04-10,2026-04-13,Emergency Care,None,D017,DEP02,Neurology,51434,Improving,0.25,3,Low,Inactive,6,No,No
+P0918,Kiran Patel,59,Male,AB-,129,55.4,33.3,173,105,86,Hypertension,Severe,2025-08-25,2025-09-06,Surgery,Paracetamol,D028,DEP01,Cardiology,23629,Recovered,0.64,12,Low,Inactive,17,No,No
+P0919,Varun Reddy,36,Male,AB-,163,105.9,39.9,114,77,108,Kidney Disease,Moderate,2026-08-15,2026-08-27,Medication,Amoxicillin,D004,DEP04,Orthopedics,33559,Under Treatment,0.13,12,Medium,Active,7,No,No
+P0920,Kiran Naidu,42,Male,B-,150,65.0,28.9,177,73,68,Viral Infection,Mild,2026-04-15,2026-04-19,Medication,Amoxicillin,D011,DEP05,Pulmonology,80013,Improving,0.35,4,Low,Inactive,7,No,No
+P0921,Rahul Patel,19,Female,O+,131,44.8,26.1,119,104,102,COVID-19,Critical,2026-01-03,2026-01-13,Observation,Paracetamol,D015,DEP09,Emergency,137079,Referred,0.31,10,Medium,Inactive,14,No,No
+P0922,Ananya Naidu,60,Female,B-,178,37.8,11.9,176,99,85,Asthma,Mild,2025-07-22,2025-08-04,Physiotherapy,Ibuprofen,D009,DEP02,Neurology,34470,Recovered,0.41,13,Medium,Inactive,9,No,No
+P0923,Ravi Rao,48,Male,A-,156,67.0,27.5,102,66,97,Heart Disease,Mild,2026-07-26,2026-08-08,Emergency Care,Atorvastatin,D006,DEP06,Nephrology,8585,Recovered,0.25,13,Medium,Inactive,18,No,No
+P0924,Rohit Rao,37,Male,B-,158,53.6,21.5,171,89,90,COVID-19,Moderate,2025-06-20,2025-06-23,Observation,Atorvastatin,D012,DEP06,Nephrology,35986,Stable,0.21,3,Low,Not Insured,5,No,No
+P0925,Arjun Naidu,27,Female,B-,147,50.3,23.3,174,100,72,Heart Disease,Moderate,2026-07-22,2026-07-28,Medication,Amlodipine,D019,DEP06,Nephrology,57381,Recovered,0.22,6,Medium,Active,15,No,No
+P0926,Kavya Naidu,36,Female,A-,189,22.9,6.4,140,75,98,Pneumonia,Moderate,2025-06-24,2025-06-28,Emergency Care,Atorvastatin,D021,DEP02,Neurology,19251,Referred,0.13,4,Medium,Not Insured,6,Yes,No
+P0927,Rohit Gupta,58,Female,O+,166,100.0,36.3,127,68,57,Pneumonia,Mild,2026-06-09,2026-06-16,Observation,Insulin,D020,DEP06,Nephrology,13274,Recovered,0.28,7,Low,Inactive,4,No,No
+P0928,Kavya Kumar,19,Female,O-,172,95.1,32.1,125,108,88,Anemia,Moderate,2026-03-16,2026-03-22,Physiotherapy,Metformin,D025,DEP06,Nephrology,8639,Under Treatment,0.14,6,Medium,Not Insured,14,No,No
+P0929,Ravi Kumar,15,Male,A-,166,65.0,23.6,107,76,113,Migraine,Moderate,2025-01-27,2025-02-01,Medication,Amoxicillin,D009,DEP02,Neurology,35753,Under Treatment,0.09,5,Medium,Not Insured,12,No,No
+P0930,Arjun Das,14,Female,B-,140,85.6,43.7,140,85,78,Asthma,Mild,2026-07-23,2026-08-03,Emergency Care,Amoxicillin,D029,DEP05,Pulmonology,41399,Improving,0.02,11,Medium,Active,20,No,Yes
+P0931,Ravi Gupta,72,Female,O+,159,73.2,29.0,99,76,55,Migraine,Moderate,2026-08-06,2026-08-07,Emergency Care,Atorvastatin,D015,DEP01,Cardiology,53498,Improving,0.17,1,Medium,Active,9,No,Yes
+P0932,Suresh Reddy,13,Female,A-,142,93.9,46.6,167,103,91,Arthritis,Moderate,2026-04-08,2026-04-22,Surgery,None,D001,DEP04,Orthopedics,118683,Recovered,0.25,14,Medium,Not Insured,2,No,No
+P0933,Suresh Das,8,Male,B-,169,90.0,31.5,132,81,109,Hypertension,Mild,2025-12-23,2025-12-28,Surgery,Metformin,D019,DEP03,General Medicine,9755,Under Treatment,0.09,5,High,Inactive,6,No,No
+P0934,Pooja Reddy,66,Female,B-,131,53.5,31.2,147,95,119,COVID-19,Severe,2025-02-27,2025-03-12,Emergency Care,None,D029,DEP09,Emergency,19564,Under Treatment,0.74,13,Low,Active,4,No,No
+P0935,Pooja Sharma,12,Female,A+,186,98.9,28.6,172,107,73,Diabetes,Mild,2025-02-22,2025-02-26,Emergency Care,None,D028,DEP01,Cardiology,87490,Improving,0.17,4,Low,Not Insured,4,No,No
+P0936,Priya Das,72,Male,O+,159,54.9,21.7,141,66,94,Anemia,Severe,2025-02-05,2025-02-13,Observation,Amoxicillin,D001,DEP09,Emergency,126034,Recovered,0.73,8,Low,Active,6,No,No
+P0937,Sneha Naidu,51,Male,AB+,158,75.0,30.0,159,108,99,Gastritis,Moderate,2025-06-13,2025-06-23,Medication,Ibuprofen,D002,DEP10,Pediatrics,115869,Recovered,0.31,10,Low,Not Insured,14,No,No
+P0938,Anil Gupta,34,Male,A-,188,36.1,10.2,121,75,117,Viral Infection,Moderate,2025-08-08,2025-08-16,Surgery,Salbutamol,D007,DEP04,Orthopedics,3979,Under Treatment,0.19,8,Medium,Active,11,No,No
+P0939,Meena Rao,18,Female,AB+,165,51.8,19.0,160,99,108,COVID-19,Mild,2025-07-10,2025-07-17,Observation,Metformin,D029,DEP01,Cardiology,135418,Under Treatment,0.17,7,Medium,Not Insured,14,No,No
+P0940,Meena Sharma,44,Female,B+,140,66.7,34.0,147,86,85,Gastritis,Mild,2025-11-27,2025-11-28,Observation,Amoxicillin,D019,DEP04,Orthopedics,63469,Referred,0.36,1,Low,Not Insured,7,No,Yes
+P0941,Ananya Patel,23,Male,A-,129,40.9,24.6,97,66,115,Diabetes,Severe,2026-06-07,2026-06-17,Emergency Care,Amlodipine,D007,DEP08,Gastroenterology,47102,Improving,0.41,10,Medium,Active,18,No,No
+P0942,Nikhil Naidu,42,Female,A-,175,97.6,31.9,144,79,74,Arthritis,Moderate,2025-09-17,2025-09-18,Physiotherapy,Ibuprofen,D021,DEP07,Dermatology,84981,Stable,0.25,1,Medium,Active,13,No,No
+P0943,Kavya Verma,38,Male,B-,134,87.8,48.9,166,78,117,Arthritis,Mild,2026-08-11,2026-08-13,Medication,Ibuprofen,D016,DEP04,Orthopedics,105033,Referred,0.23,2,Low,Not Insured,3,No,No
+P0944,Pooja Naidu,51,Female,O-,148,71.2,32.5,148,83,94,Diabetes,Mild,2025-09-19,2025-10-04,Surgery,Ibuprofen,D006,DEP08,Gastroenterology,105749,Stable,0.29,15,Medium,Active,10,No,No
+P0945,Ananya Kumar,31,Male,O-,147,57.4,26.6,121,71,87,Pneumonia,Severe,2025-08-15,2025-08-26,Surgery,Amlodipine,D020,DEP05,Pulmonology,80371,Improving,0.41,11,Low,Active,14,No,No
+P0946,Arjun Gupta,23,Male,B-,143,23.6,11.5,102,107,83,Kidney Disease,Mild,2025-01-10,2025-01-23,Counseling,Amlodipine,D019,DEP06,Nephrology,112059,Improving,0.1,13,Medium,Active,14,No,No
+P0947,Priya Gupta,70,Male,B-,185,21.7,6.3,95,98,70,Migraine,Severe,2025-05-09,2025-05-23,Emergency Care,Paracetamol,D017,DEP06,Nephrology,52081,Referred,0.54,14,Low,Inactive,14,No,Yes
+P0948,Divya Verma,63,Male,B-,174,74.1,24.5,113,81,80,Heart Disease,Moderate,2025-01-14,2025-01-22,Emergency Care,Omeprazole,D028,DEP08,Gastroenterology,13728,Stable,0.2,8,Low,Active,12,No,No
+P0949,Divya Gupta,7,Female,O+,142,79.3,39.3,115,65,101,COVID-19,Moderate,2026-05-21,2026-05-23,Surgery,Metformin,D025,DEP07,Dermatology,113668,Recovered,0.02,2,Low,Active,2,No,No
+P0950,Ananya Kumar,53,Male,B-,174,34.7,11.5,158,91,82,Migraine,Moderate,2025-01-13,2025-01-28,Observation,Metformin,D002,DEP01,Cardiology,77093,Referred,0.37,15,High,Active,11,No,No
+P0951,Anil Verma,66,Male,O-,172,80.8,27.3,168,77,77,Migraine,Moderate,2026-02-03,2026-02-14,Emergency Care,Losartan,D023,DEP05,Pulmonology,75154,Referred,0.32,11,Low,Not Insured,1,No,No
+P0952,Kavya Kumar,49,Female,B-,151,71.5,31.4,111,81,84,Gastritis,Moderate,2025-11-14,2025-11-28,Observation,Omeprazole,D016,DEP10,Pediatrics,102883,Improving,0.23,14,Medium,Not Insured,2,No,No
+P0953,Sneha Verma,16,Male,O-,144,87.2,42.1,135,63,120,Arthritis,Moderate,2025-06-20,2025-07-04,Emergency Care,Amlodipine,D013,DEP05,Pulmonology,47354,Referred,0.07,14,Medium,Active,2,No,No
+P0954,Sneha Verma,30,Female,B+,120,55.7,38.7,127,97,106,Gastritis,Moderate,2026-06-24,2026-07-03,Surgery,Paracetamol,D011,DEP06,Nephrology,108048,Referred,0.06,9,Low,Active,6,No,No
+P0955,Arjun Reddy,55,Female,O+,122,51.5,34.6,130,75,83,Migraine,Moderate,2025-10-28,2025-10-29,Medication,None,D007,DEP08,Gastroenterology,24265,Stable,0.26,1,Low,Inactive,10,No,No
+P0956,Vikram Das,75,Male,O+,129,56.9,34.2,163,110,96,Gastritis,Severe,2026-02-02,2026-02-15,Medication,Omeprazole,D011,DEP10,Pediatrics,6304,Recovered,0.65,13,Low,Active,3,No,No
+P0957,Priya Patel,3,Female,AB+,137,65.2,34.7,173,89,71,Gastritis,Moderate,2026-03-14,2026-03-16,Surgery,Insulin,D007,DEP09,Emergency,75590,Under Treatment,0.22,2,Low,Active,20,No,No
+P0958,Priya Gupta,43,Male,AB+,169,86.5,30.3,168,109,109,Asthma,Moderate,2025-02-05,2025-02-12,Observation,Insulin,D027,DEP03,General Medicine,11822,Stable,0.25,7,Low,Not Insured,1,No,No
+P0959,Kiran Singh,68,Male,O+,187,50.5,14.4,120,70,56,Diabetes,Mild,2025-01-01,2025-01-10,Observation,Salbutamol,D018,DEP02,Neurology,39892,Stable,0.22,9,Medium,Active,16,Yes,No
+P0960,Ananya Kumar,27,Male,AB+,139,109.2,56.5,162,104,58,Viral Infection,Moderate,2026-03-08,2026-03-11,Observation,Metformin,D027,DEP02,Neurology,110109,Recovered,0.25,3,Medium,Active,12,No,No
+P0961,Sneha Sharma,26,Female,A-,182,82.1,24.8,104,78,89,Asthma,Severe,2025-05-28,2025-06-02,Counseling,Amoxicillin,D008,DEP06,Nephrology,77667,Referred,0.41,5,Medium,Not Insured,15,No,Yes
+P0962,Kiran Gupta,76,Male,AB+,177,68.0,21.7,173,93,83,Pneumonia,Severe,2025-01-26,2025-02-10,Observation,Metformin,D019,DEP04,Orthopedics,8031,Stable,0.76,15,Medium,Not Insured,2,No,No
+P0963,Rahul Das,2,Female,B+,123,95.4,63.1,116,84,109,Asthma,Critical,2025-11-07,2025-11-18,Physiotherapy,Amoxicillin,D029,DEP06,Nephrology,73870,Recovered,0.34,11,High,Active,5,No,No
+P0964,Suresh Naidu,78,Male,A+,185,50.6,14.8,102,101,95,Hypertension,Mild,2025-07-09,2025-07-15,Emergency Care,Salbutamol,D016,DEP07,Dermatology,45171,Under Treatment,0.24,6,Low,Inactive,1,Yes,No
+P0965,Priya Naidu,22,Male,B-,159,37.6,14.9,162,66,58,Arthritis,Severe,2025-06-18,2025-06-29,Physiotherapy,Atorvastatin,D016,DEP02,Neurology,147862,Stable,0.58,11,Low,Active,17,No,No
+P0966,Ravi Patel,16,Male,AB+,184,29.7,8.8,169,61,86,COVID-19,Mild,2025-09-24,2025-10-08,Counseling,Insulin,D022,DEP08,Gastroenterology,83806,Recovered,0.2,14,High,Inactive,5,Yes,No
+P0967,Rahul Gupta,10,Female,AB-,166,70.8,25.7,98,79,60,Asthma,Mild,2026-06-08,2026-06-18,Physiotherapy,Amoxicillin,D018,DEP07,Dermatology,118677,Under Treatment,0.05,10,Low,Active,1,No,No
+P0968,Priya Verma,25,Female,O-,149,61.3,27.6,102,70,84,COVID-19,Moderate,2025-10-10,2025-10-21,Counseling,Losartan,D020,DEP04,Orthopedics,25551,Recovered,0.06,11,High,Not Insured,4,No,No
+P0969,Sneha Singh,55,Male,O+,179,105.6,33.0,167,69,64,Migraine,Moderate,2026-06-15,2026-06-30,Medication,Amoxicillin,D005,DEP01,Cardiology,87828,Under Treatment,0.35,15,High,Not Insured,17,No,No
+P0970,Vikram Rao,74,Male,B+,152,100.4,43.5,110,67,89,Hypertension,Mild,2025-12-31,2026-01-09,Emergency Care,Losartan,D016,DEP02,Neurology,78087,Stable,0.21,9,Medium,Active,20,No,No
+P0971,Ravi Reddy,57,Female,B-,162,38.8,14.8,123,92,85,Heart Disease,Mild,2025-10-06,2025-10-12,Surgery,Amoxicillin,D020,DEP02,Neurology,61329,Under Treatment,0.16,6,Low,Not Insured,2,No,No
+P0972,Divya Sharma,45,Female,B+,190,74.7,20.7,163,83,88,Kidney Disease,Moderate,2026-07-13,2026-07-27,Surgery,Salbutamol,D007,DEP09,Emergency,42501,Stable,0.36,14,Medium,Active,18,No,No
+P0973,Ravi Singh,34,Male,A-,126,57.3,36.1,158,109,77,Kidney Disease,Moderate,2025-09-13,2025-09-20,Observation,Omeprazole,D007,DEP04,Orthopedics,62838,Under Treatment,0.21,7,Low,Active,18,No,No
+P0974,Anil Singh,23,Male,O+,182,53.5,16.2,114,104,101,Arthritis,Moderate,2026-01-19,2026-01-30,Surgery,Atorvastatin,D019,DEP05,Pulmonology,72421,Referred,0.15,11,Low,Not Insured,19,No,No
+P0975,Divya Naidu,37,Male,A-,157,105.3,42.7,125,77,60,Heart Disease,Moderate,2025-02-06,2025-02-11,Emergency Care,Amoxicillin,D004,DEP09,Emergency,25437,Referred,0.14,5,High,Inactive,15,No,No
+P0976,Divya Patel,35,Male,B-,133,45.0,25.4,112,110,55,Anemia,Mild,2026-01-13,2026-01-14,Observation,Atorvastatin,D023,DEP05,Pulmonology,86198,Stable,0.07,1,Medium,Not Insured,4,No,No
+P0977,Priya Sharma,72,Male,O-,163,74.9,28.2,157,87,71,Kidney Disease,Severe,2026-06-17,2026-07-02,Surgery,Omeprazole,D017,DEP05,Pulmonology,121304,Recovered,0.7,15,High,Active,19,No,No
+P0978,Rahul Singh,13,Male,B+,151,52.1,22.8,125,90,113,COVID-19,Moderate,2025-02-18,2025-02-23,Surgery,Amoxicillin,D001,DEP03,General Medicine,34875,Recovered,0.09,5,Low,Not Insured,19,No,Yes
+P0979,Ravi Rao,63,Female,A+,169,54.7,19.2,176,78,118,Heart Disease,Moderate,2025-01-01,2025-01-15,Emergency Care,Amoxicillin,D027,DEP08,Gastroenterology,46060,Under Treatment,0.39,14,Low,Active,7,No,No
+P0980,Sneha Rao,43,Male,A-,177,104.2,33.3,149,65,57,Kidney Disease,Moderate,2026-08-29,2026-09-02,Surgery,Amlodipine,D012,DEP04,Orthopedics,116539,Under Treatment,0.31,4,Low,Active,9,No,No
+P0981,Rohit Patel,12,Male,AB+,130,102.8,60.8,116,63,62,Anemia,Mild,2025-01-03,2025-01-06,Emergency Care,Atorvastatin,D010,DEP07,Dermatology,40887,Improving,0.03,3,High,Inactive,7,No,No
+P0982,Divya Gupta,16,Female,AB-,161,57.5,22.2,122,105,99,Migraine,Severe,2026-04-15,2026-04-24,Emergency Care,Amoxicillin,D021,DEP09,Emergency,65774,Improving,0.31,9,Low,Not Insured,11,No,No
+P0983,Aman Sharma,33,Female,O-,169,20.7,7.2,97,79,112,Viral Infection,Moderate,2026-04-01,2026-04-07,Counseling,None,D018,DEP06,Nephrology,126798,Under Treatment,0.04,6,Low,Active,13,No,No
+P0984,Meena Rao,24,Male,O-,187,23.3,6.7,167,69,107,Hypertension,Mild,2025-08-31,2025-09-15,Observation,Amlodipine,D029,DEP01,Cardiology,14240,Referred,0.22,15,Low,Not Insured,7,No,Yes
+P0985,Priya Verma,62,Female,B+,156,32.2,13.2,127,87,58,Viral Infection,Moderate,2025-05-30,2025-06-05,Emergency Care,Ibuprofen,D005,DEP10,Pediatrics,33036,Improving,0.23,6,Medium,Active,15,No,No
+P0986,Arjun Patel,80,Female,A+,163,94.7,35.6,140,102,108,Anemia,Mild,2026-05-19,2026-06-01,Observation,Metformin,D002,DEP05,Pulmonology,99672,Stable,0.27,13,High,Active,17,No,No
+P0987,Vikram Naidu,44,Male,O+,156,66.9,27.5,174,105,56,COVID-19,Mild,2025-01-13,2025-01-25,Medication,Ibuprofen,D023,DEP06,Nephrology,19022,Recovered,0.3,12,Medium,Active,13,No,No
+P0988,Ananya Rao,36,Male,A+,153,29.5,12.6,173,71,104,Arthritis,Severe,2025-03-16,2025-03-17,Counseling,Amoxicillin,D016,DEP02,Neurology,23974,Improving,0.54,1,Medium,Active,10,No,No
+P0989,Rohit Das,7,Male,B-,137,105.8,56.4,101,86,66,Arthritis,Moderate,2025-12-15,2025-12-20,Emergency Care,Losartan,D019,DEP01,Cardiology,77508,Stable,0.06,5,High,Active,11,No,No
+P0990,Varun Gupta,4,Male,AB-,184,74.6,22.0,149,90,95,Asthma,Severe,2025-11-19,2025-12-01,Emergency Care,Amlodipine,D009,DEP04,Orthopedics,35441,Stable,0.46,12,High,Active,16,Yes,No
+P0991,Sai Kumar,7,Male,O-,190,97.5,27.0,99,107,109,Viral Infection,Moderate,2025-10-03,2025-10-05,Counseling,Insulin,D002,DEP09,Emergency,42463,Stable,0.08,2,Low,Active,20,Yes,No
+P0992,Nikhil Das,37,Male,B-,125,65.1,41.7,160,91,71,Pneumonia,Mild,2025-12-04,2025-12-07,Medication,Losartan,D026,DEP05,Pulmonology,34624,Referred,0.24,3,Low,Not Insured,2,No,No
+P0993,Varun Patel,69,Male,B+,138,96.0,50.4,121,72,111,Viral Infection,Mild,2026-04-28,2026-04-30,Medication,Omeprazole,D009,DEP05,Pulmonology,12485,Improving,0.25,2,Medium,Active,6,No,Yes
+P0994,Suresh Das,46,Female,O-,180,53.7,16.6,167,94,91,Gastritis,Mild,2026-07-18,2026-07-20,Surgery,Salbutamol,D022,DEP03,General Medicine,70382,Referred,0.39,2,High,Active,20,No,Yes
+P0995,Vikram Singh,68,Female,B+,123,25.8,17.1,163,66,118,Heart Disease,Mild,2025-01-27,2025-02-06,Surgery,Paracetamol,D013,DEP01,Cardiology,146756,Recovered,0.38,10,Low,Active,19,No,No
+P0996,Divya Verma,46,Male,O+,123,71.0,46.9,119,62,109,Asthma,Severe,2025-09-11,2025-09-24,Medication,Omeprazole,D009,DEP09,Emergency,140637,Stable,0.39,13,Medium,Active,6,No,No
+P0997,Anil Das,54,Female,O+,126,63.4,39.9,126,104,84,Migraine,Critical,2025-12-25,2026-01-01,Counseling,Losartan,D028,DEP08,Gastroenterology,76785,Under Treatment,0.55,7,High,Active,15,No,No
+P0998,Sai Kumar,50,Male,AB+,156,73.9,30.4,109,110,77,Gastritis,Moderate,2025-03-29,2025-04-06,Emergency Care,Metformin,D001,DEP07,Dermatology,53362,Referred,0.16,8,Medium,Active,0,Yes,No
+P0999,Neha Patel,74,Female,O-,175,54.3,17.7,131,90,66,Heart Disease,Mild,2025-05-10,2025-05-16,Counseling,Ibuprofen,D017,DEP09,Emergency,40779,Recovered,0.19,6,Low,Active,8,No,No
+P1000,Kiran Verma,62,Female,AB+,137,87.9,46.8,155,110,97,Gastritis,Severe,2025-04-15,2025-04-28,Surgery,None,D016,DEP07,Dermatology,53010,Recovered,0.73,13,Medium,Not Insured,4,No,No
